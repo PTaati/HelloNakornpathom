@@ -1,0 +1,25 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"message\": \"Command executed successfully.\",\n  \"data\": {\n    \"isCompilationSuccessful\": true,\n    \"isExecutionSuccessful\": true,\n    \"executionId\": 1,\n    \"compilationLogs\": \"\",\n    \"executionLogs\": \"[Log] Player view captured with teal mesh hidden temporarily\",\n    \"localFixedCode\": \"using UnityEngine;\\r\\nusing HNP.World;\\r\\n\\r\\nnamespace Unity.AI.Assistant.Agent.Dynamic.Extension.Editor\\r\\n{\\r\\n    internal class CommandScript : IRunCommand\\r\\n    {\\r\\n        public void Execute(ExecutionResult result)\\r\\n        {\\r\\n            var g = Object.FindFirstObjectByType<HnpWorldGame>();\\r\\n            g.Begin();\\r\\n            var r = GameObject.Find(\\\"Town_HNPW_Teal\\\").GetComponent<Renderer>();\\r\\n            r.enabled = false;\\r\\n            HNP.Editor.HnpWorldBuilder.Capture(g.viewCamera, 1280, 720, \\\"../reports/world/player-debug.png\\\");\\r\\n            r.enabled = true;\\r\\n            result.Log(\\\"Player view captured with teal mesh hidden temporarily\\\");\\r\\n        }\\r\\n    }\\r\\n}\",\n    \"result\": \"Command executed successfully.\"\n  }\n}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Command executed successfully.",
+      "data": {
+        "isCompilationSuccessful": true,
+        "isExecutionSuccessful": true,
+        "executionId": 1,
+        "compilationLogs": "",
+        "executionLogs": "[Log] Player view captured with teal mesh hidden temporarily",
+        "localFixedCode": "using UnityEngine;\r\nusing HNP.World;\r\n\r\nnamespace Unity.AI.Assistant.Agent.Dynamic.Extension.Editor\r\n{\r\n    internal class CommandScript : IRunCommand\r\n    {\r\n        public void Execute(ExecutionResult result)\r\n        {\r\n            var g = Object.FindFirstObjectByType<HnpWorldGame>();\r\n            g.Begin();\r\n            var r = GameObject.Find(\"Town_HNPW_Teal\").GetComponent<Renderer>();\r\n            r.enabled = false;\r\n            HNP.Editor.HnpWorldBuilder.Capture(g.viewCamera, 1280, 720, \"../reports/world/player-debug.png\");\r\n            r.enabled = true;\r\n            result.Log(\"Player view captured with teal mesh hidden temporarily\");\r\n        }\r\n    }\r\n}",
+        "result": "Command executed successfully."
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

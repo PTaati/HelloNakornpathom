@@ -2,6 +2,10 @@
 
 Build: `NakornpathomWorld.unity`, Unity 6000.6.0f1, WebGL2 / Mobile URP. Date: 2026-09-08.
 
+Latest revision: HNP-ART-002. Slender chedi, clear colorful lighting, softer shadows and station exit cleared. Rechecked full traversal after core collider resized; browser screenshots and pad/camera controls rechecked after removing the exit post. Current build size/warning count is authoritative in `build.txt` (older counts below belong to the initial world). Physical mobile remains NOT RUN.
+
+Final incremental art build: Succeeded, 0 errors, 1 warning, 52,151,793 bytes. Final Chrome screenshot confirms the revised camera framing and clear station exit; keyboard, map, pad/camera drag and rotation smoke passed. The earlier full asset builds still emitted package shader warnings noted below. A Unity save-scene dialog delayed the last build; saved the generated scene and added a dirty-scene guard to the builder to avoid future modal waits.
+
 | Check | Result | Evidence |
 |---|---|---|
 | Original Blender town, chedi and traveller export/import | PASS | `art-source/world/`, `art-export/world/*manifest.json`, Unity FBX assets |

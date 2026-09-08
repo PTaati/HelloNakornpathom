@@ -3,7 +3,6 @@
   "errors": [],
   "console_errors": [],
   "logs": [
-    "[UnityCache] 'http://127.0.0.1:59989/Build/web.data' successfully downloaded and stored in the browser cache",
     "[UnityMemory] Configuration Parameters - Can be set up in boot.config\n",
     "    \"memorysetup-bucket-allocator-granularity=16\"\n",
     "    \"memorysetup-bucket-allocator-bucket-count=8\"\n",
@@ -56,7 +55,8 @@
     "<b>[App UI]</b> Unable to find an AppUISettings instance, creating a default one...\n",
     "Input System initialize...\n",
     "UnloadTime: 1.400001 ms\n",
-    "Audio context resumed after 0.145 seconds.",
+    "Audio context resumed after 0.146 seconds.",
+    "[UnityCache] 'http://127.0.0.1:54643/Build/web.data' successfully downloaded and stored in the browser cache",
     "Additional Lights Cookie Format (GrayscaleHigh) is not supported by the platform. Falling back to 32-bit format (RGBA8 UNorm)\n",
     "Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.\n",
     "Shader 'Hidden/Universal Render Pipeline/GaussianDepthOfField' is not supported or has been stripped from the build (in 'DepthOfFieldGaussianPostProcessPass'). PostProcessing render passes will not execute.\n",

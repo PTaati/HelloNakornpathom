@@ -8,12 +8,12 @@ bpy.ops.object.select_all(action='SELECT'); bpy.ops.object.delete(use_global=Fal
 S=bpy.context.scene; S.unit_settings.system='METRIC'; S.unit_settings.scale_length=1
 random.seed(42)
 palette={
- 'Ivory':(.86,.77,.57),'Plaster':(.93,.84,.67),'Gold':(.82,.40,.055),'GoldLight':(1,.65,.16),
+ 'Ivory':(.92,.89,.77),'Plaster':(.96,.93,.84),'Gold':(.88,.57,.12),'GoldLight':(1,.77,.29),
  'Copper':(.48,.18,.035),'Roof':(.53,.115,.065),'RoofLight':(.72,.23,.10),
  'Teal':(.035,.26,.27),'Glass':(.035,.12,.16),'Wood':(.28,.12,.052),
  'Asphalt':(.19,.205,.205),'Paving':(.58,.49,.37),'Path':(.76,.65,.48),'White':(.94,.91,.78),
- 'Water':(.06,.38,.42),'WaterLight':(.22,.59,.55),'Grass':(.29,.38,.15),
- 'Leaf':(.28,.44,.095),'LeafLight':(.49,.59,.13),'LeafDark':(.14,.29,.12),
+ 'Water':(.035,.47,.61),'WaterLight':(.28,.72,.78),'Grass':(.32,.49,.18),
+ 'Leaf':(.25,.49,.10),'LeafLight':(.53,.68,.16),'LeafDark':(.12,.32,.14),
  'Red':(.76,.17,.12),'Blue':(.075,.35,.49),'Pink':(.72,.27,.36),'Yellow':(.95,.65,.12),
  'Skin':(.64,.36,.18),'Hair':(.105,.055,.03),'Pants':(.09,.15,.17),'Leather':(.30,.15,.055)}
 mats={}
@@ -182,7 +182,7 @@ for x in range(-59,16,4):
 # Left station with rail parallel to edge of image.
 box('Station platform',(-106,.05,0),(15,.1,47),'Path')
 house(-109,14,10,15,4,'Plaster')
-for z in range(-21,22,7): box('Platform column',(-101,1.8,z),(.25,3.6,.25),'Teal')
+for z in [-21,-14,-7,7,14,21]: box('Platform column',(-101,1.8,z),(.25,3.6,.25),'Teal')
 roof('Station canopy',-104,-4,10,30,3.8)
 for x in [-116,-114]: box('Rail',(x,.1,0),(.13,.2,138),'Pants')
 for z in range(-68,69,2): box('Rail sleeper',(-115,-.02,z),(3,.1,.35),'Wood')
@@ -272,6 +272,17 @@ for o in collisions:
 bpy.ops.object.select_all(action='DESELECT')
 for o in copies:o.select_set(True)
 bpy.context.view_layer.objects.active=copies[0];bpy.ops.object.join();collision_mesh=bpy.context.object;collision_mesh.name='COLL_Town'
+# Slender reference silhouette: preserve the terrace, narrow the monument,
+# raise the bell/spire without stretching the entrance architecture vertically.
+for o in groups['Chedi']:
+ is_portico=any(k in o.name for k in ['Portico','pilaster','gable','lintel'])
+ inverse=o.matrix_world.inverted()
+ for v in o.data.vertices:
+  p=o.matrix_world@v.co
+  radial=.88 if is_portico else .88-.065*min(1,max(0,(p.z-6.3)/16))
+  p.x*=radial;p.y*=radial
+  if not is_portico:p.z*=1.23
+  v.co=inverse@p
 town_report=export_group('Town','HNP_Town.fbx',True)
 chedi_report=export_group('Chedi','HNP_Chedi.fbx')
 collision_mesh.hide_render=True
@@ -279,9 +290,9 @@ collision_mesh.hide_render=True
 for o in bpy.data.objects:
  if o.type=='MESH' and o.name.startswith('Chedi_'): o.location+=w((53,2.9,0))
 bpy.ops.object.camera_add(location=w((-74,32,-39))); camera=bpy.context.object
-camera.rotation_euler=(w((38,13,0))-camera.location).to_track_quat('-Z','Y').to_euler();camera.data.lens=42;S.camera=camera
-bpy.ops.object.light_add(type='SUN',location=(0,0,60)); sun=bpy.context.object;sun.rotation_euler=(math.radians(30),math.radians(-25),math.radians(-65));sun.data.energy=2.5;sun.data.color=(1,.73,.43);sun.data.angle=.08
-S.world.color=(.35,.27,.20)
+camera.rotation_euler=(w((38,13,0))-camera.location).to_track_quat('-Z','Y').to_euler();camera.data.lens=32;S.camera=camera
+bpy.ops.object.light_add(type='SUN',location=(0,0,60)); sun=bpy.context.object;sun.rotation_euler=(math.radians(30),math.radians(-25),math.radians(-65));sun.data.energy=2;sun.data.color=(1,.94,.82);sun.data.angle=.08
+S.world.color=(.42,.55,.7)
 S.render.engine='CYCLES';S.cycles.samples=16;S.render.resolution_x=1440;S.render.resolution_y=900;S.render.resolution_percentage=100
 S.render.image_settings.file_format='PNG';S.render.filepath=str(OUT/'world-preview.png')
 bpy.ops.wm.save_as_mainfile(filepath=str(R/'art-source/world/Nakornpathom.blend'))
@@ -290,5 +301,6 @@ manifest=dict(reference_layout='ref/game-document/image2.png',reference_chedi='r
  scale='compressed provisional metres',blender=bpy.app.version_string,palette=palette,assets=[town_report,chedi_report],
  anchors={'station':[-102,.2,0],'bridge':[-67,.2,0],'main_road':[-35,.15,0],'temple':[53,2.9,0]},
  bounds={'x':[-120,112],'z':[-70,70]})
+manifest['chedi_revision']=dict(task='HNP-ART-002',height=54.12,base_diameter=40.48,radial_scale_base=.88,radial_scale_upper=.815,height_scale=1.23,portico_height='preserved',scale='provisional game metres')
 (OUT/'world-manifest.json').write_text(json.dumps(manifest,indent=2),encoding='utf-8')
 print('HNP_WORLD_EXPORT_PASS',json.dumps(manifest))
