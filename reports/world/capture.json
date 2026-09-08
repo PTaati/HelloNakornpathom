@@ -1,0 +1,25 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"message\": \"Command executed successfully.\",\n  \"data\": {\n    \"isCompilationSuccessful\": true,\n    \"isExecutionSuccessful\": true,\n    \"executionId\": 1,\n    \"compilationLogs\": \"\",\n    \"executionLogs\": \"[Log] Reference-world screenshots captured.\",\n    \"localFixedCode\": \"using System.IO;\\r\\nusing UnityEngine;\\r\\nusing HNP.World;\\r\\n\\r\\nnamespace Unity.AI.Assistant.Agent.Dynamic.Extension.Editor\\r\\n{\\r\\n    internal class CommandScript : IRunCommand\\r\\n    {\\r\\n        public void Execute(ExecutionResult result)\\r\\n        {\\r\\n            var root = Directory.GetParent(Application.dataPath).Parent.FullName;\\r\\n            var camera = new GameObject(\\\"Temporary evidence camera\\\").AddComponent<Camera>();\\r\\n            camera.fieldOfView = 55;\\r\\n            camera.farClipPlane = 500;\\r\\n            camera.clearFlags = CameraClearFlags.Skybox;\\r\\n            camera.transform.position = new Vector3(-43, 7, -3);\\r\\n            camera.transform.LookAt(new Vector3(53, 14, 0));\\r\\n            HNP.Editor.HnpWorldBuilder.Capture(camera, 1440, 900, Path.Combine(root, \\\"reports/world/approach.png\\\"));\\r\\n            camera.transform.position = new Vector3(-100, 115, -125);\\r\\n            camera.transform.LookAt(new Vector3(0, 0, 0));\\r\\n            HNP.Editor.HnpWorldBuilder.Capture(camera, 1600, 1000, Path.Combine(root, \\\"reports/world/aerial.png\\\"));\\r\\n            result.DestroyObject(camera.gameObject);\\r\\n            var game = UnityEngine.Object.FindFirstObjectByType<HnpWorldGame>();\\r\\n            if (game)\\r\\n            {\\r\\n                game.Begin();\\r\\n                game.ReturnToStation();\\r\\n            }\\r\\n\\r\\n            ScreenCapture.CaptureScreenshot(Path.Combine(root, \\\"reports/world/gameplay.png\\\"));\\r\\n            result.Log(\\\"Reference-world screenshots captured.\\\");\\r\\n        }\\r\\n    }\\r\\n}\",\n    \"result\": \"Command executed successfully.\"\n  }\n}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Command executed successfully.",
+      "data": {
+        "isCompilationSuccessful": true,
+        "isExecutionSuccessful": true,
+        "executionId": 1,
+        "compilationLogs": "",
+        "executionLogs": "[Log] Reference-world screenshots captured.",
+        "localFixedCode": "using System.IO;\r\nusing UnityEngine;\r\nusing HNP.World;\r\n\r\nnamespace Unity.AI.Assistant.Agent.Dynamic.Extension.Editor\r\n{\r\n    internal class CommandScript : IRunCommand\r\n    {\r\n        public void Execute(ExecutionResult result)\r\n        {\r\n            var root = Directory.GetParent(Application.dataPath).Parent.FullName;\r\n            var camera = new GameObject(\"Temporary evidence camera\").AddComponent<Camera>();\r\n            camera.fieldOfView = 55;\r\n            camera.farClipPlane = 500;\r\n            camera.clearFlags = CameraClearFlags.Skybox;\r\n            camera.transform.position = new Vector3(-43, 7, -3);\r\n            camera.transform.LookAt(new Vector3(53, 14, 0));\r\n            HNP.Editor.HnpWorldBuilder.Capture(camera, 1440, 900, Path.Combine(root, \"reports/world/approach.png\"));\r\n            camera.transform.position = new Vector3(-100, 115, -125);\r\n            camera.transform.LookAt(new Vector3(0, 0, 0));\r\n            HNP.Editor.HnpWorldBuilder.Capture(camera, 1600, 1000, Path.Combine(root, \"reports/world/aerial.png\"));\r\n            result.DestroyObject(camera.gameObject);\r\n            var game = UnityEngine.Object.FindFirstObjectByType<HnpWorldGame>();\r\n            if (game)\r\n            {\r\n                game.Begin();\r\n                game.ReturnToStation();\r\n            }\r\n\r\n            ScreenCapture.CaptureScreenshot(Path.Combine(root, \"reports/world/gameplay.png\"));\r\n            result.Log(\"Reference-world screenshots captured.\");\r\n        }\r\n    }\r\n}",
+        "result": "Command executed successfully."
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

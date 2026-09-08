@@ -1,4 +1,26 @@
-# ทดลองโมเดลและฉากเริ่มต้น
+# เปิดเล่นแมพนครปฐมเวอร์ชันใหม่
+
+เว็บล่าสุดอยู่ที่ **http://127.0.0.1:8080** ขณะ local server ทำงาน หากปิดแล้วเปิดใหม่ด้วย `python -m http.server 8080 --directory builds/web --bind 127.0.0.1`
+
+ฉากล่าสุดคือ `hnp-game/Assets/_HNP/Scenes/NakornpathomWorld.unity` วางสถานีฝั่งซ้าย คลอง สะพาน ถนนกลาง และองค์พระฝั่งขวาตาม `ref/game-document/image2.png` สร้างองค์พระจาก `ref/jd.jpg` และใช้โทน low-poly แสงเย็นจาก `ref/style.jpg` ระยะเป็นสเกลย่อสำหรับเดินสำรวจ ไม่ใช่ขนาดสำรวจจริง
+
+- กด **START EXPLORING**; WASD / ลูกศรเดิน, Shift วิ่ง, Space กระโดด
+- มือถือแนวนอนใช้จอยซ้าย ลากพื้นที่ขวาหมุนกล้อง และปุ่ม JUMP / WALK-RUN
+- กด **MAP / M** เปิด–ปิดแผนที่ และ **STATION** กลับจุดเริ่ม
+- เดินผ่านตลาด ขึ้นบันได วนลานองค์พระ และไปลานงานวัดได้ ไม่มีเงื่อนไขบังคับจบการสำรวจ
+- ใน Unity เปิดฉากล่าสุดแล้วกด Play; สร้างเว็บด้วย **HNP → Build Reference World Web** หลังออกจาก Play Mode
+
+ดู [ภาพเล่นบนเว็บ](reports/world/web-desktop.png), [ภาพแมพ](reports/world/web-map.png), [ภาพองค์พระ](reports/world/approach.png) และ [ผลตรวจ](reports/world/validation.md)
+
+Blender source: `art-source/world/Nakornpathom.blend`, `art-source/world/Traveller.blend`; FBX และภาพ preview อยู่ใน `art-export/world/` ตัวละครมีเสื้อผ้า หมวก กระเป๋า ใบหน้า และการแกว่งแขนขาขณะเดิน
+
+ผ่านการเดินเส้นทางหลัก/รอบนอกใน Unity และทดสอบเว็บบน Chrome desktop แล้ว ยังไม่ได้ทดสอบมือถือจริงหรือวัด FPS ต่อเนื่องบนมือถือ ขนาดเว็บประมาณ 52.1 MB แบบไม่บีบอัด ยังมี build warnings จาก shader/toolchain ดูรายงานฉบับเต็ม
+
+หมายเหตุ: `.gitignore` เดิมละทั้ง `hnp-game/` ไฟล์ Unity จึงมีอยู่ในเครื่องแต่ไม่ได้ถูกติดตามใน Git
+
+---
+
+# บันทึกฉากสถานีรุ่นก่อน
 
 สร้างโมเดลม้านั่งใน Blender และฉาก `StationPrototype.unity` แล้ว ผู้ใช้อนุญาตให้ทำงานต่อ และเชื่อมต่อ Unity MCP สำเร็จอีกครั้ง การทดสอบ gameplay ใน Play Mode ผ่านแล้ว ดูหลักฐานที่ `reports/unity-play-tests.json`
 

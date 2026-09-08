@@ -5,6 +5,8 @@
 
 ## 1. Reference และ art direction
 
+อัปเดต: แยกภาพ Word แล้วที่ [ref/game-document](ref/game-document/README.md) และถอดข้อความไว้ใน [Game-Hello Nakornpathom.md](Game-Hello%20Nakornpathom.md) ให้ใช้ [MAP_LAYOUT.md](docs/design/MAP_LAYOUT.md) เป็นข้อกำหนดตำแหน่งสัมพันธ์: สถานีฝั่งซ้าย → ถนนกลาง/สะพาน → องค์พระฝั่งขวาของภาพ
+
 ใช้ภาพจริงใน `ref/` แยกตามสถานที่ พร้อม index ระบุ `ref_id`, path, ที่มา, สิ่งที่ใช้อ้างอิง และข้อจำกัด ภาพ Word 2 ภาพช่วยวางพื้นที่องค์พระ แต่ยังไม่มีมุมด้านหน้าสถานี สะพาน ร้านงานวัด และตัวละคร
 เริ่ม blockout จากข้อมูลที่มีได้ โดยติดป้าย provisional ไม่สร้างรายละเอียดสมมติแล้วอ้างว่าตรงสถานที่จริง ขั้น final art ต้องตรวจ landmark เทียบ ref
 

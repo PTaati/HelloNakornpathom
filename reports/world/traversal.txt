@@ -1,0 +1,9 @@
+Station to central bridge
+Bridge to old market
+Market to upper terrace via stairs
+Full 360-degree upper terrace loop
+South fair, east plaza and north plaza reachable
+Northern bridge traversable via perimeter road
+Southern bridge traversable
+Return to station on foot
+Jump and landing

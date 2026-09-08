@@ -1,0 +1,194 @@
+{
+  "reference_layout": "ref/game-document/image2.png",
+  "reference_chedi": "ref/jd.jpg",
+  "reference_style": "ref/style.jpg",
+  "scale": "compressed provisional metres",
+  "blender": "5.2.1 LTS",
+  "palette": {
+    "Ivory": [
+      0.86,
+      0.77,
+      0.57
+    ],
+    "Plaster": [
+      0.93,
+      0.84,
+      0.67
+    ],
+    "Gold": [
+      0.82,
+      0.4,
+      0.055
+    ],
+    "GoldLight": [
+      1,
+      0.65,
+      0.16
+    ],
+    "Copper": [
+      0.48,
+      0.18,
+      0.035
+    ],
+    "Roof": [
+      0.53,
+      0.115,
+      0.065
+    ],
+    "RoofLight": [
+      0.72,
+      0.23,
+      0.1
+    ],
+    "Teal": [
+      0.035,
+      0.26,
+      0.27
+    ],
+    "Glass": [
+      0.035,
+      0.12,
+      0.16
+    ],
+    "Wood": [
+      0.28,
+      0.12,
+      0.052
+    ],
+    "Asphalt": [
+      0.19,
+      0.205,
+      0.205
+    ],
+    "Paving": [
+      0.58,
+      0.49,
+      0.37
+    ],
+    "Path": [
+      0.76,
+      0.65,
+      0.48
+    ],
+    "White": [
+      0.94,
+      0.91,
+      0.78
+    ],
+    "Water": [
+      0.06,
+      0.38,
+      0.42
+    ],
+    "WaterLight": [
+      0.22,
+      0.59,
+      0.55
+    ],
+    "Grass": [
+      0.29,
+      0.38,
+      0.15
+    ],
+    "Leaf": [
+      0.28,
+      0.44,
+      0.095
+    ],
+    "LeafLight": [
+      0.49,
+      0.59,
+      0.13
+    ],
+    "LeafDark": [
+      0.14,
+      0.29,
+      0.12
+    ],
+    "Red": [
+      0.76,
+      0.17,
+      0.12
+    ],
+    "Blue": [
+      0.075,
+      0.35,
+      0.49
+    ],
+    "Pink": [
+      0.72,
+      0.27,
+      0.36
+    ],
+    "Yellow": [
+      0.95,
+      0.65,
+      0.12
+    ],
+    "Skin": [
+      0.64,
+      0.36,
+      0.18
+    ],
+    "Hair": [
+      0.105,
+      0.055,
+      0.03
+    ],
+    "Pants": [
+      0.09,
+      0.15,
+      0.17
+    ],
+    "Leather": [
+      0.3,
+      0.15,
+      0.055
+    ]
+  },
+  "assets": [
+    {
+      "file": "HNP_Town.fbx",
+      "triangles_including_collision": 25430,
+      "mesh_objects": 22
+    },
+    {
+      "file": "HNP_Chedi.fbx",
+      "triangles_including_collision": 19064,
+      "mesh_objects": 6,
+      "cap_validation": "Welded and triangulated before export"
+    }
+  ],
+  "anchors": {
+    "station": [
+      -102,
+      0.2,
+      0
+    ],
+    "bridge": [
+      -67,
+      0.2,
+      0
+    ],
+    "main_road": [
+      -35,
+      0.15,
+      0
+    ],
+    "temple": [
+      53,
+      2.9,
+      0
+    ]
+  },
+  "bounds": {
+    "x": [
+      -120,
+      112
+    ],
+    "z": [
+      -70,
+      70
+    ]
+  }
+}

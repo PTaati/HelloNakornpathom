@@ -6,6 +6,7 @@
 2. อ่าน [GAME_PRODUCTION_PLAN.md](GAME_PRODUCTION_PLAN.md) สำหรับมาตรฐานโมเดล ลำดับพัฒนา และเกณฑ์ทดสอบ
 3. ตรวจไฟล์จริงก่อนแก้ไข: `Game-Hello Nakornpathom.docx` เป็นรายละเอียดต้นฉบับ, `ref/` เก็บภาพอ้างอิง, `hnp-game/` เป็น Unity project
 4. คำสั่งล่าสุดของผู้ใช้มีลำดับสูงสุด โดยแพลตฟอร์มหลักคือเว็บบนมือถือแนวนอน แม้ต้นฉบับจะกล่าวถึงผู้เล่นคอมพิวเตอร์
+5. อ่านฉบับถอดข้อความ [Game-Hello Nakornpathom.md](Game-Hello%20Nakornpathom.md) และ [MAP_LAYOUT.md](docs/design/MAP_LAYOUT.md) ก่อนทำแมพ ใช้ภาพที่แยกจาก Word ใน `ref/game-document/`; สถานีอยู่ฝั่งซ้าย ออกสู่ถนนกลางและตรงไปองค์พระตามคำอธิบายล่าสุดของผู้ใช้
 
 ## ขอบเขต
 

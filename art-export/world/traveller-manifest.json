@@ -1,0 +1,53 @@
+{
+  "triangles": 7384,
+  "palette": {
+    "Skin": [
+      0.7,
+      0.43,
+      0.25
+    ],
+    "Cream": [
+      0.9,
+      0.82,
+      0.64
+    ],
+    "Seam": [
+      0.62,
+      0.49,
+      0.29
+    ],
+    "Pants": [
+      0.075,
+      0.14,
+      0.15
+    ],
+    "Hair": [
+      0.1,
+      0.045,
+      0.025
+    ],
+    "Hat": [
+      0.67,
+      0.42,
+      0.17
+    ],
+    "Band": [
+      0.26,
+      0.12,
+      0.04
+    ],
+    "White": [
+      0.95,
+      0.94,
+      0.83
+    ],
+    "Bag": [
+      0.29,
+      0.38,
+      0.25
+    ]
+  },
+  "height": 2.25,
+  "animation": "Procedural rigid-limb walking at named pivots; not a skinned rig",
+  "file": "HNP_Traveller.fbx"
+}

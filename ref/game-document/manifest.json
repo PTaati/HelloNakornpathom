@@ -1,0 +1,20 @@
+{
+  "source": "Game-Hello Nakornpathom.docx",
+  "source_sha256": "15a0757041a0e909670f70f7219295d439be8afd904c23a52f648c7174b30f9e",
+  "markdown": "Game-Hello Nakornpathom.md",
+  "nonempty_paragraphs": 44,
+  "images": [
+    {
+      "source_entry": "word/media/image2.png",
+      "path": "ref/game-document/image2.png",
+      "bytes": 2164427,
+      "sha256": "ec1e7885259a846aca5dddf22cd9be5f26eb48f7120e22218434cddabe9f2cea"
+    },
+    {
+      "source_entry": "word/media/image1.png",
+      "path": "ref/game-document/image1.png",
+      "bytes": 2761905,
+      "sha256": "caf19a7846810785e724cb45f4aba049acd969469e2cffdafb695412efa6ab85"
+    }
+  ]
+}
