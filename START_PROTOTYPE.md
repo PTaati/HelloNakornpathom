@@ -1,0 +1,44 @@
+# ทดลองโมเดลและฉากเริ่มต้น
+
+สร้างโมเดลม้านั่งใน Blender และฉาก `StationPrototype.unity` แล้ว ผู้ใช้อนุญาตให้ทำงานต่อ และเชื่อมต่อ Unity MCP สำเร็จอีกครั้ง การทดสอบ gameplay ใน Play Mode ผ่านแล้ว ดูหลักฐานที่ `reports/unity-play-tests.json`
+
+Web build พร้อมที่ `builds/web/` และผ่านการเปิดเล่น/ตรวจภาพใน Chrome แล้ว ดู [ภาพเว็บล่าสุด](reports/web-desktop.png) และ [ผลตรวจ](reports/prototype-validation.md)
+ระหว่าง local server ทำงาน เปิด **http://127.0.0.1:8080** จากเครื่องนี้ได้ หากปิด server แล้ว ให้ใช้คำสั่งในขั้นตอน 7 เพื่อเปิดใหม่
+
+## ไฟล์พร้อมใช้งาน
+
+- [Blender source](art-source/station/HNP_Prop_StationBench_A.blend)
+- [ภาพม้านั่ง](art-export/station/bench-preview.png)
+- [FBX](art-export/station/HNP_Prop_StationBench_A.fbx) — นำสำเนาไปไว้ใน Unity Assets แล้ว
+- [รายละเอียดโมเดล](art-export/station/bench-manifest.json): 836 triangles, 2 materials, กว้าง 1.8 เมตร
+- [Unity scene builder](hnp-game/Assets/_HNP/Editor/HnpPrototypeBuilder.cs)
+- [Gameplay](hnp-game/Assets/_HNP/Scripts/Prototype/HnpStationGame.cs) และ [touch control](hnp-game/Assets/_HNP/Scripts/Prototype/HnpTouchPad.cs)
+- [Web template](hnp-game/Assets/WebGLTemplates/HNP/index.html)
+- [ผลตรวจ environment](reports/environment.md)
+
+## เปิดจาก Unity ด้วยตนเอง
+
+1. เปิด `hnp-game` ด้วย Unity 6000.6.0f1 รอ compile แล้วตรวจ Console
+2. เปิด `Assets/_HNP/Scenes/StationPrototype.unity`
+3. มี prefab ม้านั่งที่ `Assets/_HNP/Prefabs/StationBench.prefab` แล้ว เมนู **HNP → Create Station Prototype** ใช้เฉพาะเมื่อยังไม่มี scene เพื่อป้องกันเขียนทับงานเดิม
+4. กด Play แล้ว **START EXPLORING** เดินด้วย WASD, กระโดด Space, ลากพื้นที่ด้านขวาเพื่อหมุนกล้อง หรือใช้ปุ่มบนจอ
+5. เก็บโปสการ์ดสีทอง 3 ใบ เดินไปซุ้ม **TO THE FAIR** แล้วกด E / GO เพื่อจบการทดลอง เลือก **EXPLORE AGAIN** เพื่อเริ่มใหม่
+6. ออกจาก Play Mode แล้วเลือก **HNP → Build Web Prototype** เพื่อ build ลง `builds/web/` การ build ครั้งแรกอาจใช้เวลาหลายนาที
+7. เปิดผ่าน local HTTP server ไม่ใช่ `file://` เช่น `python -m http.server 8080 --directory builds/web --bind 127.0.0.1` แล้วเข้า `http://127.0.0.1:8080`
+
+Play Mode ผ่านการตรวจ movement, jump/landing, เก็บของไม่ซ้ำ, เงื่อนไขจบเกม, restart และขนาด/วัสดุ/collider ม้านั่ง โมเดลผู้เล่น/รถไฟ/อาคารเป็น primitive blockout ส่วนม้านั่งเป็นโมเดลจาก Blender จริง UI ในเกมทดลองเป็นภาษาอังกฤษ; หน้าโหลดและข้อความหมุนเครื่องเป็นภาษาไทย การทดสอบบนมือถือจริงยังไม่ได้รัน
+
+Web ใช้ Mobile URP และ WebGL2 ชัดเจนเพื่อให้โมเดลแสดงถูกต้อง ขนาด build ประมาณ 50.4 MB แบบไม่บีบอัดสำหรับทดสอบ local ยังไม่ใช่รุ่นปรับประสิทธิภาพสำหรับเผยแพร่ และยังมี warning จาก shader/package ที่ติดตั้งเดิม
+
+## ตรวจ MCP ต่อ
+
+Unity ใช้ relay ที่ติดตั้งมากับ package: เปิด **Edit → Project Settings → AI → Unity MCP Server** ตรวจว่า bridge Running แล้วใช้ `python tools/unity_mcp.py --code-file tools/unity_preflight.cs --output reports/unity-preflight.json` ภายใต้สิทธิ์ที่อนุญาต
+หากมี Pending Connections ให้ผู้ใช้ตรวจชื่อ **HNP Prototype Client** และอนุญาตใน Unity ตามหน้าจอ server
+
+Blender ยังต้องทราบ add-on และ endpoint/คำสั่งของ MCP ที่ต้องการใช้ ไม่ได้ติดตั้ง add-on หรืออ้างว่า CLI เป็น MCP
+
+## อ้างอิงเทคนิค
+
+- Unity MCP setup: เอกสารที่ติดตั้งใน `hnp-game/Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Documentation~/integration/unity-mcp-get-started.md`
+- [Unity Input System UI module](https://docs.unity.cn/Packages/com.unity.inputsystem%401.10/api/UnityEngine.InputSystem.UI.InputSystemUIInputModule.html)
+- [Unity Web templates](https://docs.unity.cn/Manual/webgl-templates.html)

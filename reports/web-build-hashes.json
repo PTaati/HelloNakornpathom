@@ -1,0 +1,6 @@
+{
+  "builds\\web\\Build\\web.data": "04b23e243b2c83358757feb7e51dcffe0d8fd98200ccc88549c590b43733d26b",
+  "builds\\web\\Build\\web.framework.js": "903925ccba5746a10008805c6dfecfdd8414fbaf49346e2e825f18b265d1126a",
+  "builds\\web\\Build\\web.loader.js": "9689d74d9390558d0f9e3e65905879e5ebbe125f291f7f08d32b80123ef01b74",
+  "builds\\web\\Build\\web.wasm": "8174bfb16b88debb3461c112457bf1683c7062a870440f3efa79ad5a0943493a"
+}

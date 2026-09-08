@@ -1,0 +1,25 @@
+{
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\n  \"success\": true,\n  \"message\": \"Command executed successfully.\",\n  \"data\": {\n    \"isCompilationSuccessful\": true,\n    \"isExecutionSuccessful\": true,\n    \"executionId\": 1,\n    \"compilationLogs\": \"\",\n    \"executionLogs\": \"[Log] Fixed and saved station signs.\",\n    \"localFixedCode\": \"using UnityEngine;\\r\\nusing UnityEditor;\\r\\nusing UnityEditor.SceneManagement;\\r\\n\\r\\nnamespace Unity.AI.Assistant.Agent.Dynamic.Extension.Editor\\r\\n{\\r\\n    internal class CommandScript : IRunCommand\\r\\n    {\\r\\n        public void Execute(ExecutionResult result)\\r\\n        {\\r\\n            if (EditorApplication.isPlaying)\\r\\n                throw new System.Exception(\\\"Exit Play Mode first\\\");\\r\\n            foreach (var text in Object.FindObjectsByType<TextMesh>(FindObjectsSortMode.None))\\r\\n            {\\r\\n                if (!text.name.StartsWith(\\\"Sign \\\"))\\r\\n                    continue;\\r\\n                result.RegisterObjectModification(text);\\r\\n                result.RegisterObjectModification(text.transform);\\r\\n                text.transform.localRotation = Quaternion.identity;\\r\\n                text.characterSize = text.text == \\\"NAKORNPATHOM\\\" ? .07f : .085f;\\r\\n            }\\r\\n\\r\\n            EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene());\\r\\n            result.Log(\\\"Fixed and saved station signs.\\\");\\r\\n        }\\r\\n    }\\r\\n}\",\n    \"result\": \"Command executed successfully.\"\n  }\n}"
+      }
+    ],
+    "structuredContent": {
+      "success": true,
+      "message": "Command executed successfully.",
+      "data": {
+        "isCompilationSuccessful": true,
+        "isExecutionSuccessful": true,
+        "executionId": 1,
+        "compilationLogs": "",
+        "executionLogs": "[Log] Fixed and saved station signs.",
+        "localFixedCode": "using UnityEngine;\r\nusing UnityEditor;\r\nusing UnityEditor.SceneManagement;\r\n\r\nnamespace Unity.AI.Assistant.Agent.Dynamic.Extension.Editor\r\n{\r\n    internal class CommandScript : IRunCommand\r\n    {\r\n        public void Execute(ExecutionResult result)\r\n        {\r\n            if (EditorApplication.isPlaying)\r\n                throw new System.Exception(\"Exit Play Mode first\");\r\n            foreach (var text in Object.FindObjectsByType<TextMesh>(FindObjectsSortMode.None))\r\n            {\r\n                if (!text.name.StartsWith(\"Sign \"))\r\n                    continue;\r\n                result.RegisterObjectModification(text);\r\n                result.RegisterObjectModification(text.transform);\r\n                text.transform.localRotation = Quaternion.identity;\r\n                text.characterSize = text.text == \"NAKORNPATHOM\" ? .07f : .085f;\r\n            }\r\n\r\n            EditorSceneManager.SaveScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene());\r\n            result.Log(\"Fixed and saved station signs.\");\r\n        }\r\n    }\r\n}",
+        "result": "Command executed successfully."
+      }
+    }
+  },
+  "jsonrpc": "2.0",
+  "id": 2
+}

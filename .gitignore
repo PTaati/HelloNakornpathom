@@ -1,1 +1,4 @@
 hnp-game/
+tools/.python/
+**/__pycache__/
+builds/
