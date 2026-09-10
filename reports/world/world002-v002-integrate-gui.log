@@ -1,0 +1,1694 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 22976)
+VBCSCompiler prewarm took 3.83 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-09-10T12:26:42.0494597Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32485 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-10T12:26:42Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21644, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              0722df4bccba400f882715d8c6492f1e
+  Correlation Id:          9d0041e540cf373f9aa0b2e743537154
+  External correlation Id: 4466447832913989681
+  Machine Id:              RYq62xkJoQc/GWUknQofv4L/RoI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-09-10T12:26:42.0698314Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966725386439-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.02s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectPath
+C:\Users\Admin\Documents\HelloNakornpathom\hnp-game
+-executeMethod
+HNP.Editor.HnpTravellerV002Integrator.IntegrateBatch
+-logFile
+C:\Users\Admin\Documents\HelloNakornpathom\reports\world\world002-v002-integrate-gui.log
+Successfully changed project path to: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game
+C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [38080]  Target information:
+
+Player connection [38080]  * "[IP] 192.168.1.121 [Port] 55504 [Flags] 2 [Guid] 3089608168 [EditorId] 3089608168 [Version] 1048832 [Id] WindowsEditor(7,TAATI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [38080]  * "[IP] 172.26.64.1 [Port] 55504 [Flags] 2 [Guid] 3089608168 [EditorId] 3089608168 [Version] 1048832 [Id] WindowsEditor(7,TAATI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [38080]  * "[IP] 192.168.32.1 [Port] 55504 [Flags] 2 [Guid] 3089608168 [EditorId] 3089608168 [Version] 1048832 [Id] WindowsEditor(7,TAATI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [38080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38080] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-37840" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Admin/Documents/HelloNakornpathom/hnp-game[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/HelloNakornpathom/hnp-game/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11997 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56840
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.002787 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.536 seconds
+Domain Reload Profiling: 937ms
+	BeginReloadAssembly (97ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (86ms)
+		TypeCache.Refresh (159ms)
+			TypeCache.ScanAssembly (148ms)
+		AnalyzeDomain (0ms)
+	FinalizeReload (537ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (121ms)
+			ProcessInitializeOnLoadMethodAttributes (158ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 66 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.assistant@2.19.0-pre.2 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ai.assistant@8d1e3e89e3a7)
+    com.unity.ai.inference@2.6.1 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ai.inference@9a123aee5df7)
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.pipeline@0.6.0-exp.1 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.pipeline@9bb4172c603c)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.dt.app-ui@2.1.11 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.dt.app-ui@cd5609b130ce)
+    com.unity.searcher@4.9.5 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.burst@2.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
+    com.unity.mathematics@1.4.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Refreshing native plugins compatible for Editor in 2.56 ms, found 5 plugins.
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 4 Duration: 0s280ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2000b0aE-inputdata.json
+[1253/1650  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra requires additional run (0.26 seconds), 1 items updated, 1252 evaluatedStarting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/2000b0aE.dag.json" "Library/Bee/2000b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 0 Duration: 1s398ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\2000b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 0 Duration: 1s792ms
+Finished compiling graph: 1654 nodes, 36361 flattened edges (29839 ToBuild, 272 ToUse), maximum node priority 1847
+[ 761/1650  0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp
+[ 763/1650  0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp
+[1251/1650  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1642/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1643/1650  0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll, with 127 defines and 380 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+[1644/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1645/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1646/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\_HNP\Editor\HnpTravellerV002Integrator.cs(36,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1647/1650  0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll, with 125 defines and 410 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+[1648/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1649/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (1.78 seconds), 11 items updated, 1650 evaluated
+Assets\_HNP\Editor\HnpTravellerV002Integrator.cs(36,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 4.020161s
+Total cache size 268334911
+Total cache size after purge 268334911, took 00:00:00.2194641
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.23 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.52 ms, found 5 plugins.
+Start HTTP server: port:7800
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.589 seconds
+Domain Reload Profiling: 2659ms
+	BeginReloadAssembly (174ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (811ms)
+		LoadAssemblies (341ms)
+		TypeCache.Refresh (335ms)
+			TypeCache.ScanAssembly (318ms)
+		AnalyzeDomain (80ms)
+			BuildScriptInfoCaches (72ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1589ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (993ms)
+			ProcessInitializeOnLoadMethodAttributes (167ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Starting new worker id: 0 with log in C:/Users/Admin/Documents/HelloNakornpathom/hnp-game/Logs/AssetImportWorkerHW0.log
+Importing 'GUID: d19f4f8a13b6edb48b986a47ec96402e - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapShadowMaskIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Imported 'GUID: d19f4f8a13b6edb48b986a47ec96402e' -> (Import Result ID: '43d6fd403fdf71e58742a870e5694777') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9397bcd0fce242045cdce8e3b5a2aba4 DependenciesID=8a373a5146fbb58aea55c523baa095c9 StaticDependenciesID=9fd4e9b2e1ad89e7cbffc601eff4d03f 
+Importing 'GUID: 737a1597422c12547a8714d76a9406ec - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferDebug.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 737a1597422c12547a8714d76a9406ec' -> (Import Result ID: '0e1d27347e03f38d073c364029283d4e') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3274572f4fde04790f67cdd67d1286ce DependenciesID=9ae62d7c41fc3ecbc73e12f22f61b7b5 StaticDependenciesID=b513b01e29d0aa4d28825e4d4fb57fb4 
+Importing 'GUID: f32463968f29423cad25aee15a14b9f1 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/PunctualLightSampling.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: f32463968f29423cad25aee15a14b9f1' -> (Import Result ID: '9d9533d9f50a06e1602ffc18e5eab809') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d217294809baaabf4c6802de73ada5f DependenciesID=ac82b0d5d2d0941abfefac1ca26b4c01 StaticDependenciesID=b63d74c4e924df89cb98a36e44fc1845 
+Importing 'GUID: 1451d029813b192429211be28181beab - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapNormalIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 1451d029813b192429211be28181beab' -> (Import Result ID: '2e32466a4acb5576b9b296dbee9f2508') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=792fb6b4a6d6f71a36c0a6982fc1426c DependenciesID=0f8f9e9b6535fef561e381c46bac19e3 StaticDependenciesID=5afd8eadeec03e368f74c3a5603c453d 
+Importing 'GUID: 94a070d33e408384bafc1dea4a565df9 - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask/TraceRenderingLayerMask.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 94a070d33e408384bafc1dea4a565df9' -> (Import Result ID: '0c781a67a55911206a889603221d9bca') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b94ffcb26d5f42ffd39d19cb8e35fd74 DependenciesID=3811d43b6090fbdfcfb0ad1701be76a8 StaticDependenciesID=25a592d065c9c4788553066128367c57 
+Importing 'GUID: 94a39d12848d8d64ca962a72b74e7c50 - Path: Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache/Estimation.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 94a39d12848d8d64ca962a72b74e7c50' -> (Import Result ID: '41bcc62a1244b139c9ecbcba8f78e2e5') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=167a079466e5cb387aeadb5a551be10a DependenciesID=7b5f5eeaf7685216fbcb02149f23d0ad StaticDependenciesID=ffb0a11028fb7b99287455d15347e1d8 
+Importing 'GUID: f5ba4d424d4566249b3d94cf81a3e916 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectDirectionalAndEnvironmentIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: f5ba4d424d4566249b3d94cf81a3e916' -> (Import Result ID: '5788a1f5cedd115119b47e2e33d48a81') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d6a2a59333dfef366e1127f2282d236 DependenciesID=4a0e6efd8530cef8fa820a861c7c2152 StaticDependenciesID=d4bdfd2147f181839dcd88d16b4cc45b 
+Importing 'GUID: 7624adbeb148b5c48ab5ab660cc2602a - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapIndirectIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 7624adbeb148b5c48ab5ab660cc2602a' -> (Import Result ID: 'dd454e12721412dd99b952265f83c017') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=98fb6fb018a7d8d966d937ef920e36a5 DependenciesID=a54642d4f421af2ee0d8177520133000 StaticDependenciesID=637eaa30376abb268136eb146f59c034 
+Importing 'GUID: 5951703b3d165764c95c653e98350884 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectBRDFIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 5951703b3d165764c95c653e98350884' -> (Import Result ID: 'e65655cd39f7b54344dc8da2a5735d2f') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=83f19ab253a4a697e0acb03ce54d8a88 DependenciesID=52da1aabed85392141bb3d7146778490 StaticDependenciesID=059ad849da4bff5dcc29e3cff7813344 
+Importing 'GUID: 99ac6221b6ecd7b479be13e8b9866300 - Path: Packages/com.unity.render-pipelines.core/Tests/Editor/PathTracing/Shaders/TerrainRayMarchingTest.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 99ac6221b6ecd7b479be13e8b9866300' -> (Import Result ID: '5eab7c8de3b7e57723daad3070aa9a27') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7952e0c284096391e16d473c1a693ca DependenciesID=152db2a1366e632fce00fe0317ab8904 StaticDependenciesID=dc53200b7c0c8c0e6f9de4f99348b559 
+Importing 'GUID: e9f4de6d1e07fb94f9a60d35b618f724 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapGBufferIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: e9f4de6d1e07fb94f9a60d35b618f724' -> (Import Result ID: '1a34806f7d37437c0d39dc888d6023ed') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a21af36535753cc63734eefda150a03f DependenciesID=57a0fb6758a71078c2ddf56dda6dae54 StaticDependenciesID=3c625e26646b7228663e0de2b2c1d69b 
+Importing 'GUID: 5a2a534753fbdb44e96c3c78b5a6999d - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI/DynamicGISkyOcclusion.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 5a2a534753fbdb44e96c3c78b5a6999d' -> (Import Result ID: 'e12d7039e75131e19877f44c74f170e9') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a3fe383e2bcf70fb57c5fbec2d60886 DependenciesID=a648301300ff6cbc7179413df6d6f34f StaticDependenciesID=72ee5fda06862b709c15f6cbb7db6f05 
+Importing 'GUID: 5bbebdef5916845478fcef13fa10d89f - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapDirectStochasticLightIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 5bbebdef5916845478fcef13fa10d89f' -> (Import Result ID: 'ca2d5856e49707131f0cad8d9214a3d3') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=37b9ca496a8413540dce653e7e80527a DependenciesID=9961062f6c2a7dd5e30fb2deb36538f4 StaticDependenciesID=471ca71b6b19c4611a46691a7356c8a6 
+Importing 'GUID: 1c410815c01ce1d4d82c645c0cd45747 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapAOIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 1c410815c01ce1d4d82c645c0cd45747' -> (Import Result ID: '8576b80141c644fd9f35885dfddf1d33') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d8e69d91195f002a5cbc6b7f6b3cc6ea DependenciesID=963154162cc567b6c165ff7c38491f9e StaticDependenciesID=219d1b7269d01f2442d424f53e04d073 
+Importing 'GUID: 2c32233d92a2d0745930664c087c5c9a - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationValidity.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 2c32233d92a2d0745930664c087c5c9a' -> (Import Result ID: '9e62c1073bf79e7a2849383db988d100') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=edab256cc2e0953aac43f2947952b70c DependenciesID=24772d6de0ee58ca852430f62a84d818 StaticDependenciesID=89ce6b5e76d568c473e42bb2e82d857d 
+Importing 'GUID: ace95ac84e213794891b4bd7c9b3c158 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/LightmapValidityIntegration.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: ace95ac84e213794891b4bd7c9b3c158' -> (Import Result ID: '6d09434cc2176ae49edb338d716929af') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7439b52fe0f6604ae096ce40ace76e9 DependenciesID=20ae5c10154cfd180787e4d35bed845e StaticDependenciesID=af3a8789fbe725883be9c99ebb7cf5e2 
+Importing 'GUID: 5ecdabd800f05984696f22ba95284516 - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationIndirect.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 5ecdabd800f05984696f22ba95284516' -> (Import Result ID: 'd0699a9d2e1a591fc23c13de591a9746') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=827f8ae80632f0cb63ff4dbae355be90 DependenciesID=f8203999e6ab3a8571ac601f5b5d9581 StaticDependenciesID=1ad901001e2e557153e1de5753d25220 
+Importing 'GUID: 6e0b547bab30a804c8123974120d583f - Path: Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing/PathIteratorTest.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 6e0b547bab30a804c8123974120d583f' -> (Import Result ID: '809a94d85da16880a2859f0652555c5d') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f21e8cdae957ed44f2d12532dab91965 DependenciesID=a13abbd05e7491bb9f7ab84178b33a24 StaticDependenciesID=e24ea404bb4dabe55ffbcaa7b840b299 
+Importing 'GUID: de3013e16d99f2746ab1735ec06a660b - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationOcclusion.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: de3013e16d99f2746ab1735ec06a660b' -> (Import Result ID: '23c3f9f4c2dc235d6858e9f8094b7e06') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87cfd710b8f9a0c49111006f2b17a94c DependenciesID=3d896ea80a811e79819c7118c63fd53c StaticDependenciesID=d23a0c4a2896e547ad436f2fd232bb27 
+Importing 'GUID: fe7f1a959d1d3f544a208b7e8805e6cd - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationDirectDirectionalAndEnvironment.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: fe7f1a959d1d3f544a208b7e8805e6cd' -> (Import Result ID: '92a3587440931ef3021e2260c54e8f59') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ddb988606d334fa6924fb0bdc3da16d0 DependenciesID=b7d10ceceb123d68805d0bfeffb17cd0 StaticDependenciesID=b8525778ccd6bf87644fae631483c773 
+Importing 'GUID: 1f9bfe60b4ad75943a5281839c1a4e5c - Path: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/ProbeIntegrationDirectStochasticLight.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: 1f9bfe60b4ad75943a5281839c1a4e5c' -> (Import Result ID: '4f8a5c08cbac5296e28e55ccd4f0d415') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2d7ef19dcacbe8b41069179c33e7356a DependenciesID=561352cb54eaa397a2525c001a666a1e StaticDependenciesID=bb23e9aed0fe8778db1283cad6c57003 
+Importing 'GUID: ff2cbab5da58bf04d82c5f34037ed123 - Path: Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset/TraceVirtualOffset.urtshader' with importer (ScriptedImporter : Unity.Rendering.LightTransport.Editor:UnityEditor.Rendering.UnifiedRayTracing:UnifiedRTShaderImporter)
+Imported 'GUID: ff2cbab5da58bf04d82c5f34037ed123' -> (Import Result ID: 'b33bfc0922e3af35f128ce8a36ffc637') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f03d20e971d892abe30b30f63c89b50d DependenciesID=b6411f7533937a5a10a37f9e9c1d5da0 StaticDependenciesID=577fb2ca56f9c9cef1dba593cc7f61b6 
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-hnp-game
+<RI> Initializing input.
+Using Windows.Gaming.Input
+Worker ready: AssetImportWorkerHW0 0
+Refreshing native plugins compatible for Editor in 3.20 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=b3753d76103161840aaa43aa4a581a7a): Total: 9.437 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=22 (actual=22, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=2214 ms
+		Asset DB Callback time: managed=487 ms, native=1527 ms
+		Scripting: domain reloads=1, domain reload time=1123 ms, compile time=4022 ms, other=60 ms
+		Project Asset Count: scripts=2234, non-scripts=5406
+		Asset File Changes: new=2, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 22.324ms
+	ApplyChangesToAssetFolders: 0.470ms
+	Scan: 107.071ms
+	Collect global state as custom dependencies: 15.581ms
+	OnSourceAssetsModified: 0.469ms
+	CategorizeScriptCompilationAssets: 51.082ms
+	ProcessAssetsWithTransientArtifactChanges: 80.850ms
+	CategorizeAssets: 67.178ms
+	CompileScripts: 4021.646ms
+	ImportOutOfDateAssets: 1760.126ms (1598.992ms without children)
+		ImportManagerImport: 154.115ms (1.647ms without children)
+			UpdateCategorizedAssets: 1.035ms
+		UnloadImportedAssets: 0.586ms
+		ReloadImportedAssets: 0.547ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.694ms
+		ImportSchedulerStart: 5.699ms
+	PostProcessAllAssets: 1987.060ms
+		VCAutoAddAssetPostprocess 1286.894ms
+		ComputeShaderImportPostprocess 114.756ms
+		RaytracingShaderImportPostprocess 98.104ms
+		XRBuildSystem.XRAssetImported 0.477ms
+		PostProcessCallbackCreateDeferredMaterials 0.068ms
+		VersionControlSettings.HiddenFilePostprocess 0.064ms
+		MonoPostProcessAllAssets: 485.591ms
+			SyncVS.PostprocessSyncProject 162.318ms
+			AssetPostprocessor.OnPostprocessAllAssets 26.462ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 19.644ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 18.772ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 12.650ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 6.003ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 5.112ms
+			AssetChangedListener.OnPostprocessAllAssets 5.088ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 4.936ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.818ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.583ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.538ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.427ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.261ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.222ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.917ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.898ms
+			AssetChangeDetector.OnPostprocessAllAssets 0.715ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.611ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.604ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.506ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.424ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.381ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.361ms
+			PostProcessor.OnPostprocessAllAssets 0.340ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.329ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.314ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.253ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.229ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.212ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.197ms
+			AssetEvents.OnPostprocessAllAssets 0.187ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.182ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.180ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.162ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.140ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.126ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.118ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.115ms
+			TrackSelectedAssetsProcessor.OnPostprocessAllAssets 0.106ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.082ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.059ms
+	PostAssetChangesProfiler: 5.849ms
+	UnloadStreamsBegin: 1.468ms
+	PersistCurrentRevisions: 0.354ms
+	GenerateScriptTypeHashes: 1.310ms
+	GenerateScriptTypeSerializationHashes: 2.347ms
+	Untracked: 1294.548ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 1.782ms
+Initializing Unity extensions:
+Unloading 89 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_HNP/Scenes/NakornpathomWorld.unity'
+	Deserialize:            3.510 ms
+	Integration:            43.781 ms
+	Integration of assets:  0.018 ms
+	Thread Wait Time:       0.049 ms
+	Total Operation Time:   47.359 ms
+Unloading 10624 unused Assets / (26.7 MB). Loaded Objects now: 12026.
+Memory consumption went from 0.67 GB to 0.65 GB.
+Total: 18.605700 ms (FindLiveObjects: 0.659400 ms CreateObjectMapping: 0.439400 ms MarkObjects: 12.346000 ms  DeleteObjects: 4.880200 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Admin/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+Opening scene 'Assets/_HNP/Scenes/NakornpathomWorld.unity'
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_HNP/Scenes/NakornpathomWorld.unity'
+	Deserialize:            1.925 ms
+	Integration:            13.914 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       692.836 ms
+	Total Operation Time:   708.675 ms
+Unloading 6 unused Assets / (140.7 KB). Loaded Objects now: 12977.
+Memory consumption went from 0.78 GB to 0.78 GB.
+Total: 15.795600 ms (FindLiveObjects: 0.535400 ms CreateObjectMapping: 0.212100 ms MarkObjects: 14.734300 ms  DeleteObjects: 0.041800 ms)
+
+Importing 'GUID: 43d93af1b03d25747ada8c0183a586ad - Path: Assets/_HNP/Art/World/HNP_Traveller_Child_v002.controller' with importer (NativeFormatImporter)
+Imported 'GUID: 43d93af1b03d25747ada8c0183a586ad' -> (Import Result ID: 'ded27a24380af1ada5b0ff85ca09ac38') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=a2143b0ad0fae8f1b6301ce2999995cf DependenciesID=d5be6c68bee1984aa2de0370032f8492 StaticDependenciesID=b4ba1676a965b93d6c7a047d7f4f71d2 
+Refreshing native plugins compatible for Editor in 2.02 ms, found 5 plugins.
+Asset Pipeline Refresh (id=e3cbc1bd3c50c1c40b28ee98007786d5): Total: 0.094 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: dcc25de141d91c747a2712c29320c538 - Path: Assets/_HNP/Prefabs/World/Traveller_Child_v002.prefab' with importer (PrefabImporter)
+Imported 'GUID: dcc25de141d91c747a2712c29320c538' -> (Import Result ID: '9cb1b7fb019a69f9670efab8f488510e') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a49d27f478b791be8771c0a0d5e7caf9 DependenciesID=83893110b819465585119eb1ad626077 StaticDependenciesID=33b7900d7b27bb76abd624bf185879ff 
+Refreshing native plugins compatible for Editor in 2.18 ms, found 5 plugins.
+Asset Pipeline Refresh (id=b1ffde7a6437fb0449075b1cf56cf223): Total: 0.044 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+InvalidOperationException: Traveller visual root missing from world scene.
+  at HNP.Editor.HnpTravellerV002Integrator.Integrate () [0x00240] in C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Assets\_HNP\Editor\HnpTravellerV002Integrator.cs:39 
+  at HNP.Editor.HnpTravellerV002Integrator.IntegrateBatch () [0x00000] in C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Assets\_HNP\Editor\HnpTravellerV002Integrator.cs:19 
+UnityEngine.StackTraceUtility:ExtractStringFromExceptionInternal(Object, String&, String&)
+
+(Filename: Assets/_HNP/Editor/HnpTravellerV002Integrator.cs Line: 39)
+
+executeMethod method HNP.Editor.HnpTravellerV002Integrator.IntegrateBatch threw exception.
+[Project] Loading completed in 13.382 seconds
+	Project init time: 				11.503 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		0.172 seconds
+		Asset Database init time: 		0.292 seconds
+		Global illumination init time: 	0.002 seconds
+		Assemblies load time: 			0.967 seconds
+		Unity extensions init time: 	0.020 seconds
+		Asset Database refresh time: 	9.437 seconds
+	Scene opening time: 			1.585 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1789043215422,"processId":37840,"projectLoad":13.3820162,"projectInit":11.5026967,"templateInit":0.0,"packageManagerInit":0.17233,"assetDatabaseInit":0.2915374,"globalIlluminationInit":0.0019473,"assembliesLoad":0.9667957,"unityExtensionsInit":0.020313,"assetDatabaseRefresh":9.4369004,"sceneOpening":1.5848712}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1789043215422,"processId":37840,"editorVersion":"6000.6.0f1 (f7f8ed4d1e24)","branch":"6000.6/respin/6000.6.0f1-fa21a270ab12","buildType":"Release","platform":"Windows"}
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/Admin/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.010s, timestamps: [13.399 - 13.410]
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "cdP-3Fm4"... (expires: 2026-09-10T13:42:06Z)
+Starting new worker id: 1 with log in C:/Users/Admin/Documents/HelloNakornpathom/hnp-game/Logs/AssetImportWorkerHW1.log
+[Worker0] Imported GUID: 28c826a9a0ecfc24696b5cd911f6c61c - Path: Assets/_HNP/Editor/HnpTravellerV002Integrator.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '2d2dba3275d1c8cafb847dc6c6ff104b') in 0.0612566 seconds
+[Worker0] Imported GUID: abcb60b558e2c874ea2fbd5653fea137 - Path: Assets/_HNP/Scripts/World/HnpTravellerAnimatorBridge.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: 'f72339ffa1d641a0b5f000b6ec5d1b52') in 0.0116027 seconds
+[Worker0] Imported GUID: dcc25de141d91c747a2712c29320c538 - Path: Assets/_HNP/Prefabs/World/Traveller_Child_v002.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '33392b6fc24adccfe840618c2ef4d967') in 0.0480867 seconds
+[Worker0] Imported GUID: 43d93af1b03d25747ada8c0183a586ad - Path: Assets/_HNP/Art/World/HNP_Traveller_Child_v002.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B -> (ImportResultId: '8632c416f9a1e8954f3c1d70868bdb0a') in 0.0115725 seconds
+UPID Received '844ac256-c12f-4a9b-b463-dd028714a7b9'.
+[Licensing::Client] Successfully resolved entitlement details
+Asset Pipeline Refresh (id=0821542f64cae494eacb7e3ac8a8c8ed): Total: 0.009 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Worker ready: AssetImportWorkerHW1 1
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+Failed to collect Windows signature for C:\Users\Admin\.vscode\extensions\openai.chatgpt-26.903.61454-win32-x64\bin\windows-x86_64\codex.exe: Input data cannot be coded as a valid certificate.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectWindowsSignature (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:315)
+Unity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectSignatureInfo (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:249)
+Unity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectIdentity (string) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:108)
+Unity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectProcessInfo (int) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:69)
+Unity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectConnectionInfo (int,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:122)
+Unity.AI.MCP.Editor.Security.ConnectionValidator:ValidateConnection (Unity.AI.MCP.Editor.Connection.IConnectionTransport,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ConnectionValidator.cs:39)
+Unity.AI.MCP.Editor.Bridge/<>c__DisplayClass67_0:<ValidateAndApproveAsync>b__1 () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Bridge.cs:1050)
+System.Threading.Tasks.Task`1<Unity.AI.MCP.Editor.Security.ValidationDecision>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs Line: 315)
+
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+TrimDiskCacheJob: Current cache size 0mb
+Failed to collect Windows signature for C:\Users\Admin\.vscode\extensions\openai.chatgpt-26.903.71938-win32-x64\bin\windows-x86_64\codex.exe: Input data cannot be coded as a valid certificate.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectWindowsSignature (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:315)
+Unity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectSignatureInfo (string,Unity.AI.MCP.Editor.Models.ExecutableIdentity) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:249)
+Unity.AI.MCP.Editor.Security.ExecutableIdentityCollector:CollectIdentity (string) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs:108)
+Unity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectProcessInfo (int) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:69)
+Unity.AI.MCP.Editor.Security.ProcessInfoCollector:CollectConnectionInfo (int,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ProcessInfoCollector.cs:122)
+Unity.AI.MCP.Editor.Security.ConnectionValidator:ValidateConnection (Unity.AI.MCP.Editor.Connection.IConnectionTransport,Unity.AI.MCP.Editor.Security.ValidationConfig) (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ConnectionValidator.cs:39)
+Unity.AI.MCP.Editor.Bridge/<>c__DisplayClass67_0:<ValidateAndApproveAsync>b__1 () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Bridge.cs:1050)
+System.Threading.Tasks.Task`1<Unity.AI.MCP.Editor.Security.ValidationDecision>:InnerInvoke ()
+System.Threading.Tasks.Task:Execute ()
+System.Threading.Tasks.Task:ExecutionContextCallback (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.Tasks.Task:ExecuteWithThreadLocal (System.Threading.Tasks.Task&)
+System.Threading.Tasks.Task:ExecuteEntry (bool)
+System.Threading.Tasks.Task:System.Threading.IThreadPoolWorkItem.ExecuteWorkItem ()
+System.Threading.ThreadPoolWorkQueue:Dispatch ()
+System.Threading._ThreadPoolWaitCallback:PerformWaitCallback ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.MCP.Editor/Security/ExecutableIdentityCollector.cs Line: 315)
+
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+[Licensing::Client] Successfully resolved entitlement details
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 0 Duration: 1s66ms
+[1251/1650  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1642/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1643/1650  0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll, with 127 defines and 380 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+[1644/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1645/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1646/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\_HNP\Editor\HnpTravellerV002Integrator.cs(30,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[1647/1650  0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll, with 125 defines and 410 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+[1648/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1649/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (1.05 seconds), 9 items updated, 1650 evaluated
+Assets\_HNP\Editor\HnpTravellerV002Integrator.cs(30,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Total cache size 268334911
+Total cache size after purge 268334911, took 00:00:00.2162416
+Refreshing native plugins compatible for Editor in 2.90 ms, found 5 plugins.
+[Licensing::Client] Successfully resolved entitlement details
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Refreshing native plugins compatible for Editor in 2.62 ms, found 5 plugins.
+Start HTTP server: port:7801
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  2.938 seconds
+Domain Reload Profiling: 4058ms
+	BeginReloadAssembly (555ms)
+		DisableScriptedObjects (106ms)
+		CreateAndSetChildDomain (256ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (474ms)
+		LoadAssemblies (122ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (282ms)
+			BuildScriptInfoCaches (273ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2939ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (206ms)
+			ProcessInitializeOnLoadAttributes (767ms)
+			ProcessInitializeOnLoadMethodAttributes (239ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (1287ms)
+Refreshing native plugins compatible for Editor in 3.45 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=ef652a1c540f86e478d2dd1f1d37a6ad): Total: 5.824 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=3077 ms
+		Asset DB Callback time: managed=213 ms, native=6 ms
+		Scripting: domain reloads=1, domain reload time=1170 ms, compile time=1355 ms, other=0 ms
+		Project Asset Count: scripts=2234, non-scripts=5408
+		Asset File Changes: new=0, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 1.220ms
+	ApplyChangesToAssetFolders: 0.237ms
+	Scan: 5.382ms
+	Collect global state as custom dependencies: 2.857ms
+	ProcessAssetsWithTransientArtifactChanges: 5.208ms
+	CategorizeAssets: 69.485ms
+	CompileScripts: 1355.327ms
+	ImportOutOfDateAssets: 2947.979ms (2944.916ms without children)
+		CollectScriptTypesHashes: 1.218ms
+		ReloadNativeAssets: 0.710ms
+		UnloadImportedAssets: 1.073ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.786ms
+		ImportSchedulerStart: 0.471ms
+	PostProcessAllAssets: 216.187ms
+		XRBuildSystem.XRAssetImported 0.429ms
+		MonoPostProcessAllAssets: 213.578ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 23.359ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 17.747ms
+			AssetChangedListener.OnPostprocessAllAssets 4.275ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 3.956ms
+			AssetPostprocessor.OnPostprocessAllAssets 3.063ms
+			SyncVS.PostprocessSyncProject 2.928ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 2.588ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 2.014ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 1.882ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.259ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.189ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.020ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 0.866ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.863ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.770ms
+			AssetChangeDetector.OnPostprocessAllAssets 0.626ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.562ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.439ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.435ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.400ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.398ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.394ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.378ms
+			PostProcessor.OnPostprocessAllAssets 0.373ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.360ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.304ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.298ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.267ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.229ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.196ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.191ms
+			AssetEvents.OnPostprocessAllAssets 0.168ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.167ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 0.143ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.130ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.113ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.105ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.103ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.092ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.079ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.070ms
+	PostAssetChangesProfiler: 4.004ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.423ms
+	PersistCurrentRevisions: 0.197ms
+	GenerateScriptTypeHashes: 2.932ms
+	GenerateScriptTypeSerializationHashes: 5.147ms
+	Untracked: 1200.266ms
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+UPID Received '844ac256-c12f-4a9b-b463-dd028714a7b9'.
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+Error reason is 'NoSubscription' and no additional error information was provided (https://generators.ai.unity.com).
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Unity.AI.ModelSelector.Services.Stores.Actions.ModelSelectorSuperProxyActions/<>c/<<-cctor>b__8_0>d:MoveNext () (at ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs:495)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Components.GenerativeModels.GenerativeModelsComponentV2/<GetModelsAsync>d__5:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.InternalServices.SdkOperation.SdkOperationService/<ExecuteRequest>d__4`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:TrySetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>>:SetResult (AiEditorToolsSdk.Components.Common.Responses.Wrappers.OperationResult`1<AiEditorToolsSdk.Components.GenerativeModels.Responses.ModelListV2.ModelListFullResult>)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<GetModelsAsync>d__4:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequest>d__5`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:TrySetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>>:SetResult (AiEditorToolsSdk.Domain.Core.Results.Result`2<SuperProxyClientV1Namespace.ModelListFullResponse, AiEditorToolsSdk.Domain.Core.Errors.ApiError>)
+AiEditorToolsSdk.Application.InternalServices.ApiClientProcessor.ApiClientProcessorService/<ProcessApiRequestImpl>d__6`1<SuperProxyClientV1Namespace.ModelListFullResponse>:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task:FinishStageTwo ()
+System.Threading.Tasks.Task:Finish (bool)
+System.Threading.Tasks.Task:TrySetException (object)
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<SuperProxyClientV1Namespace.ModelListFullResponse>:SetException (System.Exception)
+AiEditorToolsSdk.Application.Gateways.GenerativeModels.V2.GenerativeModelsGatewayV2/<>c__DisplayClass4_0/<<GetModelsAsync>b__0>d:MoveNext ()
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation/<>c:<.cctor>b__7_0 (object)
+UnityEngine.UnitySynchronizationContext/WorkRequest:Invoke ()
+UnityEngine.UnitySynchronizationContext:Exec ()
+UnityEngine.UnitySynchronizationContext:ExecuteTasks ()
+
+(Filename: ./Library/PackageCache/com.unity.ai.assistant@8d1e3e89e3a7/Modules/Unity.AI.ModelSelector/Services/Stores/Actions/ModelSelectorSuperProxyActions.cs Line: 495)
+
+Asset Pipeline Refresh (id=97c94aa38372c6b49975a174dfcd2683): Total: 0.003 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)

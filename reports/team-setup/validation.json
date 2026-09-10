@@ -1,0 +1,56 @@
+{
+  "task": "HNP-TEAM-002",
+  "date": "2026-09-09",
+  "checks": [
+    {
+      "check": "project config TOML and unchanged root model",
+      "status": "PASS"
+    },
+    {
+      "check": ".codex\\agents\\blender_artist.toml",
+      "model": "gpt-5.6-sol",
+      "reasoning": "high",
+      "status": "PASS"
+    },
+    {
+      "check": ".agents\\skills\\hnp-blender-pipeline",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": ".codex\\agents\\unity_engineer.toml",
+      "model": "gpt-5.6-terra",
+      "reasoning": "medium",
+      "status": "PASS"
+    },
+    {
+      "check": ".agents\\skills\\hnp-unity-web",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    },
+    {
+      "check": ".codex\\agents\\designer_tester.toml",
+      "model": "gpt-5.6-terra",
+      "reasoning": "medium",
+      "status": "PASS"
+    },
+    {
+      "check": ".agents\\skills\\hnp-design-qa",
+      "status": "PASS",
+      "detail": "Skill is valid!"
+    }
+  ],
+  "native_skill_discovery": {
+    "status": "PASS",
+    "cli": "0.153.2",
+    "exit_code": 0,
+    "skills_present": [
+      "hnp-blender-pipeline",
+      "hnp-unity-web",
+      "hnp-design-qa"
+    ],
+    "evidence": "local debug prompt-input via installed Node CLI; raw prompt deliberately not retained"
+  },
+  "behavior_checks": "validation.md",
+  "unity_capabilities": "unity-tools.json"
+}

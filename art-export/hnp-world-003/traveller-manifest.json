@@ -1,0 +1,28 @@
+{
+  "task": "HNP-WORLD-003",
+  "source_revision": "v002 reviewed rig unchanged; new authored Run",
+  "clips": [
+    "HNP_Traveller_Idle",
+    "HNP_Traveller_Walk",
+    "HNP_Traveller_Run"
+  ],
+  "run_frames": [
+    1,
+    17
+  ],
+  "fps": 24,
+  "run_loop_delta": 2.0519153448064732e-16,
+  "root_motion": false,
+  "run_style": "48 degree thigh swing, bent knees/elbows, 12 degree torso lean and pelvis flight phase; not sped-up Walk",
+  "triangles": 7340,
+  "materials": 3,
+  "bones": 22,
+  "roundtrip_armatures": 1,
+  "roundtrip_run_names": [
+    "HNP_RIG_Traveller_Child_v002.001|HNP_RIG_Traveller_Child_v002|HNP_Traveller_Run",
+    "HNP_Traveller_Run"
+  ],
+  "sha256": "9e0c20f37f6664453f8b4e9c7c8e4870e4a6e6ae5da417f29901a93de2c5003b",
+  "status": "PASS",
+  "unity": "NOT RUN"
+}

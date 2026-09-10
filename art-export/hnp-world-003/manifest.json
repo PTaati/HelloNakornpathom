@@ -1,0 +1,241 @@
+{
+  "task": "HNP-WORLD-003",
+  "references": [
+    "ref/style.jpg",
+    "ref/jd.jpg"
+  ],
+  "palette": {
+    "HNP3_Gold": [
+      0.83,
+      0.44,
+      0.055
+    ],
+    "HNP3_GoldEdge": [
+      1,
+      0.66,
+      0.16
+    ],
+    "HNP3_Ivory": [
+      0.94,
+      0.91,
+      0.81
+    ],
+    "HNP3_Inset": [
+      0.095,
+      0.066,
+      0.042
+    ],
+    "HNP3_Body": [
+      0.73,
+      0.14,
+      0.105
+    ],
+    "HNP3_Glass": [
+      0.035,
+      0.095,
+      0.13
+    ],
+    "HNP3_Rubber": [
+      0.025,
+      0.03,
+      0.035
+    ],
+    "HNP3_Chrome": [
+      0.55,
+      0.63,
+      0.64
+    ],
+    "HNP3_Light": [
+      1,
+      0.86,
+      0.51
+    ],
+    "HNP3_TailLight": [
+      0.8,
+      0.025,
+      0.012
+    ],
+    "HNP3_BirdGrey": [
+      0.34,
+      0.42,
+      0.46
+    ],
+    "HNP3_BirdWing": [
+      0.13,
+      0.19,
+      0.24
+    ]
+  },
+  "atlas": {
+    "material": "HNP3_Atlas",
+    "texture": "HNP003_Palette.png",
+    "filter": "Point",
+    "srgb": true
+  },
+  "assets": [
+    {
+      "file": "HNP_Chedi_v003.fbx",
+      "triangles": 27172,
+      "dimensions_blender_xyz": [
+        46.0,
+        49.94635200500488,
+        44.0
+      ],
+      "materials": [
+        "HNP3_Gold",
+        "HNP3_GoldEdge",
+        "HNP3_Inset",
+        "HNP3_Ivory"
+      ],
+      "sha256": "46823f215b1d8eb95f7a46c5fd24267294d95e331d6fd2f95be71bb8433d0ce0",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        46.0,
+        49.946353912353516,
+        44.000007561872735
+      ]
+    },
+    {
+      "file": "HNP_Sedan_v003.fbx",
+      "triangles": 2580,
+      "dimensions_blender_xyz": [
+        2.380000114440918,
+        3.9699997901916504,
+        2.01999998617188
+      ],
+      "materials": [
+        "HNP3_Atlas",
+        "HNP3_Body"
+      ],
+      "sha256": "7e63db99a6517f96355aeec8097c329fa8d27b5c96221edb8dd8e6778b03e8d0",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        2.380000114440918,
+        3.9700000286102295,
+        2.0200002284048413
+      ]
+    },
+    {
+      "file": "HNP_Hatchback_v003.fbx",
+      "triangles": 2472,
+      "dimensions_blender_xyz": [
+        2.380000114440918,
+        3.419999837875366,
+        1.8499999098779347
+      ],
+      "materials": [
+        "HNP3_Atlas",
+        "HNP3_Body"
+      ],
+      "sha256": "d667d6e4e0f85a01cc26d340a423c630797bd5edf2fd4f8008db5d86d6410fb5",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        2.380000114440918,
+        3.4200000762939453,
+        1.8500002713201855
+      ]
+    },
+    {
+      "file": "HNP_Pickup_v003.fbx",
+      "triangles": 2796,
+      "dimensions_blender_xyz": [
+        2.380000114440918,
+        4.569999694824219,
+        1.8900001101495412
+      ],
+      "materials": [
+        "HNP3_Atlas",
+        "HNP3_Body"
+      ],
+      "sha256": "bcf4ac479eb0b61166fa2cf54c15842fce489cf924cece701ee500c99fcdbc3f",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        2.380000114440918,
+        4.569999933242798,
+        1.890000471591792
+      ]
+    },
+    {
+      "file": "HNP_Minibus_v003.fbx",
+      "triangles": 3132,
+      "dimensions_blender_xyz": [
+        2.6700000762939453,
+        6.96999979019165,
+        2.470000033855596
+      ],
+      "materials": [
+        "HNP3_Atlas",
+        "HNP3_Body"
+      ],
+      "sha256": "c67dd476d9a4a47e50a26aeff1beb2e9fc921e87b00157f70bae737a2cace532",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        2.6700000762939453,
+        6.9700000286102295,
+        2.470000514507136
+      ]
+    },
+    {
+      "file": "HNP_Pigeon_v003.fbx",
+      "triangles": 267,
+      "dimensions_blender_xyz": [
+        2.0999999046325684,
+        1.1500000357627869,
+        0.5399999469518661
+      ],
+      "materials": [
+        "HNP3_Atlas"
+      ],
+      "sha256": "5ff42f3216140d68bba91f1cb192b1361d46004bc79e50c3ed286de716396a83",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        2.0999999046325684,
+        1.1500001549720764,
+        0.540000163950026
+      ]
+    },
+    {
+      "file": "HNP_Train_v003.fbx",
+      "triangles": 4476,
+      "dimensions_blender_xyz": [
+        2.700000047683716,
+        17.25,
+        2.940000061591598
+      ],
+      "materials": [
+        "HNP3_Atlas",
+        "HNP3_Body"
+      ],
+      "sha256": "16981feae1d6219a2b558c45852e75216b6717843fecceaca212bfdd44b0b7c9",
+      "forward_blender": "-Y",
+      "unit": "metres",
+      "pivot": "ground origin",
+      "roundtrip": "PASS",
+      "roundtrip_dimensions": [
+        2.700000047683716,
+        17.25,
+        2.9400022403397834
+      ]
+    }
+  ],
+  "unity_validation": "NOT RUN",
+  "architectural_detail": "stylized/provisional; silhouette photo-referenced"
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "blender_version": "5.2.1 LTS",
+  "mesh_count": 1,
+  "armature_count": 1,
+  "actions": [
+    "HNP_Traveller_Idle",
+    "HNP_Traveller_Walk"
+  ],
+  "action_names_raw_from_blender_fbx_importer": [
+    "HNP_RIG_Traveller_Child_v002|HNP_RIG_Traveller_Child_v002|HNP_Traveller_Idle",
+    "HNP_RIG_Traveller_Child_v002|HNP_RIG_Traveller_Child_v002|HNP_Traveller_Walk"
+  ],
+  "triangles": 7340,
+  "materials": [
+    "MAT_CreamCloth",
+    "MAT_DarkWarm",
+    "MAT_SkinWarm"
+  ],
+  "bounds_m": {
+    "min": [
+      -0.415,
+      -0.245,
+      -0.0
+    ],
+    "max": [
+      0.415,
+      0.2705,
+      1.64
+    ],
+    "dimensions": [
+      0.83,
+      0.5155,
+      1.64
+    ],
+    "max_dimension_delta_vs_source": 3e-07
+  },
+  "root_motion": {
+    "HNP_Traveller_Idle": {
+      "root_location_curve_count": 3,
+      "root_rotation_curve_count": 0,
+      "root_scale_curve_count": 3,
+      "max_abs_root_location": 0.0,
+      "max_abs_root_rotation_radians": 0.0,
+      "max_abs_root_scale_delta_from_one": 0.0
+    },
+    "HNP_Traveller_Walk": {
+      "root_location_curve_count": 3,
+      "root_rotation_curve_count": 0,
+      "root_scale_curve_count": 3,
+      "max_abs_root_location": 0.0,
+      "max_abs_root_rotation_radians": 0.0,
+      "max_abs_root_scale_delta_from_one": 0.0
+    }
+  }
+}

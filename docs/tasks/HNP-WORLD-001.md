@@ -1,5 +1,7 @@
 # HNP-WORLD-001 — Reference-based town and character
 
+Latest follow-up: `HNP-WORLD-002.md` records the rigged traveller integration, portrait support and 2026-09-10 Web test build. Current delivery evidence: `reports/world/HNP-WORLD-002-web-delivery.md`.
+
 Status: COMPLETE — playable reference world; physical mobile QA NOT RUN
 
 Inputs: `ref/game-document/image2.png` (layout), `ref/jd.jpg` (chedi form), `ref/style.jpg` (warm stylized art), `docs/design/MAP_LAYOUT.md`.

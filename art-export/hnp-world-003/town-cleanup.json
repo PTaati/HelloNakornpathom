@@ -1,0 +1,28 @@
+{
+  "removed_vertices": {
+    "COLL_Town": 72,
+    "Town_HNPW_Asphalt": 0,
+    "Town_HNPW_Blue": 16,
+    "Town_HNPW_Glass": 480,
+    "Town_HNPW_GoldLight": 96,
+    "Town_HNPW_Grass": 0,
+    "Town_HNPW_Ivory": 40,
+    "Town_HNPW_Leaf": 0,
+    "Town_HNPW_LeafDark": 0,
+    "Town_HNPW_LeafLight": 0,
+    "Town_HNPW_Pants": 576,
+    "Town_HNPW_Path": 0,
+    "Town_HNPW_Pink": 0,
+    "Town_HNPW_Plaster": 0,
+    "Town_HNPW_Red": 32,
+    "Town_HNPW_Roof": 24,
+    "Town_HNPW_Teal": 40,
+    "Town_HNPW_Water": 0,
+    "Town_HNPW_WaterLight": 0,
+    "Town_HNPW_White": 0,
+    "Town_HNPW_Wood": 0,
+    "Town_HNPW_Yellow": 16
+  },
+  "purpose": "old parked traffic and station train replaced by mobile actors; roads retained",
+  "source": "art-source/world/Nakornpathom.blend"
+}

@@ -1,0 +1,273 @@
+{
+  "task_id": "HNP-WORLD-002",
+  "asset_id": "hnp-world-002-traveller",
+  "revision": "v002",
+  "status": {
+    "blender_source_validation": "PASS",
+    "fbx_roundtrip": "PASS",
+    "artist_visual_inspection": "PASS",
+    "designer_visual_review": "NOT RUN",
+    "unity_import_prefab": "NOT RUN"
+  },
+  "source": {
+    "blend": "art-source/hnp-world-002-traveller/HNP_Traveller_Child_Rigged_v002.blend",
+    "generator": "art-source/hnp-world-002-traveller/create_traveller_child_v002.py",
+    "references": [
+      {
+        "path": "ref/style.jpg",
+        "used_for": "warm low-poly mobile-game mood and clear silhouette only",
+        "limitation": "does not depict the traveller character"
+      },
+      {
+        "path": "Game-Hello Nakornpathom.md",
+        "used_for": "cream button shirt, black shorts, sandals, cowboy hat and traveller role",
+        "limitation": "no character image, measured dimensions or exact palette"
+      },
+      {
+        "path": "art-source/world/Traveller.blend",
+        "used_for": "historical silhouette/outfit comparison only",
+        "limitation": "old source used rigid-limb procedural motion and was not overwritten"
+      }
+    ],
+    "provisional_decisions": [
+      "Thai child identity is conveyed with a warm tan skin palette and friendly youthful proportions; no character-specific visual reference exists.",
+      "Height 1.640 m including hat, facial features, backpack, scarf and exact colors are art-direction proposals pending Designer/QA.",
+      "Disconnected stylized body pieces use one actual armature/Armature modifier with explicit vertex groups; smooth organic joint topology is not claimed.",
+      "Only Idle and Walk are in this revision; the production plan's Jump/Sit/Dance/LieDown/Celebrate remain future clips."
+    ]
+  },
+  "blender": {
+    "version": "5.2.1 LTS",
+    "units": "metres",
+    "scene_scale_length": 1.0
+  },
+  "geometry": {
+    "mesh_objects": 1,
+    "vertices": 3774,
+    "polygons": 4020,
+    "evaluated_triangles": 7340,
+    "budget_triangles": 12000,
+    "budget_result": "PASS",
+    "degenerate_faces": 0,
+    "loose_vertices": 0,
+    "non_manifold_edges": 0,
+    "non_manifold_note": "Disconnected overlapping stylized pieces remain individually closed; no loose vertices or degenerate faces.",
+    "uv_layers": 1,
+    "negative_scale_objects": 0
+  },
+  "bounds_and_pivot": {
+    "source_bounds_m_blender_xyz": {
+      "min": [
+        -0.415,
+        -0.245,
+        0.0
+      ],
+      "max": [
+        0.415,
+        0.2705,
+        1.64
+      ],
+      "dimensions": [
+        0.83,
+        0.5155,
+        1.64
+      ]
+    },
+    "pivot": "root bone and armature object at world origin; floor/base plane Z=0",
+    "forward_in_blender": "-Y"
+  },
+  "materials": {
+    "count": 3,
+    "names": [
+      "MAT_SkinWarm",
+      "MAT_CreamCloth",
+      "MAT_DarkWarm"
+    ],
+    "palette_srgb_display": {
+      "MAT_SkinWarm": [
+        0.62,
+        0.31,
+        0.16,
+        1.0
+      ],
+      "MAT_CreamCloth": [
+        0.91,
+        0.73,
+        0.43,
+        1.0
+      ],
+      "MAT_DarkWarm": [
+        0.075,
+        0.048,
+        0.038,
+        1.0
+      ]
+    },
+    "textures": [],
+    "texture_note": "No textures; solid Base Color materials. UV0 is present for later atlas work."
+  },
+  "rig": {
+    "type": "single deform armature with Armature modifier and named vertex groups",
+    "armature": "HNP_RIG_Traveller_Child_v002",
+    "bone_count": 22,
+    "deform_bones": [
+      "chest",
+      "foot.L",
+      "foot.R",
+      "forearm.L",
+      "forearm.R",
+      "hand.L",
+      "hand.R",
+      "head",
+      "neck",
+      "pelvis",
+      "root",
+      "shin.L",
+      "shin.R",
+      "spine",
+      "thigh.L",
+      "thigh.R",
+      "upper_arm.L",
+      "upper_arm.R"
+    ],
+    "attachment_bones": [
+      "attach_hat",
+      "attach_back",
+      "attach_hand.L",
+      "attach_hand.R"
+    ],
+    "root_motion": "in-place; root location/rotation/scale keyed constant in both clips"
+  },
+  "clips": [
+    {
+      "name": "HNP_Traveller_Idle",
+      "frames": [
+        1,
+        61
+      ],
+      "fps": 24,
+      "duration_seconds": 2.5,
+      "loop": true,
+      "root_motion": false
+    },
+    {
+      "name": "HNP_Traveller_Walk",
+      "frames": [
+        1,
+        25
+      ],
+      "fps": 24,
+      "duration_seconds": 1.0,
+      "loop": true,
+      "root_motion": false
+    }
+  ],
+  "stability_checks": {
+    "idle_first_last_pose_match": true,
+    "idle_first_last_max_matrix_component_delta": 0.0,
+    "walk_first_last_pose_match": true,
+    "walk_first_last_max_matrix_component_delta": 0.0,
+    "idle_walk_neutral_pose_match": true,
+    "idle_walk_neutral_max_matrix_component_delta": 0.0,
+    "root_translation_max_abs_after_roundtrip_m": 0.0,
+    "root_rotation_max_abs_after_roundtrip_radians": 0.0,
+    "root_scale_max_abs_delta_after_roundtrip": 0.0,
+    "stopping_contract": "Animator owns locomotion; clips do not translate root. Idle and Walk endpoints are neutral to avoid stop snap/jitter."
+  },
+  "visual_inspection": {
+    "status": "PASS",
+    "checked_previews": [
+      "three-quarter idle",
+      "landscape gameplay distance idle",
+      "three-quarter walk extreme"
+    ],
+    "result": "Child-like large-head silhouette, cream button shirt, dark shorts, sandals, cowboy hat and travel backpack remain readable; no major overlap or detached part is visible in sampled Idle/Walk poses.",
+    "independent_designer_review": "NOT RUN"
+  },
+  "unity_integration_contract": {
+    "status": "NOT RUN",
+    "source_height_m": 1.64,
+    "existing_character_controller_height_m": 2.15,
+    "wrapper_scale_for_existing_controller": 1.310976,
+    "scale_note": "Use approximately 1.311 uniform wrapper scale only for compatibility with the current 2.15 m controller. That makes the child visually controller-height; Designer/Unity may instead approve a shorter controller, but must not silently change either value.",
+    "animation_note": "This FBX requires Animator clips HNP_Traveller_Idle/HNP_Traveller_Walk. Do not drive it with legacy HnpTravellerPose rigid transforms or silently substitute it for the old Traveller."
+  },
+  "export": {
+    "fbx": "art-export/hnp-world-002-traveller/HNP_Traveller_Child_Rigged_v002.fbx",
+    "axis_forward": "-Z",
+    "axis_up": "Y",
+    "apply_unit_scale": true,
+    "add_leaf_bones": false,
+    "bake_animation": true,
+    "collision_intent": "capsule/CharacterController supplied by Unity wrapper; no collision mesh in FBX"
+  },
+  "roundtrip": {
+    "status": "PASS",
+    "blender_version": "5.2.1 LTS",
+    "mesh_count": 1,
+    "armature_count": 1,
+    "actions": [
+      "HNP_Traveller_Idle",
+      "HNP_Traveller_Walk"
+    ],
+    "action_names_raw_from_blender_fbx_importer": [
+      "HNP_RIG_Traveller_Child_v002|HNP_RIG_Traveller_Child_v002|HNP_Traveller_Idle",
+      "HNP_RIG_Traveller_Child_v002|HNP_RIG_Traveller_Child_v002|HNP_Traveller_Walk"
+    ],
+    "triangles": 7340,
+    "materials": [
+      "MAT_CreamCloth",
+      "MAT_DarkWarm",
+      "MAT_SkinWarm"
+    ],
+    "bounds_m": {
+      "min": [
+        -0.415,
+        -0.245,
+        -0.0
+      ],
+      "max": [
+        0.415,
+        0.2705,
+        1.64
+      ],
+      "dimensions": [
+        0.83,
+        0.5155,
+        1.64
+      ],
+      "max_dimension_delta_vs_source": 3e-07
+    },
+    "root_motion": {
+      "HNP_Traveller_Idle": {
+        "root_location_curve_count": 3,
+        "root_rotation_curve_count": 0,
+        "root_scale_curve_count": 3,
+        "max_abs_root_location": 0.0,
+        "max_abs_root_rotation_radians": 0.0,
+        "max_abs_root_scale_delta_from_one": 0.0
+      },
+      "HNP_Traveller_Walk": {
+        "root_location_curve_count": 3,
+        "root_rotation_curve_count": 0,
+        "root_scale_curve_count": 3,
+        "max_abs_root_location": 0.0,
+        "max_abs_root_rotation_radians": 0.0,
+        "max_abs_root_scale_delta_from_one": 0.0
+      }
+    }
+  },
+  "previews": [
+    "art-export/hnp-world-002-traveller/HNP_Traveller_Child_Rigged_v002_preview_three-quarter.png",
+    "art-export/hnp-world-002-traveller/HNP_Traveller_Child_Rigged_v002_preview_gameplay.png",
+    "art-export/hnp-world-002-traveller/HNP_Traveller_Child_Rigged_v002_preview_walk.png"
+  ],
+  "hashes_sha256": {
+    "blend": "7b5e9bad82e71d6d5e03bab327ca894cc923b8039eb5235fe2ed3db0d5f16bbc",
+    "fbx": "17c07e2c9a69324d4849017b256fc03e1988fe6fe935e83815cc1ffcd90fda7e",
+    "roundtrip_report": "becd4617400bd7faa9d3e59fafff0fc9f99031080f3caccb6601e0cf5362da54",
+    "preview_three_quarter": "164a4ff75241fdfb328d5b1aadd76fb5798e9454c8cf3dc4fcdb66abafd6b79b",
+    "preview_gameplay": "97abed2a89f1042b866889160ddf4716548176111793b1819d4d9dc7719280cf",
+    "preview_walk": "3de5dbc3bd437c1ce3154d0464811ba3cb687f6c002e17c44ea7f9e850825a4a"
+  }
+}
