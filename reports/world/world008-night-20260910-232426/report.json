@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "physical_mobile": "NOT RUN",
+  "snapshots": {
+    "day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -101.0,
+        "y": 0.07499974966049194,
+        "z": 0.0
+      }
+    },
+    "night_menu": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -50.574798583984375,
+        "y": 0.07499974966049194,
+        "z": 3.005576445502811e-06
+      }
+    },
+    "night": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -50.574798583984375,
+        "y": 0.07499974966049194,
+        "z": 3.005576445502811e-06
+      }
+    },
+    "night_later": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -50.574798583984375,
+        "y": 0.07499974966049194,
+        "z": 3.005576445502811e-06
+      }
+    },
+    "approach_probe": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 25.270000457763672,
+        "y": 3.2034971714019775,
+        "z": 7.526279205194442e-06
+      }
+    },
+    "blocked": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 25.34794044494629,
+        "y": 3.2468554973602295,
+        "z": 7.535904842370655e-06
+      }
+    },
+    "blocked_after_jump": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 25.34794044494629,
+        "y": 3.2468554973602295,
+        "z": 7.535904842370655e-06
+      }
+    },
+    "retreat": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 22.107938766479492,
+        "y": 2.583979368209839,
+        "z": 7.342785465880297e-06
+      }
+    },
+    "restored_day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 22.107938766479492,
+        "y": 2.5839786529541016,
+        "z": 7.342785465880297e-06
+      }
+    }
+  },
+  "errors": [],
+  "build": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\builds\\world010-r1\\web",
+  "wasm_sha256": "7222c7d2919792cf35531f027501c720f3fb6d5ec48042e14437684863047369",
+  "browser": "152.0.7977.83"
+}

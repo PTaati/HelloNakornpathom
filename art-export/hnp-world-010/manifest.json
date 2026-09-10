@@ -1,0 +1,330 @@
+{
+  "task_id": "HNP-WORLD-010",
+  "revision": "v010",
+  "status": {
+    "blender_source": "PASS",
+    "chedi_fbx_roundtrip": "PASS",
+    "photo_front_ray_visibility": "PASS",
+    "designer_visual_review": "NOT RUN",
+    "unity_import": "NOT RUN"
+  },
+  "references": {
+    "macro": [
+      "ref/jd.jpg"
+    ],
+    "authoritative_front_photo": [
+      "ref/pra.jpg"
+    ],
+    "bell_frieze": [
+      "ref/IMG_20211023_161058.jpg",
+      "ref/IMG_20211023_161311.jpg"
+    ],
+    "spire_collar": [
+      "ref/IMG_20211023_161037.jpg"
+    ],
+    "style": [
+      "ref/style.jpg"
+    ]
+  },
+  "designer_review": "NOT RUN",
+  "provisional": [
+    "Chamber dimensions and unseen sides are gameplay-scale reconstructions, not survey measurements.",
+    "The false back wall is intentionally forward of the opaque Chedi body so the complete photo remains visible.",
+    "Prayer interaction and final collision behavior remain Unity-owned."
+  ],
+  "photo": {
+    "source": "ref/pra.jpg",
+    "copy": "art-export/hnp-world-010/HNP010_FrontBuddha_pra.jpg",
+    "width_px": 387,
+    "height_px": 792,
+    "aspect_ratio": 0.48863636363636365,
+    "panel_dimensions_m": [
+      3.518181818181818,
+      7.2
+    ],
+    "mesh": "HNP_Chedi_v010_HNP010_BuddhaPhoto",
+    "material": "HNP010_BuddhaPhoto",
+    "uv": "UV0 full frame [0,0]-[1,1]; upright; unmirrored; no crop",
+    "color_space": "sRGB",
+    "sha256": "b2c6e06276fd8208f740f583b2e9688d7764288cd7df242aa07f54b558865898",
+    "source_copy_hash_match": true,
+    "ray_visibility": {
+      "status": "PASS",
+      "samples": {
+        "center": {
+          "hit": true,
+          "object": "HNP_Chedi_v010_HNP010_BuddhaPhoto"
+        },
+        "bottom_left": {
+          "hit": true,
+          "object": "HNP_Chedi_v010_HNP010_BuddhaPhoto"
+        },
+        "bottom_right": {
+          "hit": true,
+          "object": "HNP_Chedi_v010_HNP010_BuddhaPhoto"
+        },
+        "top_left": {
+          "hit": true,
+          "object": "HNP_Chedi_v010_HNP010_BuddhaPhoto"
+        },
+        "top_right": {
+          "hit": true,
+          "object": "HNP_Chedi_v010_HNP010_BuddhaPhoto"
+        }
+      }
+    }
+  },
+  "chamber": {
+    "outer_width": 8.4,
+    "rear_z": -17.7,
+    "front_z": -27.15,
+    "wall_top": 9.6,
+    "ridge_y": 14.3,
+    "opening_width": 6.6,
+    "opening_bottom": 0.75,
+    "opening_top": 8.85,
+    "photo_z": -23.82,
+    "photo_height": 7.2,
+    "roof_rear_z": -13.0,
+    "connectivity": {
+      "sidewall_rear_overlap": "side walls extend to local Z -17.7 inside the lower Chedi envelope",
+      "roof_rear_overlap": "roof ridge/eaves extend to local Z -13.0 and intersect the bell silhouette",
+      "false_back_reason": "photo plane at Z -23.82 sits forward of the opaque body surface"
+    },
+    "central_opening_clear_width_m": 6.58,
+    "projection_within_previous_front_extent": true
+  },
+  "units": "metres",
+  "axis": {
+    "blender_forward": "-Y",
+    "fbx_forward": "-Z",
+    "fbx_up": "Y"
+  },
+  "pivot": "ground origin at Chedi center; Unity root position (53,2.9,0), Y rotation 90 degrees; local front -Z",
+  "palette": {
+    "HNP009_GoldBrick": [
+      0.76,
+      0.36,
+      0.075,
+      1.0
+    ],
+    "HNP009_GoldHighlight": [
+      1.0,
+      0.64,
+      0.12,
+      1.0
+    ],
+    "HNP009_Terracotta": [
+      0.46,
+      0.135,
+      0.065,
+      1.0
+    ],
+    "HNP009_Ivory": [
+      0.92,
+      0.88,
+      0.74,
+      1.0
+    ],
+    "HNP009_White": [
+      0.98,
+      0.97,
+      0.9,
+      1.0
+    ],
+    "HNP009_DarkInset": [
+      0.055,
+      0.032,
+      0.024,
+      1.0
+    ],
+    "HNP009_GuardianBronze": [
+      0.095,
+      0.12,
+      0.105,
+      1.0
+    ],
+    "HNP009_RoofOrange": [
+      0.83,
+      0.27,
+      0.065,
+      1.0
+    ],
+    "HNP009_RoofGreen": [
+      0.055,
+      0.28,
+      0.17,
+      1.0
+    ],
+    "HNP009_Paving": [
+      0.48,
+      0.18,
+      0.1,
+      1.0
+    ],
+    "HNP010_BuddhaPhoto": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "texture_mappings": {
+    "HNP009_GoldBrick": {
+      "file": "HNP009_GoldBrick_Tile.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_Terracotta": {
+      "file": "HNP009_Terracotta_Frieze.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_Paving": {
+      "file": "HNP009_Terracotta_Paving.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_RoofOrange": {
+      "file": "HNP009_RoofOrange_Tile.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_RoofGreen": {
+      "file": "HNP009_RoofGreen_Tile.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP010_BuddhaPhoto": {
+      "file": "HNP010_FrontBuddha_pra.jpg",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Clamp"
+    }
+  },
+  "assets": {
+    "HNP_Chedi_v010.fbx": {
+      "source": "art-source/hnp-world-010/HNP_Chedi_v010.blend",
+      "metrics_visible": {
+        "min": [
+          -23.216635,
+          -23.26,
+          0.0
+        ],
+        "max": [
+          23.216635,
+          27.700001,
+          44.0
+        ],
+        "dimensions": [
+          46.43327,
+          50.959999,
+          44.0
+        ],
+        "triangles": 25314,
+        "vertices": 13192,
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      },
+      "metrics_export_with_colliders": {
+        "min": [
+          -23.216635,
+          -23.26,
+          0.0
+        ],
+        "max": [
+          23.216635,
+          27.700001,
+          44.0
+        ],
+        "dimensions": [
+          46.43327,
+          50.959999,
+          44.0
+        ],
+        "triangles": 25462,
+        "vertices": 13272,
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      },
+      "uv": {
+        "mesh_count": 10,
+        "meshes_with_uv0": 10,
+        "status": "PASS"
+      },
+      "materials": [
+        "HNP009_DarkInset",
+        "HNP009_GoldBrick",
+        "HNP009_GoldHighlight",
+        "HNP009_Ivory",
+        "HNP009_Terracotta",
+        "HNP009_White",
+        "HNP010_BuddhaPhoto"
+      ],
+      "collision": {
+        "meshes": [
+          "COLL_ChediBase",
+          "COLL_FrontSanctuarySide_L",
+          "COLL_FrontSanctuarySide_R"
+        ],
+        "intent": "Opaque Chedi core plus chamber sidewalls; 6.58m central opening remains clear. Unity validation NOT RUN."
+      },
+      "roundtrip": {
+        "status": "PASS",
+        "mesh_count": 10,
+        "triangles": 25462,
+        "bounds": {
+          "min": [
+            -23.216635,
+            -23.26,
+            -5e-06
+          ],
+          "max": [
+            23.216635,
+            27.700003,
+            44.0
+          ],
+          "dimensions": [
+            46.43327,
+            50.960003,
+            44.000004
+          ],
+          "triangles": 25462,
+          "vertices": 13272,
+          "degenerate_faces": 0,
+          "loose_vertices": 0
+        },
+        "max_dimension_delta_m": 4e-06
+      }
+    }
+  },
+  "light_profile": "art-export/hnp-world-010/light-profile.json",
+  "previews": [
+    "art-export/hnp-world-010/HNP_Chedi_v010_preview_front.png",
+    "art-export/hnp-world-010/HNP_Chedi_v010_preview_three-quarter.png",
+    "art-export/hnp-world-010/HNP_Chedi_v010_preview_inside.png"
+  ],
+  "source_sha256": {
+    "HNP_Chedi_v010.blend": "ccf3e39286bcc9ef91f86b98be7a3e35da5891882a038efd0fb251ba1cdc6df4",
+    "build_chedi_v010.py": "fdc6607d2c5dcbea893ca326d8438fc48e8f62c4683c93379466b1d6aef13cce"
+  },
+  "sha256": {
+    "HNP_Chedi_v010.fbx": "0fed146328d7ef18fa82f1eedc26a43c219a4a201d0ad4a8a0e50a1424bd1c24",
+    "light-profile.json": "f2276336bea8ee6954b96188261713f9868412a56f8b154feb3ae611af9ccd22",
+    "roundtrip.json": "34cfd2b84caf402e5120ea23aab36dfca396048fbae04142a62b566377551575",
+    "HNP_Chedi_v010_preview_front.png": "3db06dc035b1e82f49111a66256cdd08698730cab3641082b4908ccfa3f4a0d8",
+    "HNP_Chedi_v010_preview_three-quarter.png": "6c0c2a6dece0c2ae5998eb793379786be1fad5a35b4d65d588f14aaa54404bca",
+    "HNP_Chedi_v010_preview_inside.png": "4bc73db02babe677d18c0c01c902f0d048bd2e95398d3ddf3c90cb89dbb11e8e",
+    "HNP009_GoldBrick_Tile.png": "0b038197dd604dd04fd2c65b5fe1c1c91987a40a627883673e532d0e263d550c",
+    "HNP009_Terracotta_Frieze.png": "9969099d0b62a451d6a088e34611bc445bbe70db08e59ba5a2ef19036b6a1034",
+    "HNP009_Terracotta_Paving.png": "989a0f28ab5b154a3e894536ed280fad2b8918969c32bd1a3adfb5f761aefc96",
+    "HNP009_RoofOrange_Tile.png": "bf964da67bce9b087e4d34f69155289ded7c357b8860018272a3315cbdb9872b",
+    "HNP009_RoofGreen_Tile.png": "3d011d764de7dd2ca9103c48882ef49edcc6bd39a3d549ec0776b3d2fe1bad74",
+    "HNP010_FrontBuddha_pra.jpg": "b2c6e06276fd8208f740f583b2e9688d7764288cd7df242aa07f54b558865898"
+  }
+}

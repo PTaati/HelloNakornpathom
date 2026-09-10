@@ -1,0 +1,30 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "HNP_Chedi_v010.fbx": {
+    "status": "PASS",
+    "mesh_count": 10,
+    "triangles": 25462,
+    "bounds": {
+      "min": [
+        -23.216635,
+        -23.26,
+        -5e-06
+      ],
+      "max": [
+        23.216635,
+        27.700003,
+        44.0
+      ],
+      "dimensions": [
+        46.43327,
+        50.960003,
+        44.000004
+      ],
+      "triangles": 25462,
+      "vertices": 13272,
+      "degenerate_faces": 0,
+      "loose_vertices": 0
+    },
+    "max_dimension_delta_m": 4e-06
+  }
+}

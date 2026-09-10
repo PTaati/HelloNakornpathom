@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "referenceSha256": "b2c6e06276fd8208f740f583b2e9688d7764288cd7df242aa07f54b558865898",
+  "chediGuid": "a77a1fbd0bfd4cd4fac3947d63850d53",
+  "width": 387,
+  "height": 792,
+  "renderer": "HNP_Chedi_v010_HNP010_BuddhaPhoto",
+  "frontRays": [
+    {
+      "blocked": false,
+      "hit": "none"
+    },
+    {
+      "blocked": false,
+      "hit": "none"
+    },
+    {
+      "blocked": false,
+      "hit": "none"
+    },
+    {
+      "blocked": false,
+      "hit": "none"
+    },
+    {
+      "blocked": false,
+      "hit": "none"
+    }
+  ],
+  "physicalMobile": "NOT RUN"
+}

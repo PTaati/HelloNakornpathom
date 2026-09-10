@@ -62,7 +62,7 @@ try:
   if paused2['daylight']>.5:click(206,198)
   click(62,64);page.wait_for_timeout(600);capture('front-night')
   night=snap('night','HNP008_QA','LogNightDiagnostics');assert night['night']>.99 and 3<=night['lit']<=15
-  if 'world009' in str(BUILD):assert night['monumentProfile']=='light-profile' and night['templeRenderers']>0,night
+  if any(revision in str(BUILD) for revision in ('world009','world010')):assert night['monumentProfile']=='light-profile' and night['templeRenderers']>0,night
   page.set_viewport_size({'width':390,'height':844});page.wait_for_timeout(600);capture('portrait-night')
   click(332,44);capture('portrait-map');click(195,813)
   page.set_viewport_size({'width':1280,'height':720});page.wait_for_timeout(600)

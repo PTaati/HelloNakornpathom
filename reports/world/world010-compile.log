@@ -1,0 +1,462 @@
+VBCSCompilerPreWarmer: pre-warm launched (dotnet PID 9024)
+VBCSCompiler prewarm took 4.19 ms
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-09-10T16:06:48.3871776Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'en' Physical Memory: 32485 MB
+BatchMode: 0, IsHumanControllingUs: 1, StartBugReporterOnCrash: 1, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-10T16:06:48Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21644, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              9ae90d3f1c1e45779e5668d9c64e65bc
+  Correlation Id:          9d0041e540cf373f9aa0b2e743537154
+  External correlation Id: 4791842520711894580
+  Machine Id:              RYq62xkJoQc/GWUknQofv4L/RoI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-09-10T16:06:48.4099945Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18966725386439-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.03s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-projectPath
+C:\Users\Admin\Documents\HelloNakornpathom\hnp-game
+-executeMethod
+HNP.Editor.HnpWorld010Integrator.CheckScripts
+-quit
+-logFile
+C:\Users\Admin\Documents\HelloNakornpathom\reports\world\world010-compile.log
+Successfully changed project path to: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game
+C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.
+Player connection [31464]  Target information:
+
+Player connection [31464]  * "[IP] 192.168.1.121 [Port] 55504 [Flags] 2 [Guid] 331978225 [EditorId] 331978225 [Version] 1048832 [Id] WindowsEditor(7,TAATI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31464]  * "[IP] 172.26.64.1 [Port] 55504 [Flags] 2 [Guid] 331978225 [EditorId] 331978225 [Version] 1048832 [Id] WindowsEditor(7,TAATI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31464]  * "[IP] 192.168.32.1 [Port] 55504 [Flags] 2 [Guid] 331978225 [EditorId] 331978225 [Version] 1048832 [Id] WindowsEditor(7,TAATI-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [31464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [31464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-38476" after 0.2 seconds.
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+Launching Unity Data Store - C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Tools/Unity.DataStore.exe 
+Unity Data Store artifact dir = Library/DataStore, working dir = C:/Users/Admin/Documents/HelloNakornpathom/hnp-game[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Unity Data Store running and initialised
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/HelloNakornpathom/hnp-game/Assets
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11997 MB
+    Driver:   32.0.15.9186
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.005882 seconds.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.549 seconds
+Domain Reload Profiling: 980ms
+	BeginReloadAssembly (124ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (239ms)
+		LoadAssemblies (89ms)
+		TypeCache.Refresh (158ms)
+			TypeCache.ScanAssembly (147ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (550ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (122ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 66 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.ai.assistant@2.19.0-pre.2 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ai.assistant@8d1e3e89e3a7)
+    com.unity.ai.inference@2.6.1 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ai.inference@9a123aee5df7)
+    com.unity.ai.navigation@2.0.14 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ai.navigation@134dd6a3b97b)
+    com.unity.collab-proxy@2.13.6 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.collab-proxy@4628d2ba6ea4)
+    com.unity.ide.rider@3.0.38 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ide.rider@1f60b3138684)
+    com.unity.ide.visualstudio@2.0.26 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ide.visualstudio@a99d56dec63f)
+    com.unity.inputsystem@1.20.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.inputsystem@7a4e1a2a8194)
+    com.unity.pipeline@0.6.0-exp.1 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.pipeline@9bb4172c603c)
+    com.unity.visualscripting@1.9.12 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.visualscripting@4edfcc09512f)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.nuget.newtonsoft-json@3.2.2 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.nuget.newtonsoft-json@4dfd81071c64)
+    com.unity.dt.app-ui@2.1.11 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.dt.app-ui@cd5609b130ce)
+    com.unity.searcher@4.9.5 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.searcher@a463122f2c00)
+    com.unity.profiling.core@1.0.3 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.profiling.core@8a49f7027d06)
+  Built-in packages:
+    com.unity.render-pipelines.universal@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.render-pipelines.universal@8457e85b8184)
+    com.unity.test-framework@1.8.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.test-framework@7a3849e09bd0)
+    com.unity.timeline@6.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.timeline@281d5f7e7d7d)
+    com.unity.ugui@2.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ugui@23caec89ae27)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tetgen@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.tetgen)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.timelinefoundation@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.timelinefoundation)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.1.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.ext.nunit@0198eae3b53e)
+    com.unity.render-pipelines.core@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.render-pipelines.core@2d66c71e606e)
+    com.unity.shadergraph@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.shadergraph@ef6135652377)
+    com.unity.render-pipelines.universal-config@17.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.render-pipelines.universal-config@561422b74439)
+    com.unity.burst@2.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.burst@626e66ab421b)
+    com.unity.collections@6.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.collections@10fff0607388)
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.2d.sprite@947350d67f82)
+    com.unity.mathematics@1.4.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.mathematics@8306a64d0cd6)
+    com.unity.graph-authoring@1.0.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.graph-authoring@cfd2588851ee)
+    com.unity.test-framework.performance@6.6.0 (location: C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\Library\PackageCache\com.unity.test-framework.performance@0a60b857a52e)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Refreshing native plugins compatible for Editor in 2.35 ms, found 5 plugins.
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 4 Duration: 0s781ms
+[ 418/1650  0s] WriteResponseFile Library/Bee/artifacts/rsp/4747638433968585886.rsp
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/2000b0aE-inputdata.json
+[1251/1650  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1252/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+*** Tundra requires additional run (0.76 seconds), 3 items updated, 1250 evaluatedStarting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\DotNetSdk\dotnet.exe "C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/2000b0aE.dag.json" "Library/Bee/2000b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 0 Duration: 1s298ms
+Starting: C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/2000b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\2000b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Admin/Documents/HelloNakornpathom/hnp-game
+ExitCode: 0 Duration: 1s655ms
+Finished compiling graph: 1654 nodes, 36361 flattened edges (29839 ToBuild, 272 ToUse), maximum node priority 1847
+[ 767/1650  0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.rsp
+[ 813/1650  0s] WriteText Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.rsp
+[1251/1650  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1642/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll (+2 others)
+[1643/1650  0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp.dll, with 127 defines and 380 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+[1644/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+[1645/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1646/1650  0s] Csc Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\_HNP\Editor\HnpTravellerV002Integrator.cs(35,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(104,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(104,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(112,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(112,16): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+[1647/1650  0s] ILPostProcess Library/Bee/artifacts/2000b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/2000b0aE.dag/Assembly-CSharp-Editor.dll, with 125 defines and 410 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+1 processor(s) skipped this assembly
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running Unity.Pipeline.CodeGen.HotReloadInPlaceILPostProcessor
+[1648/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[1649/1650  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (1.64 seconds), 11 items updated, 1650 evaluated
+Assets\_HNP\Editor\HnpTravellerV002Integrator.cs(35,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(104,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(104,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(112,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\_HNP\Editor\HnpWorld003Integrator.cs(112,16): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Total cache size 265580411
+Total cache size after purge 265580411, took 00:00:00.2140380
+AssetDatabase: script compilation time: 4.434830s
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.32 ms, found 5 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.32 ms, found 5 plugins.
+Start HTTP server: port:7800
+[Licensing::Client] Error: Code 404 while processing request (status: Found 0 entitlement groups and 0 free entitlements matching requested entitlement ids)
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.674 seconds
+Domain Reload Profiling: 2756ms
+	BeginReloadAssembly (189ms)
+		DisableScriptedObjects (36ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (808ms)
+		LoadAssemblies (336ms)
+		TypeCache.Refresh (318ms)
+			TypeCache.ScanAssembly (297ms)
+		AnalyzeDomain (87ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1675ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (1035ms)
+			ProcessInitializeOnLoadMethodAttributes (191ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Starting new worker id: 0 with log in C:/Users/Admin/Documents/HelloNakornpathom/hnp-game/Logs/AssetImportWorkerHW0.log
+Refreshing native plugins compatible for Editor in 2.81 ms, found 5 plugins.
+
+Asset Pipeline Refresh (id=15b9fe2d64ba1614881f99e3c32b23c9): Total: 8.381 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=2240 ms
+		Asset DB Callback time: managed=476 ms, native=27 ms
+		Scripting: domain reloads=1, domain reload time=1138 ms, compile time=4437 ms, other=60 ms
+		Project Asset Count: scripts=2241, non-scripts=5450
+		Asset File Changes: new=2, changed=3, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 21.801ms
+	ApplyChangesToAssetFolders: 0.459ms
+	Scan: 177.573ms
+	Collect global state as custom dependencies: 14.800ms
+	OnSourceAssetsModified: 0.539ms
+	CategorizeScriptCompilationAssets: 53.544ms
+	ProcessAssetsWithTransientArtifactChanges: 88.809ms
+	CategorizeAssets: 76.320ms
+	CompileScripts: 4436.708ms
+	ImportOutOfDateAssets: 1693.476ms (1685.529ms without children)
+		UnloadImportedAssets: 0.570ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.833ms
+		ImportSchedulerStart: 6.497ms
+	PostProcessAllAssets: 477.028ms
+		VCAutoAddAssetPostprocess 0.882ms
+		XRBuildSystem.XRAssetImported 0.525ms
+		VersionControlSettings.HiddenFilePostprocess 0.301ms
+		MonoPostProcessAllAssets: 474.842ms
+			SyncVS.PostprocessSyncProject 165.342ms
+			AssetPostprocessor.OnPostprocessAllAssets 72.596ms
+			AssetReferenceReimportMonitor.OnPostprocessAllAssets 31.769ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 21.221ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 13.469ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 4.927ms
+			AssetChangedListener.OnPostprocessAllAssets 3.898ms
+			SpriteSlicePostprocessor.OnPostprocessAllAssets 1.897ms
+			GraphRefreshPostprocessor.OnPostprocessAllAssets 1.602ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 1.416ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.267ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 1.257ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 1.016ms
+			AssetChangeDetector.OnPostprocessAllAssets 0.810ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.726ms
+			MaterialPostprocessor.OnPostprocessAllAssets 0.602ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.573ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.529ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.460ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 0.444ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 0.374ms
+			SkillsProjectAssetPostprocessor.OnPostprocessAllAssets 0.351ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.301ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.291ms
+			ModelAssetProcessor.OnPostprocessAllAssets 0.284ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.252ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.246ms
+			PostProcessor.OnPostprocessAllAssets 0.245ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.211ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.207ms
+			AssetEvents.OnPostprocessAllAssets 0.199ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.186ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.185ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.132ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.131ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.125ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.122ms
+			ThemePostprocessor.OnPostprocessAllAssets 0.113ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.098ms
+			AssetReloadNotifier.OnPostprocessAllAssets 0.089ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.063ms
+	PostAssetChangesProfiler: 5.586ms
+	UnloadStreamsBegin: 1.522ms
+	PersistCurrentRevisions: 0.222ms
+	GenerateScriptTypeHashes: 1.552ms
+	GenerateScriptTypeSerializationHashes: 2.696ms
+	Untracked: 1313.380ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Scanning for USB devices : 2.871ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-hnp-game
+Unloading 80 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/_HNP/Scenes/NakornpathomWorld.unity'
+	Deserialize:            6.968 ms
+	Integration:            41.447 ms
+	Integration of assets:  3.177 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   51.611 ms
+Unloading 10602 unused Assets / (25.5 MB). Loaded Objects now: 12488.
+Memory consumption went from 0.61 GB to 0.58 GB.
+Total: 17.713200 ms (FindLiveObjects: 0.743500 ms CreateObjectMapping: 0.529800 ms MarkObjects: 11.735400 ms  DeleteObjects: 4.395100 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+Worker ready: AssetImportWorkerHW0 0
+[LAYOUT] About to save layout C:\Users\Admin\Documents\HelloNakornpathom\hnp-game\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/Admin/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+HNP010_COMPILE_PASS Unity=6000.6.0f1 project=C:/Users/Admin/Documents/HelloNakornpathom/hnp-game/Assets
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+HNP.Editor.HnpWorld010Integrator:CheckScripts () (at Assets/_HNP/Editor/HnpWorld010Integrator.cs:19)
+
+(Filename: Assets/_HNP/Editor/HnpWorld010Integrator.cs Line: 19)
+
+Batchmode quit successfully invoked - shutting down!
+Pipeline Server stopped
+Importing 'GUID: 0000000000000000b000000000000000 - Path: ProjectSettings/EditorBuildSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 0000000000000000b000000000000000' -> (Import Result ID: 'd4b59cb060f81ea6461d9015f1520027') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=0a89a5c5f492143e0fa186859e17ba6f DependenciesID=c4e1b377361211f441812e41ca991afd StaticDependenciesID=88d454026c6611450154ab0790329a42 
+Refreshing native plugins compatible for Editor in 2.00 ms, found 5 plugins.
+Asset Pipeline Refresh (id=be6caa8bbfb5c7f4798ea9d6b353025d): Total: 0.097 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
+Lingering sessions upon destruction of worker manager
+Unity Data Store service was successfully shut down
+UDS shutting down local client system
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0

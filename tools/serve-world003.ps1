@@ -1,6 +1,6 @@
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
-$webRoot = Join-Path $projectRoot 'builds/world009-r2/web'
+$webRoot = Join-Path $projectRoot 'builds/world010-r1/web'
 if (-not (Test-Path -LiteralPath (Join-Path $webRoot 'index.html'))) {
     throw "Web build missing: $webRoot"
 }
