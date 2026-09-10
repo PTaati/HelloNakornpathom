@@ -1,0 +1,8 @@
+# HNP-WORLD-008 — solid Chedi and reference night lighting
+
+Status: VERIFIED targeted Web and independent visual review PASS. Root owns Unity. QA independent brief: `docs/art/HNP-WORLD-008-night-brief.md`; input `ref/jd-night.jpg` and world007.
+Scope: replace erroneous capsule-shaped monument collision with flat-sided mesh collider; exact visual mesh colliders for front shrine; runtime lamp/flood/vehicle lighting, emission mask and reference-aligned outline effects; scene/build and targeted Web/collision tests. No source art/model replacement.
+Acceptance: no walk/run/jump penetration from cardinal sides; night street pools, head/tail lights and warm cabin windows; Chedi gold ribs/rings and warm-white portico follow photo hierarchy; off in daylight; bounded shadowless realtime lights; existing clock/sprint retained. Desktop evidence required; physical phone NOT RUN.
+Root cause: Unity primitive Cylinder was represented by CapsuleCollider. Nonuniform scaling rounded the lower collision volume inward, allowing entry through the broad visual base. New blocker spans below ground and up through the solid landmark, preserving exterior perimeter access.
+
+Delivery: `reports/world/HNP-WORLD-008-delivery.md`; current build `builds/world008-r4/web`. Collider 16 controller cases/12 rays PASS; Web approach, Run/Jump boundary, retreat, lighting switching and portrait captures PASS in `reports/world/world008-night-20260910-214807/report.json`. UV repair of all four vehicles reviewed independently and passed roundtrip, preserving original source models and Unity GUIDs. Real mobile/performance NOT RUN.

@@ -1,0 +1,82 @@
+[
+  {
+    "asset": "HNP_Sedan_v003",
+    "fixed_loops": 24,
+    "roundtrip_glass_loops": 24,
+    "dimensions_blender_xyz": [
+      2.380000114440918,
+      3.9699997901916504,
+      2.01999998617188
+    ],
+    "triangles": 2580,
+    "materials": [
+      "HNP3_Atlas",
+      "HNP3_Body"
+    ],
+    "sha256": "cfeae5ca7fe1296a89ebce8747187e266348a3219dabadf5ab4d03e403927127",
+    "status": "PASS",
+    "source": "v003 reviewed geometry, UV layer repair only",
+    "unit": "metres",
+    "forward": "-Z export / Y up"
+  },
+  {
+    "asset": "HNP_Hatchback_v003",
+    "fixed_loops": 24,
+    "roundtrip_glass_loops": 24,
+    "dimensions_blender_xyz": [
+      2.380000114440918,
+      3.419999837875366,
+      1.8499999098779347
+    ],
+    "triangles": 2472,
+    "materials": [
+      "HNP3_Atlas",
+      "HNP3_Body"
+    ],
+    "sha256": "81f08ff6c3b92685fd80fee90f4ee61578bf6f86a52b3b2ad3c295042affcafa",
+    "status": "PASS",
+    "source": "v003 reviewed geometry, UV layer repair only",
+    "unit": "metres",
+    "forward": "-Z export / Y up"
+  },
+  {
+    "asset": "HNP_Pickup_v003",
+    "fixed_loops": 24,
+    "roundtrip_glass_loops": 24,
+    "dimensions_blender_xyz": [
+      2.380000114440918,
+      4.569999694824219,
+      1.8900001101495412
+    ],
+    "triangles": 2796,
+    "materials": [
+      "HNP3_Atlas",
+      "HNP3_Body"
+    ],
+    "sha256": "c245819620406675eae1c3ee5e9b028c873dbc64f38eb7e527bfd131d3282ecb",
+    "status": "PASS",
+    "source": "v003 reviewed geometry, UV layer repair only",
+    "unit": "metres",
+    "forward": "-Z export / Y up"
+  },
+  {
+    "asset": "HNP_Minibus_v003",
+    "fixed_loops": 48,
+    "roundtrip_glass_loops": 48,
+    "dimensions_blender_xyz": [
+      2.6700000762939453,
+      6.96999979019165,
+      2.470000033855596
+    ],
+    "triangles": 3132,
+    "materials": [
+      "HNP3_Atlas",
+      "HNP3_Body"
+    ],
+    "sha256": "bdb940e52f439c257cf41a5d4e82500a7761d342aa899e2322fd4263d7c5c17b",
+    "status": "PASS",
+    "source": "v003 reviewed geometry, UV layer repair only",
+    "unit": "metres",
+    "forward": "-Z export / Y up"
+  }
+]

@@ -76,7 +76,7 @@ def export(name,obs,preview=True):
   for o in obs:
    if o.type!='MESH' or o.data.materials[0]==M['Body']:continue
    matname=o.data.materials[0].name.replace('HNP3_','');idx=list(palette).index(matname)
-   uv=o.data.uv_layers.active or o.data.uv_layers.new(name='Palette')
+   uv=o.data.uv_layers.active or o.data.uv_layers.new(name='UVMap');uv.name='UVMap'
    for entry in uv.data:entry.uv=((idx*2+1)/32,.5)
    o.data.materials.clear();o.data.materials.append(am)
  # Merge stationary geometry by material; retain animated wheel/wing pivots.

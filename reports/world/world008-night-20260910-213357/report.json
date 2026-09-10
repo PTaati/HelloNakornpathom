@@ -1,0 +1,84 @@
+{
+  "status": "FAIL",
+  "physical_mobile": "NOT RUN",
+  "snapshots": {
+    "day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -101.0,
+        "y": 0.0749998688697815,
+        "z": 0.0
+      }
+    },
+    "night_menu": {
+      "night": 1.0,
+      "emission": 2.299999952316284,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -55.87220001220703,
+        "y": 0.07499974966049194,
+        "z": 2.6898267151409527e-06
+      }
+    },
+    "night": {
+      "night": 1.0,
+      "emission": 2.299999952316284,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -55.87220001220703,
+        "y": 0.07499974966049194,
+        "z": 2.6898267151409527e-06
+      }
+    },
+    "night_later": {
+      "night": 1.0,
+      "emission": 2.299999952316284,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -55.87220001220703,
+        "y": 0.07499974966049194,
+        "z": 2.6898267151409527e-06
+      }
+    },
+    "blocked": {
+      "night": 1.0,
+      "emission": 2.299999952316284,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -10.425800323486328,
+        "y": 0.07499992847442627,
+        "z": 5.398643224907573e-06
+      }
+    }
+  },
+  "errors": [],
+  "build": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\builds\\world008\\web",
+  "wasm_sha256": "c3384634b75e97802cd48aa869e9c61a81c531bda72fa109ed5ffdc17e7193b5"
+}

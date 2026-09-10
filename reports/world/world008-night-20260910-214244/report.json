@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "physical_mobile": "NOT RUN",
+  "snapshots": {
+    "day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -101.0,
+        "y": 0.0749998688697815,
+        "z": 0.0
+      }
+    },
+    "night_menu": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -55.80739974975586,
+        "y": 0.07499974966049194,
+        "z": 2.693689111765707e-06
+      }
+    },
+    "night": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -55.80739974975586,
+        "y": 0.07499974966049194,
+        "z": 2.693689111765707e-06
+      }
+    },
+    "night_later": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -55.80739974975586,
+        "y": 0.07499974966049194,
+        "z": 2.693689111765707e-06
+      }
+    },
+    "approach_probe": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": 24.004600524902344,
+        "y": 2.974999189376831,
+        "z": 7.4508552643237635e-06
+      }
+    },
+    "blocked": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": 26.449996948242188,
+        "y": 2.974999189376831,
+        "z": 7.596612249471946e-06
+      }
+    },
+    "blocked_after_jump": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": 26.449996948242188,
+        "y": 2.974999189376831,
+        "z": 7.596612249471946e-06
+      }
+    },
+    "retreat": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": 22.12999725341797,
+        "y": 2.5929980278015137,
+        "z": 7.339120202232152e-06
+      }
+    },
+    "restored_day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": 22.12999725341797,
+        "y": 2.5929982662200928,
+        "z": 7.339120202232152e-06
+      }
+    }
+  },
+  "errors": [],
+  "build": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\builds\\world008-r3\\web",
+  "wasm_sha256": "fc40e980520263d63bbcf9b01d8963751a0801735e1ab030930d88f75af450ef",
+  "browser": "152.0.7977.83"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "FAIL",
+  "physical_mobile": "NOT RUN",
+  "snapshots": {
+    "day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -101.0,
+        "y": 0.0749998688697815,
+        "z": 0.0
+      }
+    },
+    "night_menu": {
+      "night": 1.0,
+      "emission": 2.299999952316284,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "collider": true,
+      "player": {
+        "x": -52.49180221557617,
+        "y": 0.07499974966049194,
+        "z": 2.8913141250086483e-06
+      }
+    }
+  },
+  "errors": [],
+  "build": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\builds\\world008\\web",
+  "wasm_sha256": "c3384634b75e97802cd48aa869e9c61a81c531bda72fa109ed5ffdc17e7193b5"
+}

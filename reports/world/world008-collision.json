@@ -1,0 +1,130 @@
+[
+  {
+    "direction": "(0.00, 0.00, 1.00)",
+    "speed": 5.4,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, 1.00)",
+    "speed": 5.4,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, 1.00)",
+    "speed": 27.0,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, 1.00)",
+    "speed": 27.0,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, -1.00)",
+    "speed": 5.4,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, -1.00)",
+    "speed": 5.4,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, -1.00)",
+    "speed": 27.0,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(0.00, 0.00, -1.00)",
+    "speed": 27.0,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(-1.00, 0.00, 0.00)",
+    "speed": 5.4,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(-1.00, 0.00, 0.00)",
+    "speed": 5.4,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(-1.00, 0.00, 0.00)",
+    "speed": 27.0,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(-1.00, 0.00, 0.00)",
+    "speed": 27.0,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(1.00, 0.00, 0.00)",
+    "speed": 5.4,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(1.00, 0.00, 0.00)",
+    "speed": 5.4,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(1.00, 0.00, 0.00)",
+    "speed": 27.0,
+    "jump": false,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  },
+  {
+    "direction": "(1.00, 0.00, 0.00)",
+    "speed": 27.0,
+    "jump": true,
+    "minRadius": 23.3599854,
+    "finalRadius": 23.3599854,
+    "status": "PASS"
+  }
+]
