@@ -1,0 +1,637 @@
+{
+  "status": "PASS",
+  "source": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\art-source\\hnp-world-003\\HNP_Town_v003.blend",
+  "source_sha256": "7062093d820b13fddbabf416ecc8d054b677236eb1966c917a5b8454dff5c88a",
+  "fbx_sha256": "861686ceda2582baf901d89edebb008e816d8f9e939126345805e61253eb40eb",
+  "removed": {
+    "roof": 34,
+    "pillar": 34
+  },
+  "details": [
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        83.7603759765625,
+        8.820395469665527
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        82.23345947265625,
+        13.015572547912598
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        80.13754272460938,
+        16.957416534423828
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        77.513427734375,
+        20.56920623779297
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        74.41217041015625,
+        23.780635833740234
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        70.8941650390625,
+        26.52920150756836
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        67.02787780761719,
+        28.761409759521484
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        62.8885498046875,
+        30.43381118774414
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        45.25849914550781,
+        31.04946517944336
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        41.01258850097656,
+        29.669883728027344
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        37.0,
+        27.712814331054688
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        33.298828125,
+        25.216346740722656
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        29.981124877929688,
+        22.229068756103516
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        27.11145782470703,
+        18.809127807617188
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        24.745681762695312,
+        15.023089408874512
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        22.929840087890625,
+        10.9446439743042
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        21.69927978515625,
+        6.65317440032959
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        21.69927978515625,
+        -6.653173923492432
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        22.929840087890625,
+        -10.944644927978516
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        24.745681762695312,
+        -15.023090362548828
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        27.11145782470703,
+        -18.809127807617188
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        29.981124877929688,
+        -22.229068756103516
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        33.298828125,
+        -25.21634292602539
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        37.0,
+        -27.712810516357422
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        41.01258850097656,
+        -29.669883728027344
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        45.25849914550781,
+        -31.049461364746094
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        62.8885498046875,
+        -30.433807373046875
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        67.02787780761719,
+        -28.761409759521484
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        70.8941650390625,
+        -26.52920150756836
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        74.41217041015625,
+        -23.78063201904297
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        77.513427734375,
+        -20.569204330444336
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        80.13754272460938,
+        -16.957416534423828
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        82.23345947265625,
+        -13.015572547912598
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "pillar",
+      "object": "Town_HNPW_Ivory",
+      "center": [
+        83.7603759765625,
+        -8.820395469665527
+      ],
+      "vertices": 16
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        83.7603759765625,
+        8.820395469665527
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        82.23345184326172,
+        13.015572547912598
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        80.13754272460938,
+        16.957416534423828
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        77.51342010498047,
+        20.569204330444336
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        74.41217803955078,
+        23.7806339263916
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        70.89417266845703,
+        26.52920150756836
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        67.02787780761719,
+        28.761409759521484
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        62.8885440826416,
+        30.433809280395508
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        45.25849914550781,
+        31.049463272094727
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        41.01258850097656,
+        29.669883728027344
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        37.0,
+        27.712812423706055
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        33.298831939697266,
+        25.216344833374023
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        29.98112678527832,
+        22.229068756103516
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        27.1114559173584,
+        18.809127807617188
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        24.745677947998047,
+        15.023090362548828
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        22.92983627319336,
+        10.944644927978516
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        21.699275970458984,
+        6.653173923492432
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        21.699275970458984,
+        -6.653173923492432
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        22.92983627319336,
+        -10.944644927978516
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        24.745677947998047,
+        -15.023090362548828
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        27.1114559173584,
+        -18.809127807617188
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        29.98112678527832,
+        -22.229068756103516
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        33.298831939697266,
+        -25.216344833374023
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        37.0,
+        -27.712812423706055
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        41.01258850097656,
+        -29.669883728027344
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        45.25849914550781,
+        -31.049463272094727
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        62.88854217529297,
+        -30.433809280395508
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        67.02787780761719,
+        -28.761409759521484
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        70.89417266845703,
+        -26.52920150756836
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        74.41217803955078,
+        -23.7806339263916
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        77.51342010498047,
+        -20.569204330444336
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        80.13754272460938,
+        -16.957416534423828
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        82.23345184326172,
+        -13.015572547912598
+      ],
+      "vertices": 8
+    },
+    {
+      "kind": "roof",
+      "object": "Town_HNPW_Roof",
+      "center": [
+        83.7603759765625,
+        -8.820395469665527
+      ],
+      "vertices": 8
+    }
+  ],
+  "collision_sha256_before": "01326f941246fe55defb7b0c662c7e5b143b10ba6c1ab3701b7b7cbcc11656e7",
+  "collision_sha256_after": "01326f941246fe55defb7b0c662c7e5b143b10ba6c1ab3701b7b7cbcc11656e7",
+  "source_metrics": {
+    "meshes": 22,
+    "triangles": 21778
+  },
+  "roundtrip": {
+    "meshes": 22,
+    "triangles": 21778
+  },
+  "units": "metres",
+  "axis": "-Z forward, Y up, preserve existing Unity negative-X Town transform",
+  "purpose": "Remove only exact old radius32 cloister roofs/pillars; preserve all other Town mesh islands and COLL_Town"
+}

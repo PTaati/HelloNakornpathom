@@ -1,0 +1,163 @@
+{
+  "status": "PASS",
+  "physical_mobile": "NOT RUN",
+  "snapshots": {
+    "day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -101.0,
+        "y": 0.07499974966049194,
+        "z": 0.0
+      }
+    },
+    "night_menu": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -52.36759948730469,
+        "y": 0.07499974966049194,
+        "z": 2.8987171845074045e-06
+      }
+    },
+    "night": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -52.36759948730469,
+        "y": 0.07499974966049194,
+        "z": 2.8987171845074045e-06
+      }
+    },
+    "night_later": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": -52.36759948730469,
+        "y": 0.07499974966049194,
+        "z": 2.8987171845074045e-06
+      }
+    },
+    "approach_probe": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 28.44499969482422,
+        "y": 4.374994277954102,
+        "z": 1.2331104278564453
+      }
+    },
+    "blocked": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 28.44499969482422,
+        "y": 4.374994277954102,
+        "z": 1.2331104278564453
+      }
+    },
+    "blocked_after_jump": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 28.44499969482422,
+        "y": 4.374993801116943,
+        "z": 1.2331104278564453
+      }
+    },
+    "retreat": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 25.204999923706055,
+        "y": 3.271641254425049,
+        "z": 1.2331103086471558
+      }
+    },
+    "restored_day": {
+      "night": 0.0,
+      "emission": 0.0,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 0,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 25.204999923706055,
+        "y": 3.271641254425049,
+        "z": 1.2331103086471558
+      }
+    }
+  },
+  "errors": [],
+  "build": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\builds\\world009-r1\\web",
+  "wasm_sha256": "fe1954193cc5fe0588dd63fa0fd68269f6558cf711799c8eeb34fb428e9699ef",
+  "browser": "152.0.7977.83"
+}

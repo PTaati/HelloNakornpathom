@@ -1,0 +1,376 @@
+{
+  "task_id": "HNP-WORLD-009",
+  "revision": "v009",
+  "status": {
+    "blender_source": "PASS",
+    "chedi_fbx_roundtrip": "PASS",
+    "surroundings_fbx_roundtrip": "PASS",
+    "designer_visual_review": "PASS",
+    "unity_import": "NOT RUN"
+  },
+  "references": {
+    "macro": [
+      "ref/jd.jpg",
+      "ref/pra.jpg"
+    ],
+    "bell_frieze": [
+      "ref/IMG_20211023_161058.jpg",
+      "ref/IMG_20211023_161311.jpg"
+    ],
+    "spire_collar": [
+      "ref/IMG_20211023_161037.jpg"
+    ],
+    "side_shrines": [
+      "ref/IMG_20211023_160743.jpg",
+      "ref/IMG_20211023_160959.jpg",
+      "ref/IMG_20211023_161603.jpg",
+      "ref/IMG_20211023_162201.jpg"
+    ],
+    "arcade": [
+      "ref/IMG_20211023_161118.jpg",
+      "ref/IMG_20211023_161227.jpg"
+    ],
+    "stairs_paving": [
+      "ref/IMG_20211023_160436.jpg",
+      "ref/IMG_20211023_161207.jpg",
+      "ref/IMG_20211023_161403.jpg"
+    ],
+    "style": [
+      "ref/style.jpg"
+    ]
+  },
+  "designer_review": "reports/reviews/HNP-WORLD-009-detail.md (corrected second-detail PASS)",
+  "provisional": [
+    "All dimensions are gameplay-scale reconstructions; photographs are not survey measurements.",
+    "Repeated bay count, guardian forms, lamp design and exact tile/frieze ornament are stylized reductions for mobile Web.",
+    "Front portico depth is held within the previous approximately 50 m footprint for integration safety."
+  ],
+  "integration_fix": {
+    "issue": "Arcade wall bay half-width intruded into cardinal stair openings in first Web integration.",
+    "resolution": "Wall and niche bay centers require gate_half_angle + asin(2.5/33.1); pillar placement is unchanged.",
+    "cardinal_stair_clear_width_m": 8.0,
+    "arcade_wall_half_width_m": 2.5,
+    "wall_gate_clearance_radians": 0.19711161,
+    "pillar_count_unchanged": 36,
+    "wall_bay_count_after_clearance": 32,
+    "side_niche_count_after_clearance": 4
+  },
+  "units": "metres",
+  "axis": {
+    "blender_forward": "-Y",
+    "fbx_forward": "-Z",
+    "fbx_up": "Y"
+  },
+  "pivot": "both FBXs share ground origin; Unity root position (53,2.9,0), Y rotation 90 degrees",
+  "palette": {
+    "HNP009_GoldBrick": [
+      0.76,
+      0.36,
+      0.075,
+      1.0
+    ],
+    "HNP009_GoldHighlight": [
+      1.0,
+      0.64,
+      0.12,
+      1.0
+    ],
+    "HNP009_Terracotta": [
+      0.46,
+      0.135,
+      0.065,
+      1.0
+    ],
+    "HNP009_Ivory": [
+      0.92,
+      0.88,
+      0.74,
+      1.0
+    ],
+    "HNP009_White": [
+      0.98,
+      0.97,
+      0.9,
+      1.0
+    ],
+    "HNP009_DarkInset": [
+      0.055,
+      0.032,
+      0.024,
+      1.0
+    ],
+    "HNP009_GuardianBronze": [
+      0.095,
+      0.12,
+      0.105,
+      1.0
+    ],
+    "HNP009_RoofOrange": [
+      0.83,
+      0.27,
+      0.065,
+      1.0
+    ],
+    "HNP009_RoofGreen": [
+      0.055,
+      0.28,
+      0.17,
+      1.0
+    ],
+    "HNP009_Paving": [
+      0.48,
+      0.18,
+      0.1,
+      1.0
+    ]
+  },
+  "texture_mappings": {
+    "HNP009_GoldBrick": {
+      "file": "HNP009_GoldBrick_Tile.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_Terracotta": {
+      "file": "HNP009_Terracotta_Frieze.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_Paving": {
+      "file": "HNP009_Terracotta_Paving.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_RoofOrange": {
+      "file": "HNP009_RoofOrange_Tile.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    },
+    "HNP009_RoofGreen": {
+      "file": "HNP009_RoofGreen_Tile.png",
+      "color_space": "sRGB",
+      "uv_set": "UV0",
+      "wrap": "Repeat"
+    }
+  },
+  "assets": {
+    "HNP_Chedi_v009.fbx": {
+      "source": "art-source/hnp-world-009/HNP_TempleArt_v009.blend",
+      "metrics_visible": {
+        "min": [
+          -23.216635,
+          -23.26,
+          0.0
+        ],
+        "max": [
+          23.216635,
+          27.725,
+          44.0
+        ],
+        "dimensions": [
+          46.43327,
+          50.985001,
+          44.0
+        ],
+        "triangles": 27620,
+        "vertices": 14452,
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      },
+      "metrics_export_with_colliders": {
+        "min": [
+          -23.216635,
+          -23.26,
+          0.0
+        ],
+        "max": [
+          23.216635,
+          27.725,
+          44.0
+        ],
+        "dimensions": [
+          46.43327,
+          50.985001,
+          44.0
+        ],
+        "triangles": 27744,
+        "vertices": 14516,
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      },
+      "uv": {
+        "mesh_count": 8,
+        "meshes_with_uv0": 8,
+        "status": "PASS"
+      },
+      "materials": [
+        "HNP009_DarkInset",
+        "HNP009_GoldBrick",
+        "HNP009_GoldHighlight",
+        "HNP009_GuardianBronze",
+        "HNP009_Ivory",
+        "HNP009_Terracotta",
+        "HNP009_White"
+      ],
+      "collision": [
+        "COLL_ChediBase"
+      ],
+      "roundtrip": {
+        "status": "PASS",
+        "mesh_count": 8,
+        "triangles": 27744,
+        "bounds": {
+          "min": [
+            -23.216635,
+            -23.26,
+            -5e-06
+          ],
+          "max": [
+            23.216635,
+            27.725,
+            44.0
+          ],
+          "dimensions": [
+            46.43327,
+            50.985001,
+            44.000004
+          ],
+          "triangles": 27744,
+          "vertices": 14516,
+          "degenerate_faces": 0,
+          "loose_vertices": 0
+        },
+        "max_dimension_delta_m": 4e-06
+      }
+    },
+    "HNP_TempleSurroundings_v009.fbx": {
+      "source": "art-source/hnp-world-009/HNP_TempleArt_v009.blend",
+      "metrics_visible": {
+        "min": [
+          -36.727192,
+          -36.727188,
+          -2.9
+        ],
+        "max": [
+          36.727188,
+          36.727188,
+          2.05
+        ],
+        "dimensions": [
+          73.454376,
+          73.454376,
+          4.95
+        ],
+        "triangles": 22836,
+        "vertices": 12636,
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      },
+      "metrics_export_with_colliders": {
+        "min": [
+          -36.727192,
+          -36.727188,
+          -2.925
+        ],
+        "max": [
+          36.727188,
+          36.727188,
+          2.05
+        ],
+        "dimensions": [
+          73.454376,
+          73.454376,
+          4.975
+        ],
+        "triangles": 24184,
+        "vertices": 13392,
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      },
+      "uv": {
+        "mesh_count": 10,
+        "meshes_with_uv0": 10,
+        "status": "PASS"
+      },
+      "materials": [
+        "HNP009_DarkInset",
+        "HNP009_GoldHighlight",
+        "HNP009_GuardianBronze",
+        "HNP009_Ivory",
+        "HNP009_Paving",
+        "HNP009_RoofGreen",
+        "HNP009_RoofOrange",
+        "HNP009_White"
+      ],
+      "collision": {
+        "meshes": [
+          "COLL_UpperWalk",
+          "COLL_LowerCourt",
+          "COLL_ArcadeColumns"
+        ],
+        "intent": "Renderer off in Unity; upper/lower paving and columns only. Cardinal stair openings and arches remain traversable."
+      },
+      "roundtrip": {
+        "status": "PASS",
+        "mesh_count": 10,
+        "triangles": 24184,
+        "bounds": {
+          "min": [
+            -36.727192,
+            -36.727188,
+            -2.925002
+          ],
+          "max": [
+            36.727184,
+            36.727188,
+            2.050005
+          ],
+          "dimensions": [
+            73.454376,
+            73.454376,
+            4.975008
+          ],
+          "triangles": 24184,
+          "vertices": 13392,
+          "degenerate_faces": 0,
+          "loose_vertices": 0
+        },
+        "max_dimension_delta_m": 8e-06
+      },
+      "elevation_contract": {
+        "upper_paving": "r23.4-28.9 at local Y 0.015 (world 2.915)",
+        "lower_paving": "r29.2-37 at local Y -2.76 (world 0.14), four 8m cardinal gaps",
+        "cloister_base": "local Y -2.9; same Chedi root transform"
+      }
+    }
+  },
+  "light_profile": "art-export/hnp-world-009/light-profile.json",
+  "previews": [
+    "art-export/hnp-world-009/HNP_Chedi_v009_preview_front.png",
+    "art-export/hnp-world-009/HNP_Temple_v009_preview_three-quarter.png",
+    "art-export/hnp-world-009/HNP_Temple_v009_preview_courtyard.png",
+    "art-export/hnp-world-009/HNP_Temple_v009_preview_arcade-detail.png"
+  ],
+  "source_sha256": {
+    "HNP_TempleArt_v009.blend": "e55d8fe346389afc39934d1dbb2809dccfc8dadc0275a7c51319aa52adf25ee4",
+    "build_temple_v009.py": "1fb1979c10b5276c0c67e9b94c3cd7a0f6d8ae50e1b5d4c1eb34f537afeed241"
+  },
+  "sha256": {
+    "HNP_Chedi_v009.fbx": "47a62f192e4a1649598bdf1fd4836e0451bcfa23b41d66545742556ed735961c",
+    "HNP_TempleSurroundings_v009.fbx": "2e05ebe605bf83bcf7075c66acacd88331788584d3f8b1ac4482a4c01e7e6e5d",
+    "light-profile.json": "ff420133998e8c3f197e188c81620a9e553b0e4c1e0010da1f664e0bfa8b2211",
+    "roundtrip.json": "28e5354dd22de74e91d545eab195738a63f5153955d76a7d39451cf3ebb5b684",
+    "HNP_Chedi_v009_preview_front.png": "232fd6a3e25e3c043cced1ca26a4dfa45631808aaef9f00850fcac141712eaeb",
+    "HNP_Temple_v009_preview_three-quarter.png": "7ca523b754a3f0629303a9fe0fd283f9f14d7c8d815047c6f046ce08876abfff",
+    "HNP_Temple_v009_preview_courtyard.png": "1d569b4a32867f28ae26cbf5ec67ba87e1f4d173cc58f249dfb2902b5bd65fcf",
+    "HNP_Temple_v009_preview_arcade-detail.png": "0bae684bee6f1f7b258a4384836b6fda9dc257714d45eaf27bdbf500e0135b10",
+    "HNP009_GoldBrick_Tile.png": "0b038197dd604dd04fd2c65b5fe1c1c91987a40a627883673e532d0e263d550c",
+    "HNP009_Terracotta_Frieze.png": "9969099d0b62a451d6a088e34611bc445bbe70db08e59ba5a2ef19036b6a1034",
+    "HNP009_Terracotta_Paving.png": "989a0f28ab5b154a3e894536ed280fad2b8918969c32bd1a3adfb5f761aefc96",
+    "HNP009_RoofOrange_Tile.png": "bf964da67bce9b087e4d34f69155289ded7c357b8860018272a3315cbdb9872b",
+    "HNP009_RoofGreen_Tile.png": "3d011d764de7dd2ca9103c48882ef49edcc6bd39a3d549ec0776b3d2fe1bad74"
+  }
+}

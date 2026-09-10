@@ -4,11 +4,12 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'tools/.python'))
 from playwright.sync_api import sync_playwright
 OUT=ROOT/'reports/world'/time.strftime('world007-sprint-%Y%m%d-%H%M%S');OUT.mkdir(parents=True)
+BUILD=ROOT/(sys.argv[1] if len(sys.argv)>1 else 'builds/world007/web')
 class Quiet(http.server.SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
-server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(ROOT/'builds/world007/web')))
+server=http.server.ThreadingHTTPServer(('127.0.0.1',0),functools.partial(Quiet,directory=str(BUILD)))
 threading.Thread(target=server.serve_forever,daemon=True).start()
-report={'status':'FAIL','physical_mobile':'NOT RUN','snapshots':{},'errors':[],'wasm_sha256':hashlib.sha256((ROOT/'builds/world007/web/Build/web.wasm').read_bytes()).hexdigest()};samples=[];motions=[]
+report={'status':'FAIL','physical_mobile':'NOT RUN','snapshots':{},'errors':[],'build':str(BUILD),'wasm_sha256':hashlib.sha256((BUILD/'Build/web.wasm').read_bytes()).hexdigest()};samples=[];motions=[]
 try:
  with sync_playwright() as p:
   browser=p.chromium.launch(executable_path='C:/Program Files/Google/Chrome/Application/chrome.exe',headless=True,args=['--enable-webgl','--use-angle=swiftshader','--enable-unsafe-swiftshader'])

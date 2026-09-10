@@ -1,0 +1,68 @@
+[
+  {
+    "test": "cardinal stair approach",
+    "outward": "(0.00, 0.00, 1.00)",
+    "position": [
+      53.0,
+      2.975002,
+      23.4000015
+    ],
+    "radius": 23.4000015,
+    "status": "PASS"
+  },
+  {
+    "test": "cardinal stair approach",
+    "outward": "(0.00, 0.00, -1.00)",
+    "position": [
+      53.0,
+      2.97499657,
+      -23.4000111
+    ],
+    "radius": 23.4000111,
+    "status": "PASS"
+  },
+  {
+    "test": "cardinal stair approach",
+    "outward": "(-1.00, 0.00, 0.00)",
+    "position": [
+      26.4499969,
+      2.97499943,
+      0.0
+    ],
+    "radius": 26.5500031,
+    "status": "PASS"
+  },
+  {
+    "test": "cardinal stair approach",
+    "outward": "(1.00, 0.00, 0.00)",
+    "position": [
+      76.4,
+      2.97499943,
+      0.0
+    ],
+    "radius": 23.4000015,
+    "status": "PASS"
+  },
+  {
+    "test": "upper court arc",
+    "sign": -1.0,
+    "travel": 42.81343,
+    "position": [
+      26.0002823,
+      2.97499943,
+      -0.246733233
+    ],
+    "status": "PASS"
+  },
+  {
+    "test": "upper court arc",
+    "sign": 1.0,
+    "travel": 43.200058,
+    "position": [
+      79.98936,
+      2.97499943,
+      -0.7871719
+    ],
+    "status": "PASS"
+  }
+]

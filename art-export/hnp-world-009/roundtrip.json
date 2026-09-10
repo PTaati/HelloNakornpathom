@@ -1,0 +1,57 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "HNP_Chedi_v009.fbx": {
+    "status": "PASS",
+    "mesh_count": 8,
+    "triangles": 27744,
+    "bounds": {
+      "min": [
+        -23.216635,
+        -23.26,
+        -5e-06
+      ],
+      "max": [
+        23.216635,
+        27.725,
+        44.0
+      ],
+      "dimensions": [
+        46.43327,
+        50.985001,
+        44.000004
+      ],
+      "triangles": 27744,
+      "vertices": 14516,
+      "degenerate_faces": 0,
+      "loose_vertices": 0
+    },
+    "max_dimension_delta_m": 4e-06
+  },
+  "HNP_TempleSurroundings_v009.fbx": {
+    "status": "PASS",
+    "mesh_count": 10,
+    "triangles": 24184,
+    "bounds": {
+      "min": [
+        -36.727192,
+        -36.727188,
+        -2.925002
+      ],
+      "max": [
+        36.727184,
+        36.727188,
+        2.050005
+      ],
+      "dimensions": [
+        73.454376,
+        73.454376,
+        4.975008
+      ],
+      "triangles": 24184,
+      "vertices": 13392,
+      "degenerate_faces": 0,
+      "loose_vertices": 0
+    },
+    "max_dimension_delta_m": 8e-06
+  }
+}
