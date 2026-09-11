@@ -1,0 +1,165 @@
+{
+  "status": "PASS",
+  "physical_mobile": "NOT RUN",
+  "build": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\builds\\rebuild-20260911-r1\\web",
+  "wasm_sha256": "7222c7d2919792cf35531f027501c720f3fb6d5ec48042e14437684863047369",
+  "snapshots": {
+    "road_approach": {
+      "activeSeconds": 3.3529999861493707,
+      "minutes": 508.73016357421875,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.7720189690589905,
+        "y": 0.5856236815452576,
+        "z": -0.2470460683107376
+      },
+      "lightDirection": {
+        "x": 0.7720189094543457,
+        "y": 0.5856236219406128,
+        "z": -0.24704599380493164
+      },
+      "skyDirection": {
+        "x": 0.7720189690589905,
+        "y": 0.5856236815452576,
+        "z": -0.2470460683107376
+      },
+      "player": {
+        "x": -15.139999389648438,
+        "y": 0.0749998688697815,
+        "z": 5.117655291542178e-06
+      },
+      "paused": false
+    },
+    "shrine_approach": {
+      "activeSeconds": 14.796999976970255,
+      "minutes": 623.170654296875,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.40655517578125,
+        "y": 0.9043160676956177,
+        "z": -0.1300976574420929
+      },
+      "lightDirection": {
+        "x": 0.4065552353858948,
+        "y": 0.9043161273002625,
+        "z": -0.13009750843048096
+      },
+      "skyDirection": {
+        "x": 0.40655517578125,
+        "y": 0.9043160676956177,
+        "z": -0.1300976574420929
+      },
+      "player": {
+        "x": 20.062599182128906,
+        "y": 1.8338260650634766,
+        "z": 7.21589367458364e-06
+      },
+      "paused": false
+    },
+    "photo_day": {
+      "renderer": "HNP_Chedi_v010_HNP010_BuddhaPhoto",
+      "material": "HNP010_BuddhaPhoto (Instance)",
+      "shader": "Universal Render Pipeline/Unlit",
+      "texture": "HNP010_FrontBuddha_pra",
+      "enabled": true,
+      "unlit": true,
+      "aspect": 0.4886363744735718,
+      "player": {
+        "x": 20.062599182128906,
+        "y": 1.8338251113891602,
+        "z": -3.239992618560791
+      },
+      "camera": {
+        "x": 16.85979461669922,
+        "y": 2.9395952224731445,
+        "z": -3.6713221073150635
+      }
+    },
+    "menu": {
+      "activeSeconds": 20.701999955344945,
+      "minutes": 682.2206420898438,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.16387218236923218,
+        "y": 0.9850867986679077,
+        "z": -0.05243909731507301
+      },
+      "lightDirection": {
+        "x": 0.16387219727039337,
+        "y": 0.9850869178771973,
+        "z": -0.052438974380493164
+      },
+      "skyDirection": {
+        "x": 0.16387218236923218,
+        "y": 0.9850867986679077,
+        "z": -0.05243909731507301
+      },
+      "player": {
+        "x": 20.062599182128906,
+        "y": 1.8338253498077393,
+        "z": -3.239992618560791
+      },
+      "paused": true
+    },
+    "photo_night": {
+      "renderer": "HNP_Chedi_v010_HNP010_BuddhaPhoto",
+      "material": "HNP010_BuddhaPhoto (Instance)",
+      "shader": "Universal Render Pipeline/Unlit",
+      "texture": "HNP010_FrontBuddha_pra",
+      "enabled": true,
+      "unlit": true,
+      "aspect": 0.4886363744735718,
+      "player": {
+        "x": 20.062599182128906,
+        "y": 1.8338253498077393,
+        "z": -3.239992618560791
+      },
+      "camera": {
+        "x": 16.85979461669922,
+        "y": 2.9395952224731445,
+        "z": -3.6713221073150635
+      }
+    },
+    "night_lights": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 10,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 7,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 20.062599182128906,
+        "y": 1.8338253498077393,
+        "z": -3.239992618560791
+      }
+    },
+    "photo_portrait": {
+      "renderer": "HNP_Chedi_v010_HNP010_BuddhaPhoto",
+      "material": "HNP010_BuddhaPhoto (Instance)",
+      "shader": "Universal Render Pipeline/Unlit",
+      "texture": "HNP010_FrontBuddha_pra",
+      "enabled": true,
+      "unlit": true,
+      "aspect": 0.4886363744735718,
+      "player": {
+        "x": 20.062599182128906,
+        "y": 1.8338253498077393,
+        "z": -3.239992618560791
+      },
+      "camera": {
+        "x": 16.85979461669922,
+        "y": 2.9395952224731445,
+        "z": -3.6713221073150635
+      }
+    }
+  },
+  "errors": [],
+  "browser": "152.0.7977.84"
+}
