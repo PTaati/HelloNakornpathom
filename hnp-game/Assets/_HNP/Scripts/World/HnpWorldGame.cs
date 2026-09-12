@@ -1,0 +1,97 @@
+using System;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.UI;
+using UnityEngine.EventSystems;
+using HNP.Prototype;
+using HNP.GameCore;
+namespace HNP.World {
+public sealed class HnpWorldGame:MonoBehaviour {
+ public const float WalkSpeed=5.4f,RunMultiplier=5f,RunSpeed=WalkSpeed*RunMultiplier;
+ double lastClock,activeClockSeconds;
+ const double SprintSeconds=5,CooldownSeconds=5;
+ double sprintEnds,cooldownEnds;Button runButton;HnpWorldThaiUi runRing,runGlyph;
+ public void TryStartRun(){if(IsPaused||run||activeClockSeconds<cooldownEnds)return;run=true;sprintEnds=activeClockSeconds+SprintSeconds;RefreshSprintUI();}
+ void TickSprint(){if(run&&activeClockSeconds>=sprintEnds){run=false;cooldownEnds=sprintEnds+CooldownSeconds;}RefreshSprintUI();}
+ void RefreshSprintUI(){if(!runButton)return;bool cooling=!run&&activeClockSeconds<cooldownEnds;runButton.interactable=!run&&!cooling;runImage.color=run?new(.73f,.40f,.08f,.96f):cooling?new(.10f,.14f,.14f,.85f):new(.035f,.15f,.14f,.9f);runGlyph.color=cooling?new(.42f,.48f,.46f,.65f):new(1,.80f,.36f);runRing.gameObject.SetActive(cooling);if(cooling)runRing.SetProgress(1-(float)((cooldownEnds-activeClockSeconds)/CooldownSeconds));}
+ [Serializable]class SprintSnapshot{public double activeSeconds,sprintEnds,cooldownEnds;public bool running,interactable,ring;public float progress;}
+ public void LogSprintDiagnostics(){Debug.Log("HNP007_QA "+JsonUtility.ToJson(new SprintSnapshot{activeSeconds=activeClockSeconds,sprintEnds=sprintEnds,cooldownEnds=cooldownEnds,running=run,interactable=runButton.interactable,ring=runRing.gameObject.activeSelf,progress=runRing.progress}));}
+ Vector3 SunDirection{get{float a=worldTime*Mathf.PI*2-Mathf.PI*.5f;return new Vector3(Mathf.Cos(a),Mathf.Sin(a),-.32f*Mathf.Cos(a)).normalized;}}
+ [Serializable]class TimeSnapshot{public double activeSeconds;public float minutes,daylight,runSpeed;public Vector3 sunDirection,lightDirection,skyDirection,player;public bool paused;}
+ public void LogTimeDiagnostics(){Debug.Log("HNP006_QA "+JsonUtility.ToJson(new TimeSnapshot{activeSeconds=activeClockSeconds,minutes=worldTime*1440,daylight=Daylight,runSpeed=RunSpeed,sunDirection=SunDirection,lightDirection=-sun.transform.forward,skyDirection=runtimeSky.GetVector("_SunDirection"),player=player.transform.position,paused=IsPaused}));}
+ public CharacterController player; public Transform visual; public Camera viewCamera; public HnpTravellerPose pose; public Texture2D mapTexture; public Font interfaceFont;
+ public bool Started{get;private set;} public float Yaw{get;private set;}=90; public float Pitch{get;private set;}=8; public string Area{get;private set;}="STATION"; public int VisitedCount{get;private set;} public float VerticalSpeed=>verticalSpeed;
+ bool menuOpen, movementBlocked; Material runtimeSky; RectTransform menuPanel,menuButton; Image runImage; public bool Running=>run; public bool Muted=>muted; public bool MenuOpen=>menuOpen; public bool MovementBlocked=>movementBlocked; public bool IsPaused=>!Started||!focused||mapOpen||menuOpen; public float Daylight=>Mathf.SmoothStep(0,1,Mathf.InverseLerp(-.12f,.22f,SunDirection.y));
+ float verticalSpeed,camDistance=3.25f,worldTime=.33f; bool focused=true,jump,run,mapOpen,muted,lastPortrait; Vector3 lastSafe; HnpTouchPad movePad,lookPad; Text areaText,progressText,timeText,audioText; GameObject welcome,rotate,largeMap,life; RectTransform safe,miniMarker,largeMarker; CanvasScaler scaler; Light sun; AudioSource music; readonly bool[] visited=new bool[5]; readonly Vector3[] visits={new(0,0,0),new(125,0,0),new(280,0,0),new(405,0,0),new(500,0,0)}; 
+ Font Font=>interfaceFont?interfaceFont:Resources.GetBuiltinResource<Font>("LegacyRuntime.ttf");
+ [Serializable]class CameraSnapshot{public float pitch,distance;public Vector3 camera,forward,player;}
+ [Serializable]class MotionSnapshot{public string clip;public float stateSpeed;public bool tip;public float[] pose;}
+ public void LogMotionDiagnostics(){var a=visual.GetComponentInChildren<Animator>();var clips=a.GetCurrentAnimatorClipInfo(0);var values=new List<float>();foreach(var t in a.GetComponentsInChildren<Transform>()){var p=t.localPosition;var q=t.localRotation;values.AddRange(new[]{p.x,p.y,p.z,q.x,q.y,q.z,q.w});}Debug.Log("HNP005_QA "+JsonUtility.ToJson(new MotionSnapshot{clip=clips.Length>0?clips[0].clip.name:"",stateSpeed=a.GetCurrentAnimatorStateInfo(0).speed,tip=GameObject.Find("Tip")!=null,pose=values.ToArray()}));}
+ public void LogCameraDiagnostics(){Debug.Log("HNP004_QA "+JsonUtility.ToJson(new CameraSnapshot{pitch=Pitch,distance=Vector3.Distance(viewCamera.transform.position,player.transform.position+Vector3.up*1.45f),camera=viewCamera.transform.position,forward=viewCamera.transform.forward,player=player.transform.position}));}
+ void Awake(){lastClock=Time.realtimeSinceStartupAsDouble;Application.targetFrameRate=60;lastSafe=player.transform.position;sun=RenderSettings.sun;BuildUI();ApplyOrientationLayout(Screen.height>Screen.width,true);if(RenderSettings.skybox){runtimeSky=new Material(RenderSettings.skybox);RenderSettings.skybox=runtimeSky;}ApplyTime();MoveCamera(true);}
+ public void Begin(){lastClock=Time.realtimeSinceStartupAsDouble;worldTime=.33f;Started=true;welcome.SetActive(false);StartMusic();} public void SetHeading(float yaw){Yaw=yaw;}
+ public void ReturnToStation(){player.enabled=false;player.transform.position=new(0,.3f,0);player.enabled=true;verticalSpeed=0;Yaw=90;Pitch=8;lastSafe=player.transform.position;MoveCamera(true);ResetInput();}
+ public void SetMovementBlocked(bool value){movementBlocked=value;if(value)ResetInput();}
+ public void Step(Vector2 input,bool doJump,bool running,float dt){if(!Started)return;var locomotion=HnpLocomotionResolver.Resolve(new HnpLocomotionInput(input,running),new HnpLocomotionSettings(WalkSpeed,RunSpeed),!movementBlocked);var dir=Quaternion.Euler(0,Yaw,0)*new Vector3(locomotion.Direction.x,0,locomotion.Direction.y);var before=player.transform.position;if(player.isGrounded&&verticalSpeed<0)verticalSpeed=-2;if(player.isGrounded&&doJump&&!movementBlocked)verticalSpeed=6.2f;verticalSpeed-=19*dt;player.Move((dir*locomotion.Speed+Vector3.up*verticalSpeed)*dt);var actual=player.transform.position-before;actual.y=0;if(dir.sqrMagnitude>.0001f&&actual.sqrMagnitude>.00001f)visual.rotation=Quaternion.Slerp(visual.rotation,Quaternion.LookRotation(dir),1-Mathf.Exp(-14*dt));if(pose)pose.Animate(actual.magnitude/Mathf.Max(dt,.001f),player.isGrounded,dt);if(player.isGrounded&&player.transform.position.y>-.1f)lastSafe=player.transform.position;if(player.transform.position.y<-.8f){player.enabled=false;player.transform.position=lastSafe+Vector3.up*.1f;player.enabled=true;verticalSpeed=0;}}
+ void Update(){double clock=Time.realtimeSinceStartupAsDouble;float clockDelta=(float)(clock-lastClock);lastClock=clock;bool portrait=Screen.height>Screen.width;if(portrait!=lastPortrait)ApplyOrientationLayout(portrait,false);var r=Screen.safeArea;safe.anchorMin=new(r.xMin/Screen.width,r.yMin/Screen.height);safe.anchorMax=new(r.xMax/Screen.width,r.yMax/Screen.height);UpdateMarker(miniMarker);UpdateMarker(largeMarker);var k=Keyboard.current;if(k!=null&&k.mKey.wasPressedThisFrame)ToggleMap();bool suspended=!Started||!focused||mapOpen||menuOpen;SetMusicPaused(suspended);if(suspended){ResetInput();return;}TickLife(clockDelta);TickSprint();if(k!=null&&k.leftShiftKey.wasPressedThisFrame)TryStartRun();var d=movePad.Value;if(k!=null){d+=new Vector2((k.dKey.isPressed||k.rightArrowKey.isPressed?1:0)-(k.aKey.isPressed||k.leftArrowKey.isPressed?1:0),(k.wKey.isPressed||k.upArrowKey.isPressed?1:0)-(k.sKey.isPressed||k.downArrowKey.isPressed?1:0));jump|=k.spaceKey.wasPressedThisFrame;}var look=lookPad.ConsumeLook();Yaw+=look.x*.13f;Pitch=Mathf.Clamp(Pitch-look.y*.11f,-90,60);float remaining=Mathf.Min(Time.deltaTime,.2f);bool first=true;while(remaining>0){float step=Mathf.Min(remaining,1f/60);Step(d,first&&jump,run,step);remaining-=step;first=false;}jump=false;UpdateArea();}
+ void UpdateArea(){var p=player.transform.position;Area=p.x<70?"สถานีรถไฟนครปฐม":p.x<230?"ทางเท้าเมือง — provisional":p.x<330?"คลองและจุดข้าม — VERIFY":p.x<470?"แนวกำแพงและทางเข้า — VERIFY":"พระปฐมเจดีย์";areaText.text=Area;for(int i=0;i<visits.Length;i++){var d=p-visits[i];d.y=0;if(!visited[i]&&d.sqrMagnitude<225){visited[i]=true;VisitedCount++;}}progressText.text=VisitedCount+" / 5 แห่ง";}
+ void LateUpdate(){MoveCamera(false);} void MoveCamera(bool snap){var target=player.transform.position+Vector3.up*1.45f;var offset=Quaternion.Euler(Mathf.Max(Pitch,-18),Yaw,0)*new Vector3(0,0,-camDistance);var desired=target+offset;if(Physics.SphereCast(target,.2f,offset.normalized,out var hit,camDistance,1,QueryTriggerInteraction.Ignore))desired=target+offset.normalized*Mathf.Max(.8f,hit.distance-.15f);viewCamera.transform.position=snap?desired:Vector3.Lerp(viewCamera.transform.position,desired,1-Mathf.Exp(-12*Time.unscaledDeltaTime));if(Pitch < -18)viewCamera.transform.rotation=Quaternion.Euler(Pitch,Yaw,0);else viewCamera.transform.LookAt(target);}
+ void ResetInput(){movePad?.ResetInput();lookPad?.ResetInput();jump=false;}void OnApplicationFocus(bool f){lastClock=Time.realtimeSinceStartupAsDouble;focused=f;if(!f){ResetInput();SetMusicPaused(true);}}void OnApplicationPause(bool p){lastClock=Time.realtimeSinceStartupAsDouble;focused=!p;if(p){ResetInput();SetMusicPaused(true);}}public void ToggleMap(){if(!Started)return;menuOpen=false;menuPanel.gameObject.SetActive(false);mapOpen=!mapOpen;largeMap.SetActive(mapOpen);SetMusicPaused(mapOpen);ResetInput();}void UpdateMarker(RectTransform m){if(!m)return;var p=player.transform.position;m.anchorMin=m.anchorMax=new(Mathf.InverseLerp(-20,570,p.x),Mathf.InverseLerp(-160,160,p.z));m.anchoredPosition=Vector2.zero;}
+
+ RectTransform R(string n,Transform p,Vector2 a,Vector2 b,Vector2 size,Vector2 pos){var r=new GameObject(n,typeof(RectTransform)).GetComponent<RectTransform>();r.SetParent(p,false);r.anchorMin=a;r.anchorMax=b;r.sizeDelta=size;r.anchoredPosition=pos;return r;}
+ Image Panel(string n,Transform p,Vector2 a,Vector2 b,Vector2 size,Vector2 pos,Color c){var r=R(n,p,a,b,size,pos);var im=r.gameObject.AddComponent<Image>();im.color=c;return im;}
+ Text Label(string n,string value,Transform p,Vector2 size,Vector2 pos,int fs){var r=R(n,p,new(.5f,.5f),new(.5f,.5f),size,pos);var t=r.gameObject.AddComponent<Text>();t.font=Font;t.text=value;t.fontSize=fs;t.alignment=TextAnchor.MiddleCenter;t.color=new(1,.94f,.77f);t.raycastTarget=false;return t;}
+ Button Btn(string n,string text,Transform p,Vector2 anchor,Vector2 size,Vector2 pos,UnityEngine.Events.UnityAction action){var im=Panel(n,p,anchor,anchor,size,pos,new(.035f,.15f,.14f,.95f));var btn=im.gameObject.AddComponent<Button>();btn.targetGraphic=im;btn.onClick.AddListener(action);Label(n+" label",text,im.transform,size-new Vector2(16,12),Vector2.zero,24);return btn;}
+ Sprite disc;
+ Image Disc(string n,Transform p,Vector2 anchor,Vector2 size,Vector2 pos,Color color){var im=Panel(n,p,anchor,anchor,size,pos,color);im.sprite=disc;return im;}
+ RectTransform Icon(string n,HnpWorldThaiUi.Symbol symbol,Vector2 anchor,Vector2 pos,UnityEngine.Events.UnityAction action){var im=Disc(n,safe,anchor,new(100,100),pos,new(.035f,.15f,.14f,.90f));var b=im.gameObject.AddComponent<Button>();b.targetGraphic=im;b.onClick.AddListener(action);var r=R(n+" icon",im.transform,new(.5f,.5f),new(.5f,.5f),new(68,68),Vector2.zero);var g=r.gameObject.AddComponent<HnpWorldThaiUi>();g.symbol=symbol;g.color=new(1,.80f,.36f);g.raycastTarget=false;if(n=="RUN")runImage=im;return im.rectTransform;}
+ public void ToggleMenu(){if(!Started)return;menuOpen=!menuOpen;menuPanel.gameObject.SetActive(menuOpen);ResetInput();}
+ void BuildUI(){
+  var tex=new Texture2D(64,64,TextureFormat.RGBA32,false);var px=new Color[4096];for(int y=0;y<64;y++)for(int x=0;x<64;x++)px[y*64+x]=new(1,1,1,Mathf.Clamp01(32-Vector2.Distance(new(x+.5f,y+.5f),new(32,32))));tex.SetPixels(px);tex.Apply();disc=Sprite.Create(tex,new(0,0,64,64),new(.5f,.5f));
+  var canvas=new GameObject("World UI",typeof(Canvas),typeof(CanvasScaler),typeof(GraphicRaycaster));canvas.GetComponent<Canvas>().renderMode=RenderMode.ScreenSpaceOverlay;scaler=canvas.GetComponent<CanvasScaler>();scaler.uiScaleMode=CanvasScaler.ScaleMode.ScaleWithScreenSize;
+  if(!FindAnyObjectByType<EventSystem>())new GameObject("World EventSystem",typeof(EventSystem),typeof(InputSystemUIInputModule));
+  safe=R("Safe area",canvas.transform,Vector2.zero,Vector2.one,Vector2.zero,Vector2.zero);
+  var look=Panel("Look",safe,new(.3f,0),Vector2.one,Vector2.zero,Vector2.zero,Color.clear);lookPad=look.gameObject.AddComponent<HnpTouchPad>();lookPad.cameraPad=true;
+  var hud=Panel("Travel HUD",safe,new(0,1),new(0,1),new(330,90),new(282,-62),new(.035f,.12f,.11f,.82f));Label("Brand","ฮัลโหล นครปฐม",hud.transform,new(316,38),new(0,24),26);areaText=Label("Area","สถานีรถไฟนครปฐม",hud.transform,new(316,32),new(0,-9),21);progressText=Label("Visits","",hud.transform,new(316,22),new(0,-32),14);
+  var mini=Panel("Map frame",safe,Vector2.one,Vector2.one,new(200,132),new(-116,-82),new(.04f,.14f,.13f,.94f));var mr=R("Minimap",mini.transform,new(.5f,.5f),new(.5f,.5f),new(184,111),Vector2.zero);mr.gameObject.AddComponent<RawImage>().texture=mapTexture;
+  var mb=mini.gameObject.AddComponent<Button>();mb.targetGraphic=mini;mb.onClick.AddListener(ToggleMap);miniMarker=Disc("You",mr,new(.1f,.5f),new(11,11),Vector2.zero,Color.white).rectTransform;miniMarker.GetComponent<Image>().raycastTarget=false;
+  var move=Disc("Move",safe,Vector2.zero,new(156,156),new(102,106),new(.035f,.17f,.16f,.7f));movePad=move.gameObject.AddComponent<HnpTouchPad>();movePad.knob=Disc("Thumb",move.transform,new(.5f,.5f),new(50,50),Vector2.zero,new(1,.74f,.28f)).rectTransform;movePad.knob.GetComponent<Image>().raycastTarget=false;
+  Icon("JUMP",HnpWorldThaiUi.Symbol.Jump,new(1,0),new(-72,92),()=>jump=true);
+  var runRect=Icon("RUN",HnpWorldThaiUi.Symbol.Run,new(1,0),new(-184,82),TryStartRun);runButton=runRect.GetComponent<Button>();runGlyph=runRect.GetComponentInChildren<HnpWorldThaiUi>();var ringRect=R("Run cooldown ring",runRect,new(.5f,.5f),new(.5f,.5f),new(114,114),Vector2.zero);runRing=ringRect.gameObject.AddComponent<HnpWorldThaiUi>();runRing.symbol=HnpWorldThaiUi.Symbol.CooldownRing;runRing.color=new(1,.80f,.36f);runRing.raycastTarget=false;RefreshSprintUI();
+  menuPanel=Panel("Settings",safe,new(0,1),new(0,1),new(380,228),new(206,-246),new(.02f,.075f,.07f,.98f)).rectTransform;
+  var tb=Btn("TIME","ช่วงเวลา : ยามเย็น",menuPanel,new(.5f,.5f),new(348,84),new(0,48),()=>{worldTime=Daylight>.5f?22f/24:10f/24;ApplyTime();});timeText=tb.GetComponentInChildren<Text>();
+  var ab=Btn("SOUND","ดนตรี : เปิด",menuPanel,new(.5f,.5f),new(348,84),new(0,-48),ToggleMusic);audioText=ab.GetComponentInChildren<Text>();menuPanel.gameObject.SetActive(false);
+  menuButton=Icon("MENU",HnpWorldThaiUi.Symbol.Menu,new(0,1),new(62,-64),ToggleMenu);menuButton.sizeDelta=new(92,92);
+  welcome=Panel("Welcome",canvas.transform,Vector2.zero,Vector2.one,Vector2.zero,Vector2.zero,new(.015f,.055f,.05f,.79f)).gameObject;
+  Label("Welcome title","ฮัลโหล นครปฐม",welcome.transform,new(900,96),new(0,110),52);Label("Welcome sub","หวนคืนวันวานที่แสนคิดถึง",welcome.transform,new(800,60),new(0,30),28);Label("Controls","เดินด้วยจอยหรือ WASD • ลากด้านขวาเพื่อมองรอบตัว",welcome.transform,new(940,70),new(0,-43),22);
+  Btn("START","เริ่มออกเดินทาง",welcome.transform,new(.5f,.5f),new(276,84),new(0,-134),Begin);
+  largeMap=Panel("Full map",canvas.transform,Vector2.zero,Vector2.one,Vector2.zero,Vector2.zero,new(.02f,.065f,.06f,.98f)).gameObject;
+  var map=R("World map",largeMap.transform,new(.5f,.5f),new(.5f,.5f),new(880,531),Vector2.zero);map.gameObject.AddComponent<RawImage>().texture=mapTexture;largeMarker=Disc("Current position",map,new(.1f,.5f),new(16,16),Vector2.zero,Color.white).rectTransform;
+  var mt=Label("Map title","แผนที่เมืองนครปฐม",largeMap.transform,new(620,54),Vector2.zero,28);mt.rectTransform.anchorMin=mt.rectTransform.anchorMax=new(.5f,1);mt.rectTransform.anchoredPosition=new(0,-42);
+  Btn("BACK","กลับ",largeMap.transform,new(.5f,0),new(174,78),new(0,58),ToggleMap);largeMap.SetActive(false);
+ }
+ void ApplyOrientationLayout(bool portrait,bool initial){
+  lastPortrait=portrait;scaler.referenceResolution=portrait?new(720,1280):new(1280,720);ResetInput();
+  void Place(Transform root,string name,Vector2 size,Vector2 pos){var r=root.Find(name) as RectTransform;if(r){r.sizeDelta=size;r.anchoredPosition=pos;}}
+  Place(safe,"Travel HUD",portrait?new(300,94):new(330,90),portrait?new(270,-64):new(282,-62));
+  Place(safe,"Map frame",new(200,132),portrait?new(-108,-82):new(-116,-82));
+  Place(safe,"Move",portrait?new(164,164):new(156,156),portrait?new(106,126):new(102,106));
+  Place(safe,"JUMP",new(100,100),portrait?new(-74,154):new(-72,92));Place(safe,"RUN",new(100,100),portrait?new(-190,102):new(-184,82));
+  Place(welcome.transform,"Welcome title",portrait?new(640,108):new(900,96),new(0,110));Place(welcome.transform,"Welcome sub",portrait?new(640,60):new(800,60),new(0,30));Place(welcome.transform,"Controls",portrait?new(640,80):new(940,70),new(0,-43));
+  Place(largeMap.transform,"World map",portrait?new(672,405):new(880,531),Vector2.zero);
+ }
+ void TickLife(float dt){activeClockSeconds+=dt;worldTime=Mathf.Repeat(worldTime+dt/144f,1);ApplyTime();}
+ void ApplyTime(){
+  float d=Daylight;RenderSettings.ambientSkyColor=Color.Lerp(new(.025f,.04f,.085f),new(.50f,.53f,.60f),d);RenderSettings.ambientEquatorColor=Color.Lerp(new(.02f,.035f,.07f),new(.53f,.40f,.28f),d);RenderSettings.ambientGroundColor=Color.Lerp(new(.015f,.025f,.04f),new(.24f,.23f,.18f),d);
+  RenderSettings.fogColor=Color.Lerp(new(.025f,.04f,.095f),new(.98f,.65f,.35f),d);
+  if(sun){sun.intensity=1.6f*Mathf.SmoothStep(0,1,Mathf.InverseLerp(-.02f,.25f,SunDirection.y));sun.color=Color.Lerp(new(1,.54f,.28f),new(1,.94f,.82f),Mathf.Clamp01(SunDirection.y*1.6f));sun.transform.rotation=Quaternion.LookRotation(-SunDirection,Vector3.forward);}
+  if(runtimeSky){runtimeSky.SetColor("_Top",Color.Lerp(new(.008f,.017f,.06f),new(.85f,.54f,.36f),d));runtimeSky.SetColor("_Horizon",Color.Lerp(new(.035f,.06f,.14f),new(1,.82f,.49f),d));runtimeSky.SetFloat("_Daylight",d);runtimeSky.SetVector("_SunDirection",SunDirection);}
+  if(timeText){int minutes=Mathf.FloorToInt(worldTime*1440);timeText.text=$"เวลา {minutes/60:00}:{minutes%60:00} • "+(d>.5f?"กลางวัน":"กลางคืน");}
+ }
+ void StartMusic(){if(music)return;music=gameObject.AddComponent<AudioSource>();music.clip=Loop();music.loop=true;music.volume=.22f;music.mute=muted;music.Play();}
+ void ToggleMusic(){muted=!muted;if(music)music.mute=muted;if(audioText)audioText.text=muted?"ดนตรี : ปิด":"ดนตรี : เปิด";}
+ void SetMusicPaused(bool pause){if(!music)return;if(pause&&music.isPlaying)music.Pause();else if(!pause&&Started&&focused&&!mapOpen&&!menuOpen&&!music.isPlaying)music.UnPause();}
+ AudioClip Loop(){const int rate=22050;var samples=new float[rate*8];int[] notes={220,262,330,294,247,294,349,330};for(int i=0;i<samples.Length;i++){float t=i/(float)rate,b=t%1,f=notes[(int)t%notes.Length],e=Mathf.Clamp01(b/.05f)*Mathf.Clamp01((1-b)/.18f);samples[i]=(Mathf.Sin(t*f*Mathf.PI*2)+.28f*Mathf.Sin(t*f*4*Mathf.PI))*e*.1f;}var clip=AudioClip.Create("นครปฐมยามเย็น",samples.Length,1,rate,false);clip.SetData(samples,0);return clip;}
+}}

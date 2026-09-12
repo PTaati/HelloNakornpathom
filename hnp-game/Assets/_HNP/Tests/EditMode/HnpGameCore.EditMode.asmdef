@@ -1,0 +1,21 @@
+{
+  "name": "HNP.GameCore.EditModeTests",
+  "rootNamespace": "HNP.GameCore.Tests",
+  "references": [
+    "HNP.GameCore"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}
