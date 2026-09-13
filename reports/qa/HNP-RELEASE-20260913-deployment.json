@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "url": "https://go2jd.taati.dev/",
+  "buildId": "74e3a5a4f7cd-e38217f5f90c",
+  "checkedUtc": "2026-09-13T04:40:49.2920024Z",
+  "checks": [
+    {
+      "file": "Build/web.loader.js",
+      "status": "PASS",
+      "bytes": 27914,
+      "sha256": "00a8790dea42fc168b0dcf481ccd2073d664b27bd61d849d581bd2f3b1b7616d",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "Build/web.framework.js",
+      "status": "PASS",
+      "bytes": 331354,
+      "sha256": "903925ccba5746a10008805c6dfecfdd8414fbaf49346e2e825f18b265d1126a",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "file": "Build/web.data",
+      "status": "PASS",
+      "bytes": 27080281,
+      "sha256": "74e3a5a4f7cd3bfe49655da42594e550314acfc0bc44f71ab7f1f035af3b75b3",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "Build/web.wasm",
+      "status": "PASS",
+      "bytes": 35182024,
+      "sha256": "e38217f5f90cee070b157e8c0c7189599bd160b26e8087267ffc033c15788a4a",
+      "contentType": "application/wasm"
+    },
+    {
+      "file": "index.html",
+      "status": "PASS",
+      "bytes": 4224,
+      "sha256": "71b7812dbdf386df62be33123fc5165dbd5260fa0dcdf604f62a5234e1056b8a",
+      "contentType": "text/html; charset=utf-8"
+    }
+  ],
+  "browserGameplay": "separate QA report",
+  "physicalMobile": "NOT RUN"
+}

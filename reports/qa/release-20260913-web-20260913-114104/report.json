@@ -1,0 +1,499 @@
+{
+  "task": "HNP-RELEASE-20260913",
+  "status": "PASS",
+  "target": "https://go2jd.taati.dev/",
+  "build": "live:https://go2jd.taati.dev/",
+  "wasm_sha256": null,
+  "data_sha256": null,
+  "prayer_x": 463.53,
+  "prayer_object": "Phra Pathom Chedi v004 Flow Hero",
+  "return_button_reference": "206,368",
+  "physical_mobile": "NOT RUN",
+  "snapshots": {
+    "started": {
+      "activeSeconds": 0.44200001657009125,
+      "minutes": 479.61968994140625,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.835312008857727,
+        "y": 0.480421245098114,
+        "z": -0.2672998309135437
+      },
+      "lightDirection": {
+        "x": 0.835312008857727,
+        "y": 0.480421245098114,
+        "z": -0.26729995012283325
+      },
+      "skyDirection": {
+        "x": 0.835312008857727,
+        "y": 0.480421245098114,
+        "z": -0.2672998309135437
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": false
+    },
+    "night-time": {
+      "activeSeconds": 1.0070000365376472,
+      "minutes": 1323.0301513671875,
+      "daylight": 0.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.482644647359848,
+        "y": -0.8620907068252563,
+        "z": 0.1544462889432907
+      },
+      "lightDirection": {
+        "x": -0.48264461755752563,
+        "y": -0.8620907664299011,
+        "z": 0.15444648265838623
+      },
+      "skyDirection": {
+        "x": -0.482644647359848,
+        "y": -0.8620907068252563,
+        "z": 0.1544462889432907
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": false
+    },
+    "night-lights": {
+      "night": 1.0,
+      "emission": 1.7000000476837158,
+      "street": 16,
+      "headlights": 36,
+      "cabin": 18,
+      "lit": 15,
+      "outlinedCars": 18,
+      "templeRenderers": 20,
+      "monumentProfile": "light-profile",
+      "collider": true,
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      }
+    },
+    "map-open": {
+      "activeSeconds": 1.3570000464096665,
+      "minutes": 1326.5301513671875,
+      "daylight": 0.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.46972617506980896,
+        "y": -0.8699215650558472,
+        "z": 0.1503123790025711
+      },
+      "lightDirection": {
+        "x": -0.46972620487213135,
+        "y": -0.8699215054512024,
+        "z": 0.1503124237060547
+      },
+      "skyDirection": {
+        "x": -0.46972617506980896,
+        "y": -0.8699215650558472,
+        "z": 0.1503123790025711
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": true
+    },
+    "map-close": {
+      "activeSeconds": 1.6290000574663281,
+      "minutes": 1329.2501220703125,
+      "daylight": 0.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.45959562063217163,
+        "y": -0.8758665323257446,
+        "z": 0.14707060158252716
+      },
+      "lightDirection": {
+        "x": -0.45959562063217163,
+        "y": -0.8758665323257446,
+        "z": 0.1470705270767212
+      },
+      "skyDirection": {
+        "x": -0.45959562063217163,
+        "y": -0.8758665323257446,
+        "z": 0.14707060158252716
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": false
+    },
+    "portrait-paused": {
+      "activeSeconds": 1.7240000609308481,
+      "minutes": 1330.2001953125,
+      "daylight": 0.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.45603877305984497,
+        "y": -0.8779137134552002,
+        "z": 0.1459324061870575
+      },
+      "lightDirection": {
+        "x": -0.4560387134552002,
+        "y": -0.8779137134552002,
+        "z": 0.14593243598937988
+      },
+      "skyDirection": {
+        "x": -0.45603877305984497,
+        "y": -0.8779137134552002,
+        "z": 0.1459324061870575
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": true
+    },
+    "portrait-still-paused": {
+      "activeSeconds": 1.7240000609308481,
+      "minutes": 1330.2001953125,
+      "daylight": 0.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.45603877305984497,
+        "y": -0.8779137134552002,
+        "z": 0.1459324061870575
+      },
+      "lightDirection": {
+        "x": -0.4560387134552002,
+        "y": -0.8779137134552002,
+        "z": 0.14593243598937988
+      },
+      "skyDirection": {
+        "x": -0.45603877305984497,
+        "y": -0.8779137134552002,
+        "z": 0.1459324061870575
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": true
+    },
+    "landscape-resumed": {
+      "activeSeconds": 2.535000086762011,
+      "minutes": 1338.310302734375,
+      "daylight": 0.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.42529454827308655,
+        "y": -0.8947640657424927,
+        "z": 0.13609425723552704
+      },
+      "lightDirection": {
+        "x": -0.4252946376800537,
+        "y": -0.894764244556427,
+        "z": 0.13609445095062256
+      },
+      "skyDirection": {
+        "x": -0.42529454827308655,
+        "y": -0.8947640657424927,
+        "z": 0.13609425723552704
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": false
+    },
+    "day-restored": {
+      "activeSeconds": 3.039000111632049,
+      "minutes": 602.6198120117188,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.4841507077217102,
+        "y": 0.8611593246459961,
+        "z": -0.15492822229862213
+      },
+      "lightDirection": {
+        "x": 0.4841506779193878,
+        "y": 0.8611593246459961,
+        "z": -0.15492820739746094
+      },
+      "skyDirection": {
+        "x": 0.4841507077217102,
+        "y": 0.8611593246459961,
+        "z": -0.15492822229862213
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": false
+    },
+    "touch-before": {
+      "activeSeconds": 3.1860001171007752,
+      "minutes": 604.0896606445312,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.4787483513355255,
+        "y": 0.8644824624061584,
+        "z": -0.1531994640827179
+      },
+      "lightDirection": {
+        "x": 0.4787483811378479,
+        "y": 0.8644825220108032,
+        "z": -0.15319937467575073
+      },
+      "skyDirection": {
+        "x": 0.4787483513355255,
+        "y": 0.8644824624061584,
+        "z": -0.1531994640827179
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.18499988317489624,
+        "z": 0.0
+      },
+      "paused": false
+    },
+    "touch-after": {
+      "activeSeconds": 4.783000190742314,
+      "minutes": 620.0585327148438,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.41858044266700745,
+        "y": 0.8982476592063904,
+        "z": -0.13394573330879211
+      },
+      "lightDirection": {
+        "x": 0.4185805320739746,
+        "y": 0.8982477188110352,
+        "z": -0.13394558429718018
+      },
+      "skyDirection": {
+        "x": 0.41858044266700745,
+        "y": 0.8982476592063904,
+        "z": -0.13394573330879211
+      },
+      "player": {
+        "x": 4.951188087463379,
+        "y": 0.18499988317489624,
+        "z": 2.951138071694004e-07
+      },
+      "paused": false
+    },
+    "travel_start": {
+      "activeSeconds": 11.251000475138426,
+      "minutes": 684.7338256835938,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": 0.15308713912963867,
+        "y": 0.9869977831840515,
+        "z": -0.04898788779973984
+      },
+      "lightDirection": {
+        "x": 0.15308715403079987,
+        "y": 0.9869978427886963,
+        "z": -0.04898768663406372
+      },
+      "skyDirection": {
+        "x": 0.15308713912963867,
+        "y": 0.9869977831840515,
+        "z": -0.04898788779973984
+      },
+      "player": {
+        "x": 147.03057861328125,
+        "y": 2.7893643379211426,
+        "z": 8.763706318859477e-06
+      },
+      "paused": false
+    },
+    "travel": {
+      "activeSeconds": 35.566001444123685,
+      "minutes": 927.884521484375,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.763809084892273,
+        "y": 0.5973734855651855,
+        "z": 0.2444189041852951
+      },
+      "lightDirection": {
+        "x": -0.7638091444969177,
+        "y": 0.5973736047744751,
+        "z": 0.24441909790039062
+      },
+      "skyDirection": {
+        "x": -0.763809084892273,
+        "y": 0.5973734855651855,
+        "z": 0.2444189041852951
+      },
+      "player": {
+        "x": 463.30316162109375,
+        "y": 6.856513500213623,
+        "z": 2.7615022190730087e-05
+      },
+      "paused": false
+    },
+    "cooldown": {
+      "activeSeconds": 31.702001308090985,
+      "sprintEnds": 26.467000905424356,
+      "cooldownEnds": 31.467000905424356,
+      "running": false,
+      "interactable": true,
+      "ring": false,
+      "progress": 0.9986000657081604
+    },
+    "prayer-near": {
+      "nearby": true,
+      "paused": false,
+      "movementBlocked": false,
+      "status": "Idle",
+      "progress": 0.0,
+      "completedCount": 0
+    },
+    "prayer-active": {
+      "nearby": true,
+      "paused": false,
+      "movementBlocked": true,
+      "status": "Active",
+      "progress": 0.10066667199134827,
+      "completedCount": 0
+    },
+    "prayer-map-paused": {
+      "nearby": true,
+      "paused": true,
+      "movementBlocked": true,
+      "status": "Active",
+      "progress": 0.16899999976158142,
+      "completedCount": 0
+    },
+    "prayer-map-still": {
+      "nearby": true,
+      "paused": true,
+      "movementBlocked": true,
+      "status": "Active",
+      "progress": 0.16899999976158142,
+      "completedCount": 0
+    },
+    "prayer-complete": {
+      "nearby": true,
+      "paused": false,
+      "movementBlocked": false,
+      "status": "Idle",
+      "progress": 0.0,
+      "completedCount": 1
+    },
+    "return-road": {
+      "activeSeconds": 41.25900165736675,
+      "minutes": 984.8146362304688,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.878119170665741,
+        "y": 0.3872295618057251,
+        "z": 0.2809981405735016
+      },
+      "lightDirection": {
+        "x": -0.8781191110610962,
+        "y": 0.3872295320034027,
+        "z": 0.2809983491897583
+      },
+      "skyDirection": {
+        "x": -0.878119170665741,
+        "y": 0.3872295618057251,
+        "z": 0.2809981405735016
+      },
+      "player": {
+        "x": 457.6655578613281,
+        "y": 6.856514930725098,
+        "z": 2.727899482124485e-05
+      },
+      "paused": false
+    },
+    "return-button": {
+      "activeSeconds": 41.84400168154389,
+      "minutes": 990.6647338867188,
+      "daylight": 1.0,
+      "runSpeed": 27.0,
+      "sunDirection": {
+        "x": -0.8869470357894897,
+        "y": 0.36437535285949707,
+        "z": 0.28382304310798645
+      },
+      "lightDirection": {
+        "x": -0.8869471549987793,
+        "y": 0.36437535285949707,
+        "z": 0.28382301330566406
+      },
+      "skyDirection": {
+        "x": -0.8869470357894897,
+        "y": 0.36437535285949707,
+        "z": 0.28382304310798645
+      },
+      "player": {
+        "x": 0.0,
+        "y": 0.1849997639656067,
+        "z": 0.0
+      },
+      "paused": false
+    }
+  },
+  "checks": [
+    "PASS: actual settings TIME control reaches night; read-only night diagnostics captured",
+    "PASS: minimap opens/BACK closes map and pauses simulation",
+    "PASS: portrait overlay is visible and game pauses; landscape resumes",
+    "PASS: pointer/touch-emulated move pad advances player; physical mobile NOT RUN",
+    "PASS: W/Shift route crosses bridge, E prayer freezes on map, completes once, movement returns and S travels back",
+    "PASS: visible Settings RETURN button resets player"
+  ],
+  "errors": [],
+  "evidence": "C:\\Users\\Admin\\Documents\\HelloNakornpathom\\reports\\qa\\release-20260913-web-20260913-114104",
+  "webgl": {
+    "renderer": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 SUPER (0x00002783) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (NVIDIA)"
+  },
+  "release_json": {
+    "schema": 1,
+    "buildId": "74e3a5a4f7cd-e38217f5f90c",
+    "files": {
+      "Build/web.loader.js": {
+        "sha256": "00a8790dea42fc168b0dcf481ccd2073d664b27bd61d849d581bd2f3b1b7616d",
+        "bytes": 27914
+      },
+      "Build/web.framework.js": {
+        "sha256": "903925ccba5746a10008805c6dfecfdd8414fbaf49346e2e825f18b265d1126a",
+        "bytes": 331354
+      },
+      "Build/web.data": {
+        "sha256": "74e3a5a4f7cd3bfe49655da42594e550314acfc0bc44f71ab7f1f035af3b75b3",
+        "bytes": 27080281
+      },
+      "Build/web.wasm": {
+        "sha256": "e38217f5f90cee070b157e8c0c7189599bd160b26e8087267ffc033c15788a4a",
+        "bytes": 35182024
+      },
+      "index.html": {
+        "sha256": "71b7812dbdf386df62be33123fc5165dbd5260fa0dcdf604f62a5234e1056b8a",
+        "bytes": 4224
+      }
+    }
+  },
+  "browser": "152.0.7977.84"
+}

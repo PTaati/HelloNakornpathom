@@ -1,6 +1,6 @@
 # HNP-RELEASE-20260913
 
-Status: DEPLOY_PENDING
+Status: RELEASE_VERIFIED (physical mobile NOT RUN; full surveyed reconstruction not claimed)
 Editor owner: unity_engineer (`/root/game_system`)
 
 ## Goal and inputs
@@ -46,3 +46,11 @@ Art: M03 v005 narrow independent review PASS (`reports/reviews/HNP-ART-CHEDI-001
 Final local hardware-browser validation: PASS (`reports/qa/release-20260913-web-20260913-113643/report.json`, Chrome 152 / NVIDIA RTX 4070 SUPER / D3D11). Actual keyboard route crosses the visible bridge deck, reaches prayer, completes once, exits and returns through the visible Settings RETURN button. Map and portrait pauses, night/day switching and pointer-emulated movement pass with zero browser errors. This supersedes interim runs. Physical mobile: NOT RUN. Public deployment and live gameplay: pending push.
 
 The scene is a playable reference-led stylized reconstruction, not a photorealistic or fully surveyed 1:1 architectural replica. Street frontage and unsurveyed dimensions remain provisional.
+
+## Published release
+
+- Source and canonical Web build committed and pushed as `6eccd3b9beb532ae65cc9bce8b6315e29481c0fb`.
+- GitHub Pages deployment PASS: https://github.com/PTaati/HelloNakornpathom/actions/runs/34738416899 .
+- Public URL: https://go2jd.taati.dev/ . All five deployed file hashes match the tested build, including the ordinary HTML entry point; Wasm MIME PASS. Evidence: `reports/qa/HNP-RELEASE-20260913-deployment.json`.
+- Live browser gameplay PASS: `reports/qa/release-20260913-web-20260913-114104/report.json`. Actual keyboard/pointer interactions repeat the route, bridge crossing, prayer completion, map/portrait pause, night/day and Settings RETURN tests with zero browser errors. Hardware desktop Chrome 152; physical Android/iPhone NOT RUN.
+- The subsequent evidence-only commit does not change any deployed game bytes. Its deployment can be verified against the same release ID and hashes without treating it as a new game build.
