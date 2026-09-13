@@ -1,0 +1,507 @@
+{
+  "task_id": "HNP-ART-CHEDI-001",
+  "revision": "v004",
+  "supersedes": "v003 visual review FAIL; v001-v003 preserved",
+  "classification": "reference-led visual-gate candidate",
+  "status": {
+    "blender_cli": "PASS",
+    "source_geometry": "PASS",
+    "visible_triangle_budget_le_30000": "PASS",
+    "fbx_roundtrip": "PASS",
+    "self_visual_check": "PASS",
+    "designer_visual_review": "NOT RUN",
+    "unity_import_prefab_collision": "NOT RUN",
+    "mobile_web_performance": "NOT RUN"
+  },
+  "self_visual_check": {
+    "reference_front": "PASS: neutral orthographic preview shows full stepped lower courses, ogive bell, open collar and ribbed spire without crop.",
+    "facade_entry": "PASS: close third-person preview visibly shows moulded white tiers, ivory bay backs, open diagonal grillework, terracotta plaques, pilaster bases/capitals, nested gable and guardians.",
+    "prayer_depth": "PASS: two oblique gameplay-height previews show three thresholds, long floor, kneeling zone, side piers, shallow altar and back recess; preview-only 1.7 m player marker is not exported."
+  },
+  "silhouette_reference_measurement": {
+    "method": "approximate pixel landmarks read from ref/jd.jpg; visual evidence, not architectural survey",
+    "reference_jd_px": {
+      "top_y": 22,
+      "collar_top_y": 166,
+      "lower_bell_y": 337,
+      "visible_base_y": 405,
+      "max_body_width_px": 354
+    },
+    "reference_spire_share": 0.376,
+    "model": {
+      "total_height_m": 44.0,
+      "collar_top_m": 27.25,
+      "spire_share": 0.381,
+      "body_diameter_m": 46.43,
+      "height_to_body_diameter": 0.948
+    },
+    "interpretation": "Model feature ratio intentionally follows the supplied frontal photograph; camera/perspective prevent a claim of survey-exact metres."
+  },
+  "units": "metres",
+  "axis": {
+    "blender_up": "+Z",
+    "local_front": "-Y",
+    "fbx_forward": "-Z",
+    "fbx_up": "Y"
+  },
+  "pivot": "origin at Chedi centre / upper route z=0",
+  "dimensions": {
+    "combined_visible_bounds": {
+      "min_m": [
+        -37.0,
+        -37.0,
+        -2.58
+      ],
+      "max_m": [
+        37.0,
+        37.0,
+        44.000217
+      ],
+      "dimensions_m": [
+        74.0,
+        74.0,
+        46.580215
+      ],
+      "triangles": 29095,
+      "vertices": 15965,
+      "mesh_count": 20,
+      "materials": [
+        "HNP_Chedi_DarkInset",
+        "HNP_Chedi_GoldTile",
+        "HNP_Chedi_GoldTrim",
+        "HNP_Chedi_Ivory",
+        "HNP_Chedi_PrayerPhoto",
+        "HNP_Chedi_RedInterior",
+        "HNP_Chedi_Stone",
+        "HNP_Chedi_Terracotta",
+        "HNP_Chedi_White"
+      ],
+      "material_count": 9,
+      "uv0_missing": [],
+      "negative_scale": [],
+      "degenerate_faces": 0,
+      "loose_vertices": 0
+    },
+    "collision_bounds": {
+      "min_m": [
+        -37.049999,
+        -37.049999,
+        -2.66
+      ],
+      "max_m": [
+        37.049999,
+        37.049999,
+        40.0
+      ],
+      "dimensions_m": [
+        74.099998,
+        74.099998,
+        42.66
+      ],
+      "triangles": 1324,
+      "vertices": 736,
+      "mesh_count": 1,
+      "materials": [
+        "HNP_Chedi_Collision"
+      ],
+      "material_count": 1,
+      "uv0_missing": [],
+      "negative_scale": [],
+      "degenerate_faces": 0,
+      "loose_vertices": 0
+    },
+    "body_nominal_diameter_m": 46.43,
+    "complex_outer_diameter_m": 74.0,
+    "total_height_m": 44.0,
+    "prayer_room_floor_depth_m": 12.35
+  },
+  "modules": {
+    "core": {
+      "file": "HNP_Chedi_M01_Core_v004.fbx",
+      "metrics": {
+        "min_m": [
+          -23.200001,
+          -27.700001,
+          0.0
+        ],
+        "max_m": [
+          23.200001,
+          23.0,
+          44.000217
+        ],
+        "dimensions_m": [
+          46.400002,
+          50.700001,
+          44.000217
+        ],
+        "triangles": 15077,
+        "vertices": 7865,
+        "mesh_count": 4,
+        "materials": [
+          "HNP_Chedi_DarkInset",
+          "HNP_Chedi_GoldTile",
+          "HNP_Chedi_GoldTrim",
+          "HNP_Chedi_Terracotta"
+        ],
+        "material_count": 4,
+        "uv0_missing": [],
+        "negative_scale": [],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "exterior": {
+      "file": "HNP_Chedi_M02_ExteriorRoute_v004.fbx",
+      "metrics": {
+        "min_m": [
+          -37.0,
+          -37.0,
+          -2.58
+        ],
+        "max_m": [
+          37.0,
+          37.0,
+          1.2
+        ],
+        "dimensions_m": [
+          74.0,
+          74.0,
+          3.78
+        ],
+        "triangles": 5056,
+        "vertices": 2816,
+        "mesh_count": 4,
+        "materials": [
+          "HNP_Chedi_GoldTrim",
+          "HNP_Chedi_Ivory",
+          "HNP_Chedi_Stone",
+          "HNP_Chedi_White"
+        ],
+        "material_count": 4,
+        "uv0_missing": [],
+        "negative_scale": [],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "shell": {
+      "file": "HNP_Chedi_M03_ReferenceFacade_v004.fbx",
+      "metrics": {
+        "min_m": [
+          -23.950001,
+          -29.27,
+          0.0
+        ],
+        "max_m": [
+          23.950001,
+          23.950001,
+          16.395
+        ],
+        "dimensions_m": [
+          47.900002,
+          53.220001,
+          16.395
+        ],
+        "triangles": 7960,
+        "vertices": 4720,
+        "mesh_count": 5,
+        "materials": [
+          "HNP_Chedi_DarkInset",
+          "HNP_Chedi_GoldTrim",
+          "HNP_Chedi_Ivory",
+          "HNP_Chedi_Terracotta",
+          "HNP_Chedi_White"
+        ],
+        "material_count": 5,
+        "uv0_missing": [],
+        "negative_scale": [],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "interior": {
+      "file": "HNP_Chedi_M04_PrayerDepth_v004.fbx",
+      "metrics": {
+        "min_m": [
+          -4.225,
+          -29.160002,
+          -0.49
+        ],
+        "max_m": [
+          4.225,
+          -15.13,
+          9.4
+        ],
+        "dimensions_m": [
+          8.45,
+          14.030002,
+          9.889999
+        ],
+        "triangles": 1002,
+        "vertices": 564,
+        "mesh_count": 7,
+        "materials": [
+          "HNP_Chedi_GoldTrim",
+          "HNP_Chedi_Ivory",
+          "HNP_Chedi_PrayerPhoto",
+          "HNP_Chedi_RedInterior",
+          "HNP_Chedi_Stone",
+          "HNP_Chedi_Terracotta",
+          "HNP_Chedi_White"
+        ],
+        "material_count": 7,
+        "uv0_missing": [],
+        "negative_scale": [],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "collision": {
+      "file": "HNP_Chedi_M05_Collision_v004.fbx",
+      "metrics": {
+        "min_m": [
+          -37.049999,
+          -37.049999,
+          -2.66
+        ],
+        "max_m": [
+          37.049999,
+          37.049999,
+          40.0
+        ],
+        "dimensions_m": [
+          74.099998,
+          74.099998,
+          42.66
+        ],
+        "triangles": 1324,
+        "vertices": 736,
+        "mesh_count": 1,
+        "materials": [
+          "HNP_Chedi_Collision"
+        ],
+        "material_count": 1,
+        "uv0_missing": [],
+        "negative_scale": [],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    }
+  },
+  "combined_visible_export": {
+    "file": "HNP_Chedi_Modular_ProductionStaging_v004.fbx",
+    "metrics": {
+      "min_m": [
+        -37.0,
+        -37.0,
+        -2.58
+      ],
+      "max_m": [
+        37.0,
+        37.0,
+        44.000217
+      ],
+      "dimensions_m": [
+        74.0,
+        74.0,
+        46.580215
+      ],
+      "triangles": 29095,
+      "vertices": 15965,
+      "mesh_count": 20,
+      "materials": [
+        "HNP_Chedi_DarkInset",
+        "HNP_Chedi_GoldTile",
+        "HNP_Chedi_GoldTrim",
+        "HNP_Chedi_Ivory",
+        "HNP_Chedi_PrayerPhoto",
+        "HNP_Chedi_RedInterior",
+        "HNP_Chedi_Stone",
+        "HNP_Chedi_Terracotta",
+        "HNP_Chedi_White"
+      ],
+      "material_count": 9,
+      "uv0_missing": [],
+      "negative_scale": [],
+      "degenerate_faces": 0,
+      "loose_vertices": 0
+    }
+  },
+  "materials": {
+    "count_combined_visible": 9,
+    "names": [
+      "HNP_Chedi_DarkInset",
+      "HNP_Chedi_GoldTile",
+      "HNP_Chedi_GoldTrim",
+      "HNP_Chedi_Ivory",
+      "HNP_Chedi_PrayerPhoto",
+      "HNP_Chedi_RedInterior",
+      "HNP_Chedi_Stone",
+      "HNP_Chedi_Terracotta",
+      "HNP_Chedi_White"
+    ],
+    "photo_texture": {
+      "source_reference": "ref/pra.jpg",
+      "source_copy": "art-source/HNP-ART-CHEDI-001/textures/HNP_Chedi_PrayerPhoto_pra_v004.jpg",
+      "export_copy": "art-export/HNP-ART-CHEDI-001/Textures/HNP_Chedi_PrayerPhoto_pra_v004.jpg",
+      "dimensions_px": [
+        387,
+        792
+      ],
+      "color_space": "sRGB",
+      "uv": "UV0 full-frame upright; no crop/mirror",
+      "sha256": "b2c6e06276fd8208f740f583b2e9688d7764288cd7df242aa07f54b558865898",
+      "copies_hash_match": true
+    },
+    "unity_consolidation_plan": "Bake architectural flat palette to one atlas/LUT, retain interior accent and pra.jpg as separate groups; target 3 runtime materials and validate draw calls in Unity."
+  },
+  "walkability_contract": {
+    "front_chamber_clear_width_m": 7.25,
+    "front_chamber_floor_depth_m": 12.35,
+    "four_cardinal_stair_clear_width_m": 5.8,
+    "preview_player_height_m": 1.7,
+    "collision_export": "HNP_Chedi_M05_Collision_v004.fbx",
+    "unity_status": "NOT RUN"
+  },
+  "references": {
+    "macro": [
+      "ref/jd.jpg"
+    ],
+    "collar_spire": [
+      "ref/IMG_20211023_161037.jpg",
+      "ref/IMG_20211023_161317.jpg"
+    ],
+    "facade_grille": [
+      "ref/IMG_20211023_160913.jpg",
+      "ref/IMG_20211023_161123.jpg"
+    ],
+    "lower_courses": [
+      "ref/IMG_20211023_161058.jpg",
+      "ref/IMG_20211023_161311.jpg"
+    ],
+    "stairs": [
+      "ref/IMG_20211023_161403.jpg"
+    ],
+    "prayer": [
+      "ref/pra.jpg"
+    ],
+    "approved_architecture_derivation": [
+      "art-source/hnp-world-010/HNP_Chedi_v010.blend"
+    ]
+  },
+  "provisional_invented_details": [
+    "No survey metres were supplied; all dimensions remain gameplay-scale.",
+    "Exact bay count, lattice pattern, guardian simplification and side/rear elevations remain provisional.",
+    "Deep prayer room, kneeling zone, altar and lighting are gameplay adaptations around unchanged pra.jpg.",
+    "Unity material/collision/camera/mobile validation remains NOT RUN."
+  ],
+  "roundtrip": {
+    "report": "roundtrip-v004.json",
+    "exports": {
+      "HNP_Chedi_M01_Core_v004.fbx": {
+        "status": "PASS",
+        "expected_triangles": 15077,
+        "observed_triangles": 15077,
+        "max_dimension_delta_m": 4e-06,
+        "observed_dimensions_m": [
+          46.400002,
+          50.699997,
+          44.000221
+        ],
+        "mesh_count": 4
+      },
+      "HNP_Chedi_M02_ExteriorRoute_v004.fbx": {
+        "status": "PASS",
+        "expected_triangles": 5056,
+        "observed_triangles": 5056,
+        "max_dimension_delta_m": 6e-06,
+        "observed_dimensions_m": [
+          74.0,
+          74.0,
+          3.780006
+        ],
+        "mesh_count": 4
+      },
+      "HNP_Chedi_M03_ReferenceFacade_v004.fbx": {
+        "status": "PASS",
+        "expected_triangles": 7960,
+        "observed_triangles": 7960,
+        "max_dimension_delta_m": 4e-06,
+        "observed_dimensions_m": [
+          47.900002,
+          53.220001,
+          16.395004
+        ],
+        "mesh_count": 5
+      },
+      "HNP_Chedi_M04_PrayerDepth_v004.fbx": {
+        "status": "PASS",
+        "expected_triangles": 1002,
+        "observed_triangles": 1002,
+        "max_dimension_delta_m": 2e-06,
+        "observed_dimensions_m": [
+          8.45,
+          14.030004,
+          9.889997
+        ],
+        "mesh_count": 7
+      },
+      "HNP_Chedi_M05_Collision_v004.fbx": {
+        "status": "PASS",
+        "expected_triangles": 1324,
+        "observed_triangles": 1324,
+        "max_dimension_delta_m": 1.1e-05,
+        "observed_dimensions_m": [
+          74.099998,
+          74.099998,
+          42.660011
+        ],
+        "mesh_count": 1
+      },
+      "HNP_Chedi_Modular_ProductionStaging_v004.fbx": {
+        "status": "PASS",
+        "expected_triangles": 29095,
+        "observed_triangles": 29095,
+        "max_dimension_delta_m": 8e-06,
+        "observed_dimensions_m": [
+          74.0,
+          74.0,
+          46.580223
+        ],
+        "mesh_count": 20
+      }
+    }
+  },
+  "source": {
+    "blend": "art-source/HNP-ART-CHEDI-001/HNP_Chedi_Modular_ProductionStaging_v004.blend",
+    "generator": "art-source/HNP-ART-CHEDI-001/build_chedi_v004.py",
+    "baseline_read_only": "art-source/HNP-ART-CHEDI-001/HNP_Chedi_Modular_ProductionStaging_v003.blend"
+  },
+  "previews": [
+    "HNP_Chedi_v004_reference-front-ortho.png",
+    "HNP_Chedi_v004_reference-three-quarter.png",
+    "HNP_Chedi_v004_thirdperson-approach.png",
+    "HNP_Chedi_v004_facade-entry-thirdperson.png",
+    "HNP_Chedi_v004_prayer-entry-depth.png",
+    "HNP_Chedi_v004_prayer-side-depth.png"
+  ],
+  "sha256": {
+    "art-source/HNP-ART-CHEDI-001/HNP_Chedi_Modular_ProductionStaging_v004.blend": "a5c6b34ddab41be89df16138384b552a80d7ff1869e2f26b772e980afdcee773",
+    "art-source/HNP-ART-CHEDI-001/build_chedi_v004.py": "cbb74599730b68b069e672aadd66ee777ef288dfbb31aba7e30b3f318b6130b6",
+    "art-export/HNP-ART-CHEDI-001/roundtrip-v004.json": "d4069dc6d1927d4cfcde2e21a3f8b8de06c37aad344364db76e4523ec212e77e",
+    "art-source/HNP-ART-CHEDI-001/textures/HNP_Chedi_PrayerPhoto_pra_v004.jpg": "b2c6e06276fd8208f740f583b2e9688d7764288cd7df242aa07f54b558865898",
+    "art-export/HNP-ART-CHEDI-001/Textures/HNP_Chedi_PrayerPhoto_pra_v004.jpg": "b2c6e06276fd8208f740f583b2e9688d7764288cd7df242aa07f54b558865898",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_M01_Core_v004.fbx": "a7b7563bf97618618aba0b2087414020fb13ca566d19aa0ddc5630ed20804da3",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_M02_ExteriorRoute_v004.fbx": "adf7f99731035b0280da5a094119dadc105035fedb6d0cfd4f66390fa28f465a",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_M03_ReferenceFacade_v004.fbx": "7ff0910ddcaf9bbe4bb79afecd0397236d288df336b30df61a55440b4647a45d",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_M04_PrayerDepth_v004.fbx": "fcc1b2cb0b5b7b5ec449a0f7756f1d2b577600459aa59281d2e67fb6e7e2e1dd",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_M05_Collision_v004.fbx": "949509f5f4d61d647aa988b89c40fd7f23d57251c344511c565c702455a7d363",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_Modular_ProductionStaging_v004.fbx": "6165302dd25d439d4419221eb3cd9dd46a5f9029f84df77ab9ae8467e079e1d0",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_v004_reference-front-ortho.png": "f433145b48fb6eeaf0c00a43d10934a9085b4f199c9a90160e15270945473dc4",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_v004_reference-three-quarter.png": "1ae1acce6366801fe313d8a49882a7ac0879bdd0c0415228f40aaf2fab1e07b6",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_v004_thirdperson-approach.png": "ba22300fff83da185d86c342325229ade70e8dcd8a704a3cf41d83caddfb962c",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_v004_facade-entry-thirdperson.png": "0130694653bfea95fab9e1590a255d054efda3d5ebdd50e7d99ba2b47fd5a798",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_v004_prayer-entry-depth.png": "a5bfc489ae06339cc74ec4fc3f86bf3cc7006b86628edffcf7c82e35f819df9c",
+    "art-export/HNP-ART-CHEDI-001/HNP_Chedi_v004_prayer-side-depth.png": "0c70ce337f88d3ac62943695d492d4b5b11126cfbefd23b3af56fe7a1d29427a"
+  }
+}

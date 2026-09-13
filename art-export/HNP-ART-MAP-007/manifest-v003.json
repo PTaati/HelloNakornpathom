@@ -1,0 +1,801 @@
+{
+  "task_id": "HNP-ART-MAP-007",
+  "revision": "v003-production",
+  "status": {
+    "blender_source": "PASS",
+    "geometry_self_check": "PASS",
+    "designer_v002_station_platform_town": "PASS",
+    "designer_v003_bridge_direct_route": "PASS",
+    "fbx_export": "PASS",
+    "fbx_roundtrip": "PASS",
+    "unity_import": "NOT RUN",
+    "mobile_web": "NOT RUN"
+  },
+  "units": "metres",
+  "axis": {
+    "blender_up": "+Z",
+    "fbx_forward": "-Z",
+    "fbx_up": "Y",
+    "route_forward": "+X"
+  },
+  "placement": {
+    "Station": {
+      "world_origin": [
+        -15,
+        0,
+        0
+      ],
+      "route_exit_world": [
+        0,
+        0,
+        0
+      ],
+      "front": "+X",
+      "unity_wrapper_rotation_y_deg": 180,
+      "note": "place the whole family at X=-15 and rotate its Unity wrapper Y=180 so the world-origin spawn is on the forecourt and faces route +X"
+    },
+    "Street": {
+      "world_origin": [
+        90,
+        0,
+        0
+      ],
+      "route": "+X"
+    },
+    "BridgeCanal": {
+      "world_origin": [
+        130,
+        0,
+        0
+      ],
+      "world_ends_x": [
+        112.75,
+        147.25
+      ],
+      "route": "+X"
+    },
+    "TempleApproach": {
+      "suggested_world_origin": [
+        400,
+        0,
+        0
+      ],
+      "front": "-X",
+      "note": "independently placeable; do not overlap scaled Chedi outer court"
+    },
+    "Chedi_authoritative": {
+      "world_center": [
+        519,
+        0,
+        0
+      ],
+      "asset": "HNP-ART-CHEDI-001 v004; not embedded in MAP007 FBX",
+      "preview_scale": 2.7375000000000003
+    }
+  },
+  "bridge": {
+    "name_th": "สะพานยักษ์ / สะพานเจริญศรัทธา",
+    "historical_dimensions_m": [
+      34.5,
+      8.5
+    ],
+    "fresh_survey": false,
+    "guardian_pavilions": 4,
+    "clear_center_lane_m": 5.35,
+    "walk_band_each_m": 1.42,
+    "rail_height_m": 1.1,
+    "bank_to_deck_approach_length_each_m": 12.0,
+    "bank_to_deck_slope_deg": 5.8,
+    "ground_lead_in_length_each_m": 12.0,
+    "ground_lead_in_slope_deg": 5.85,
+    "ground_lead_in_outer_world_x": [
+      88.75,
+      171.25
+    ],
+    "collision_clear_corridor_y_m": [
+      -4.25,
+      4.25
+    ]
+  },
+  "collision": {
+    "files": [
+      "HNP_Map007_Station_Collision_v003.fbx",
+      "HNP_Map007_Street_Collision_v003.fbx",
+      "HNP_Map007_BridgeCanal_Collision_v003.fbx",
+      "HNP_Map007_TempleApproach_Collision_v003.fbx"
+    ],
+    "intent": "simple visible-surface-aligned deck, approach and ground lead-in slabs; matching rail/building blockers; canal-bank blockers are split north/south and never span the clear bridge corridor; Unity nav/collider verification required"
+  },
+  "exports": {
+    "HNP_Map007_Station_LOD0_v003.fbx": {
+      "family": "Station",
+      "lod": "LOD0",
+      "metrics": {
+        "triangles": 41956,
+        "vertices": 22094,
+        "object_count": 30,
+        "material_count": 19,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Asphalt",
+          "MAT_Bark",
+          "MAT_Broadleaf",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Galvanized_Roof",
+          "MAT_Interior_WarmLight",
+          "MAT_Leaf_Sunlit",
+          "MAT_Painted_Steel_Cream",
+          "MAT_Painted_Steel_Green",
+          "MAT_Sign_White",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass",
+          "MAT_Weathered_Shutter",
+          "MAT_Window_Glass"
+        ],
+        "bounds_min_m": [
+          -26.9,
+          -23.0,
+          -0.24
+        ],
+        "bounds_max_m": [
+          23.0,
+          23.0,
+          8.93
+        ],
+        "dimensions_m": [
+          49.9,
+          46.0,
+          9.17
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_Station_LOD1_v003.fbx": {
+      "family": "Station",
+      "lod": "LOD1",
+      "metrics": {
+        "triangles": 23184,
+        "vertices": 12665,
+        "object_count": 30,
+        "material_count": 19,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Asphalt",
+          "MAT_Bark",
+          "MAT_Broadleaf",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Galvanized_Roof",
+          "MAT_Interior_WarmLight",
+          "MAT_Leaf_Sunlit",
+          "MAT_Painted_Steel_Cream",
+          "MAT_Painted_Steel_Green",
+          "MAT_Sign_White",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass",
+          "MAT_Weathered_Shutter",
+          "MAT_Window_Glass"
+        ],
+        "bounds_min_m": [
+          -26.9,
+          -23.0,
+          -0.24
+        ],
+        "bounds_max_m": [
+          23.0,
+          23.0,
+          8.93
+        ],
+        "dimensions_m": [
+          49.9,
+          46.0,
+          9.17
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_Street_LOD0_v003.fbx": {
+      "family": "Street",
+      "lod": "LOD0",
+      "metrics": {
+        "triangles": 52104,
+        "vertices": 27136,
+        "object_count": 54,
+        "material_count": 21,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Asphalt",
+          "MAT_Awning_Blue",
+          "MAT_Awning_Green",
+          "MAT_Bark",
+          "MAT_Brick_Infill",
+          "MAT_Broadleaf",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Galvanized_Roof",
+          "MAT_Interior_WarmLight",
+          "MAT_Leaf_Sunlit",
+          "MAT_Painted_Steel_Green",
+          "MAT_Sign_White",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass",
+          "MAT_Weathered_Shutter",
+          "MAT_Window_Glass"
+        ],
+        "bounds_min_m": [
+          -28.0,
+          -13.4,
+          -0.23
+        ],
+        "bounds_max_m": [
+          28.0,
+          12.6,
+          10.2
+        ],
+        "dimensions_m": [
+          56.0,
+          26.0,
+          10.43
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_Street_LOD1_v003.fbx": {
+      "family": "Street",
+      "lod": "LOD1",
+      "metrics": {
+        "triangles": 28995,
+        "vertices": 15526,
+        "object_count": 54,
+        "material_count": 21,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Asphalt",
+          "MAT_Awning_Blue",
+          "MAT_Awning_Green",
+          "MAT_Bark",
+          "MAT_Brick_Infill",
+          "MAT_Broadleaf",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Galvanized_Roof",
+          "MAT_Interior_WarmLight",
+          "MAT_Leaf_Sunlit",
+          "MAT_Painted_Steel_Green",
+          "MAT_Sign_White",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass",
+          "MAT_Weathered_Shutter",
+          "MAT_Window_Glass"
+        ],
+        "bounds_min_m": [
+          -28.0,
+          -13.4,
+          -0.23
+        ],
+        "bounds_max_m": [
+          28.0,
+          12.6,
+          10.2
+        ],
+        "dimensions_m": [
+          56.0,
+          26.0,
+          10.43
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_BridgeCanal_LOD0_v003.fbx": {
+      "family": "BridgeCanal",
+      "lod": "LOD0",
+      "metrics": {
+        "triangles": 55492,
+        "vertices": 29048,
+        "object_count": 37,
+        "material_count": 17,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Asphalt",
+          "MAT_Bark",
+          "MAT_Broadleaf",
+          "MAT_Canal_Water",
+          "MAT_Canal_Water_Deep",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Leaf_Sunlit",
+          "MAT_Painted_Steel_Green",
+          "MAT_Sign_White",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass",
+          "MAT_Waterline_Algae"
+        ],
+        "bounds_min_m": [
+          -41.2928,
+          -36.0,
+          -0.2905
+        ],
+        "bounds_max_m": [
+          41.2928,
+          36.0,
+          8.4862
+        ],
+        "dimensions_m": [
+          82.5856,
+          72.0,
+          8.7768
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_BridgeCanal_LOD1_v003.fbx": {
+      "family": "BridgeCanal",
+      "lod": "LOD1",
+      "metrics": {
+        "triangles": 30674,
+        "vertices": 16403,
+        "object_count": 37,
+        "material_count": 17,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Asphalt",
+          "MAT_Bark",
+          "MAT_Broadleaf",
+          "MAT_Canal_Water",
+          "MAT_Canal_Water_Deep",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Leaf_Sunlit",
+          "MAT_Painted_Steel_Green",
+          "MAT_Sign_White",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass",
+          "MAT_Waterline_Algae"
+        ],
+        "bounds_min_m": [
+          -41.293,
+          -36.0,
+          -0.2905
+        ],
+        "bounds_max_m": [
+          41.293,
+          36.0,
+          8.487
+        ],
+        "dimensions_m": [
+          82.5859,
+          72.0,
+          8.7775
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_TempleApproach_LOD0_v003.fbx": {
+      "family": "TempleApproach",
+      "lod": "LOD0",
+      "metrics": {
+        "triangles": 26892,
+        "vertices": 13836,
+        "object_count": 21,
+        "material_count": 12,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Bark",
+          "MAT_Broadleaf",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Interior_WarmLight",
+          "MAT_Leaf_Sunlit",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass"
+        ],
+        "bounds_min_m": [
+          -22.5,
+          -25.3,
+          -0.14
+        ],
+        "bounds_max_m": [
+          32.0,
+          25.3,
+          10.4421
+        ],
+        "dimensions_m": [
+          54.5,
+          50.6,
+          10.5821
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_TempleApproach_LOD1_v003.fbx": {
+      "family": "TempleApproach",
+      "lod": "LOD1",
+      "metrics": {
+        "triangles": 14874,
+        "vertices": 7827,
+        "object_count": 21,
+        "material_count": 12,
+        "materials": [
+          "MAT_Aged_Timber",
+          "MAT_Bark",
+          "MAT_Broadleaf",
+          "MAT_Concrete_Aged",
+          "MAT_Concrete_Light",
+          "MAT_Forecourt_Paver",
+          "MAT_Interior_WarmLight",
+          "MAT_Leaf_Sunlit",
+          "MAT_Station_SunFadedSalmon",
+          "MAT_Station_WarmPlaster",
+          "MAT_Terracotta_Roof",
+          "MAT_Warm_Brass"
+        ],
+        "bounds_min_m": [
+          -22.5,
+          -25.3,
+          -0.14
+        ],
+        "bounds_max_m": [
+          32.0,
+          25.3,
+          10.4438
+        ],
+        "dimensions_m": [
+          54.5,
+          50.6,
+          10.5838
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_Station_Collision_v003.fbx": {
+      "family": "Station",
+      "lod": "collision",
+      "metrics": {
+        "triangles": 60,
+        "vertices": 40,
+        "object_count": 5,
+        "material_count": 1,
+        "materials": [
+          "MAT_Concrete_Aged"
+        ],
+        "bounds_min_m": [
+          -16.55,
+          -23.0,
+          -0.15
+        ],
+        "bounds_max_m": [
+          23.0,
+          23.0,
+          5.2
+        ],
+        "dimensions_m": [
+          39.55,
+          46.0,
+          5.35
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_Street_Collision_v003.fbx": {
+      "family": "Street",
+      "lod": "collision",
+      "metrics": {
+        "triangles": 12,
+        "vertices": 8,
+        "object_count": 1,
+        "material_count": 1,
+        "materials": [
+          "MAT_Concrete_Aged"
+        ],
+        "bounds_min_m": [
+          -28.0,
+          -5.0,
+          -0.125
+        ],
+        "bounds_max_m": [
+          28.0,
+          5.0,
+          0.125
+        ],
+        "dimensions_m": [
+          56.0,
+          10.0,
+          0.25
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_BridgeCanal_Collision_v003.fbx": {
+      "family": "BridgeCanal",
+      "lod": "collision",
+      "metrics": {
+        "triangles": 312,
+        "vertices": 208,
+        "object_count": 26,
+        "material_count": 1,
+        "materials": [
+          "MAT_Concrete_Aged"
+        ],
+        "bounds_min_m": [
+          -41.2774,
+          -36.0,
+          0.0
+        ],
+        "bounds_max_m": [
+          41.2774,
+          36.0,
+          3.7684
+        ],
+        "dimensions_m": [
+          82.5547,
+          72.0,
+          3.7684
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    },
+    "HNP_Map007_TempleApproach_Collision_v003.fbx": {
+      "family": "TempleApproach",
+      "lod": "collision",
+      "metrics": {
+        "triangles": 36,
+        "vertices": 24,
+        "object_count": 3,
+        "material_count": 1,
+        "materials": [
+          "MAT_Concrete_Aged"
+        ],
+        "bounds_min_m": [
+          -22.5,
+          -25.0,
+          -0.125
+        ],
+        "bounds_max_m": [
+          2.5,
+          25.0,
+          4.5
+        ],
+        "dimensions_m": [
+          25.0,
+          50.0,
+          4.625
+        ],
+        "degenerate_faces": 0,
+        "loose_vertices": 0
+      }
+    }
+  },
+  "materials": {
+    "atlas": "Textures/HNP_Map007_SharedColorAtlas_v003.png",
+    "atlas_size_px": [
+      512,
+      512
+    ],
+    "color_space": "sRGB",
+    "tiles": {
+      "MAT_Aged_Timber": {
+        "index": 0,
+        "column": 0,
+        "row": 0
+      },
+      "MAT_Asphalt": {
+        "index": 1,
+        "column": 1,
+        "row": 0
+      },
+      "MAT_Awning_Blue": {
+        "index": 2,
+        "column": 2,
+        "row": 0
+      },
+      "MAT_Awning_Green": {
+        "index": 3,
+        "column": 3,
+        "row": 0
+      },
+      "MAT_Bark": {
+        "index": 4,
+        "column": 4,
+        "row": 0
+      },
+      "MAT_Brick_Infill": {
+        "index": 5,
+        "column": 0,
+        "row": 1
+      },
+      "MAT_Broadleaf": {
+        "index": 6,
+        "column": 1,
+        "row": 1
+      },
+      "MAT_Canal_Water": {
+        "index": 7,
+        "column": 2,
+        "row": 1
+      },
+      "MAT_Canal_Water_Deep": {
+        "index": 8,
+        "column": 3,
+        "row": 1
+      },
+      "MAT_Concrete_Aged": {
+        "index": 9,
+        "column": 4,
+        "row": 1
+      },
+      "MAT_Concrete_Light": {
+        "index": 10,
+        "column": 0,
+        "row": 2
+      },
+      "MAT_Forecourt_Paver": {
+        "index": 11,
+        "column": 1,
+        "row": 2
+      },
+      "MAT_Galvanized_Roof": {
+        "index": 12,
+        "column": 2,
+        "row": 2
+      },
+      "MAT_Interior_WarmLight": {
+        "index": 13,
+        "column": 3,
+        "row": 2
+      },
+      "MAT_Leaf_Sunlit": {
+        "index": 14,
+        "column": 4,
+        "row": 2
+      },
+      "MAT_Painted_Steel_Cream": {
+        "index": 15,
+        "column": 0,
+        "row": 3
+      },
+      "MAT_Painted_Steel_Green": {
+        "index": 16,
+        "column": 1,
+        "row": 3
+      },
+      "MAT_Sign_White": {
+        "index": 17,
+        "column": 2,
+        "row": 3
+      },
+      "MAT_Station_SunFadedSalmon": {
+        "index": 18,
+        "column": 3,
+        "row": 3
+      },
+      "MAT_Station_WarmPlaster": {
+        "index": 19,
+        "column": 4,
+        "row": 3
+      },
+      "MAT_Terracotta_Roof": {
+        "index": 20,
+        "column": 0,
+        "row": 4
+      },
+      "MAT_Warm_Brass": {
+        "index": 21,
+        "column": 1,
+        "row": 4
+      },
+      "MAT_Waterline_Algae": {
+        "index": 22,
+        "column": 2,
+        "row": 4
+      },
+      "MAT_Weathered_Shutter": {
+        "index": 23,
+        "column": 3,
+        "row": 4
+      },
+      "MAT_Window_Glass": {
+        "index": 24,
+        "column": 4,
+        "row": 4
+      }
+    },
+    "roughness_metallic": "FBX material scalars; verify Unity shader"
+  },
+  "lod": {
+    "LOD0": "authored source grouped by material and three X culling sectors",
+    "LOD1": "0.55 decimate on grouped meshes above 80 polygons",
+    "simultaneous_view_budget": "NOT RUN in Unity"
+  },
+  "references": [
+    "docs/design/HNP-MAP-REAL-008-evidence-correction.md",
+    "https://snc.lib.su.ac.th/westweb/?p=1644",
+    "R-STATION-01/02/03/04",
+    "R-STREET-01/02",
+    "R-APPROACH-01",
+    "R-CANAL-01"
+  ],
+  "designer_review_report": "reports/reviews/HNP-ART-MAP-007-v003-bridge-collision-addendum.md",
+  "provisional": [
+    "Bridge dimensions are historic article values, not a fresh structural/access survey.",
+    "Guardian forms are mobile-readable simplifications, not surveyed sculpture replicas.",
+    "Town/temple side elevations and access remain provisional.",
+    "Direct-route road context and imported Chedi are preview-only and excluded from MAP007 FBX."
+  ],
+  "previews": [
+    "production-v003-previews/HNP_Map007_v003_station-front-gameplay.png",
+    "production-v003-previews/HNP_Map007_v003_station-platform-gameplay.png",
+    "production-v003-previews/HNP_Map007_v003_town-corner-gameplay.png",
+    "production-v003-previews/HNP_Map007_v003_saphan-yak-overview.png",
+    "production-v003-previews/HNP_Map007_v003_saphan-yak-guardian.png",
+    "production-v003-previews/HNP_Map007_v003_temple-approach-module.png",
+    "production-v003-previews/HNP_Map007_v003_route-01-station-exit.png",
+    "production-v003-previews/HNP_Map007_v003_route-02-bridge-crossing.png",
+    "production-v003-previews/HNP_Map007_v003_route-03-exterior-approach.png"
+  ],
+  "source": {
+    "blend": "art-source/HNP-ART-MAP-007/HNP_Map007_HeroSceneKit_v003_production.blend",
+    "generator": "art-source/HNP-ART-MAP-007/build_map007_production_v003.py",
+    "roundtrip_blend": "art-source/HNP-ART-MAP-007/HNP_Map007_v003_roundtrip.blend"
+  },
+  "sha256": {
+    "art-source/HNP-ART-MAP-007/HNP_Map007_HeroSceneKit_v003_production.blend": "5827de32a9f43c1a4a0a13ffaa92a494bfd4685e32301eac70393aa08053488f",
+    "art-source/HNP-ART-MAP-007/HNP_Map007_v003_roundtrip.blend": "7f721f538b430232ba31616ca973e0b307ff8307f4152660af2d831bb8c4ac26",
+    "art-source/HNP-ART-MAP-007/build_map007_production_v003.py": "c3c41d2e152b7bde9d56aedc702edef49193cab01a2d3fcbbb6d493624539f4b",
+    "art-export/HNP-ART-MAP-007/Textures/HNP_Map007_SharedColorAtlas_v003.png": "1152ba8d2b736d38ab3d03ac6985278ec504572d74ba507fad63745a641107f4",
+    "art-export/HNP-ART-MAP-007/roundtrip-v003.json": "2ee6a990de39178e40c3c0f717e1df326f3c46e3c45afa38e4952f73560bc590",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_Station_LOD0_v003.fbx": "3100268d3f99d8d8f52a2972ced1ff0c484f6129e7aea0a0e66ea4ed57a411d1",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_Station_LOD1_v003.fbx": "1edbae7f7f06bb1b82c9db8e53299b089712d56b66f16c3f5f7124e9b360f04e",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_Street_LOD0_v003.fbx": "dde60f53194f23bd99b35e2f53e0cb30ffb9e852b9972cfa0163aafc50c7c9b2",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_Street_LOD1_v003.fbx": "9d5581c7437275b58aec0dc1b2321bddb797e3442679b5b1593994475bf7939c",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_BridgeCanal_LOD0_v003.fbx": "d067c2a4142bcbd7deb88b8fd0f0808c14cb3299fb9cd2a6692701573f00b682",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_BridgeCanal_LOD1_v003.fbx": "bd3d6e47c21ab9561443de42285cf8bea18ed03157007393e01c4a4a79686514",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_TempleApproach_LOD0_v003.fbx": "d817284debad702c0b305a536ef1546b6317cc6df9a72ecc0e0da91fbe5dad80",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_TempleApproach_LOD1_v003.fbx": "5b1f37482142f51a9d1a02b1b97f60fe05e3598f889e9333ae2be179343c4fa8",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_Station_Collision_v003.fbx": "1482944fe213b22035b3de39b73171a3aa76448ca7d51235ca24ac6d3c393a46",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_Street_Collision_v003.fbx": "c32b128513a3d9b4e0096b7915f108de0ef9f8429641ee08b4affeef72b524b1",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_BridgeCanal_Collision_v003.fbx": "4a0d28c51bd33e94b39e4702030900fa4708dfe77e6e09e101ce8844685d9d58",
+    "art-export/HNP-ART-MAP-007/HNP_Map007_TempleApproach_Collision_v003.fbx": "03532c18d39a9604001ad31572b1a4aad9178abc904e53b06669b41e8758871e",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_station-front-gameplay.png": "de63816cdaa480efd78be62c54e9099703f3717d9c7833a152633b0c5eb39304",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_station-platform-gameplay.png": "e79e2d622dd9bf7c3fb49817ac7c02b443328eac52fd1ff008e350d75f80d79c",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_town-corner-gameplay.png": "0764bf06c8abc839e4ffbb29d65128e45d6e5cab1a24fb61a5c1ad72de27392c",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_saphan-yak-overview.png": "aca5d57e5ec74e3b1bd7cc26ce4158858f17f3e833639bad4c821626c1b7e9f3",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_saphan-yak-guardian.png": "27f2ccc765fd5e1117a64f6f0d74669e61e3ddbe648e7f298d084cbd5411bd05",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_temple-approach-module.png": "64b4f08e6d6d2b0efd0cf52b82faf09f865efda84038eae819633c32d80dc97a",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_route-01-station-exit.png": "ef45f3914c8295b9db0166ad13149d29a18c82d36f8692fbff03e59013d03e1b",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_route-02-bridge-crossing.png": "7dd0464113251fad3a67ca45f49bc9a2f9e016ca2e510418e4d546ac16352370",
+    "art-export/HNP-ART-MAP-007/production-v003-previews/HNP_Map007_v003_route-03-exterior-approach.png": "0a97542e9e995fef32e35b0cc464ea7549f0b940fb8a2d21f26d245e954fba7a"
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "HNP_Map007_Station_LOD0_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 41956,
+    "observed_triangles": 41956,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      49.9,
+      46.0,
+      9.17
+    ],
+    "object_count": 30
+  },
+  "HNP_Map007_Station_LOD1_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 23184,
+    "observed_triangles": 23184,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      49.9,
+      46.0,
+      9.17
+    ],
+    "object_count": 30
+  },
+  "HNP_Map007_Street_LOD0_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 52104,
+    "observed_triangles": 52104,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      56.0,
+      26.0,
+      10.43
+    ],
+    "object_count": 54
+  },
+  "HNP_Map007_Street_LOD1_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 28995,
+    "observed_triangles": 28995,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      56.0,
+      26.0,
+      10.43
+    ],
+    "object_count": 54
+  },
+  "HNP_Map007_BridgeCanal_LOD0_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 55492,
+    "observed_triangles": 55492,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      82.5856,
+      72.0,
+      8.7768
+    ],
+    "object_count": 37
+  },
+  "HNP_Map007_BridgeCanal_LOD1_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 30674,
+    "observed_triangles": 30674,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      82.5859,
+      72.0,
+      8.7775
+    ],
+    "object_count": 37
+  },
+  "HNP_Map007_TempleApproach_LOD0_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 26892,
+    "observed_triangles": 26892,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      54.5,
+      50.6,
+      10.5821
+    ],
+    "object_count": 21
+  },
+  "HNP_Map007_TempleApproach_LOD1_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 14874,
+    "observed_triangles": 14874,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      54.5,
+      50.6,
+      10.5838
+    ],
+    "object_count": 21
+  },
+  "HNP_Map007_Station_Collision_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 60,
+    "observed_triangles": 60,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      39.55,
+      46.0,
+      5.35
+    ],
+    "object_count": 5
+  },
+  "HNP_Map007_Street_Collision_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 12,
+    "observed_triangles": 12,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      56.0,
+      10.0,
+      0.25
+    ],
+    "object_count": 1
+  },
+  "HNP_Map007_BridgeCanal_Collision_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 312,
+    "observed_triangles": 312,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      82.5547,
+      72.0,
+      3.7684
+    ],
+    "object_count": 26
+  },
+  "HNP_Map007_TempleApproach_Collision_v003.fbx": {
+    "status": "PASS",
+    "expected_triangles": 36,
+    "observed_triangles": 36,
+    "max_dimension_delta_m": 0.0,
+    "observed_dimensions_m": [
+      25.0,
+      50.0,
+      4.625
+    ],
+    "object_count": 3
+  }
+}

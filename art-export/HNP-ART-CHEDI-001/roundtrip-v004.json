@@ -1,0 +1,77 @@
+{
+  "blender_version": "5.2.1 LTS",
+  "exports": {
+    "HNP_Chedi_M01_Core_v004.fbx": {
+      "status": "PASS",
+      "expected_triangles": 15077,
+      "observed_triangles": 15077,
+      "max_dimension_delta_m": 4e-06,
+      "observed_dimensions_m": [
+        46.400002,
+        50.699997,
+        44.000221
+      ],
+      "mesh_count": 4
+    },
+    "HNP_Chedi_M02_ExteriorRoute_v004.fbx": {
+      "status": "PASS",
+      "expected_triangles": 5056,
+      "observed_triangles": 5056,
+      "max_dimension_delta_m": 6e-06,
+      "observed_dimensions_m": [
+        74.0,
+        74.0,
+        3.780006
+      ],
+      "mesh_count": 4
+    },
+    "HNP_Chedi_M03_ReferenceFacade_v004.fbx": {
+      "status": "PASS",
+      "expected_triangles": 7960,
+      "observed_triangles": 7960,
+      "max_dimension_delta_m": 4e-06,
+      "observed_dimensions_m": [
+        47.900002,
+        53.220001,
+        16.395004
+      ],
+      "mesh_count": 5
+    },
+    "HNP_Chedi_M04_PrayerDepth_v004.fbx": {
+      "status": "PASS",
+      "expected_triangles": 1002,
+      "observed_triangles": 1002,
+      "max_dimension_delta_m": 2e-06,
+      "observed_dimensions_m": [
+        8.45,
+        14.030004,
+        9.889997
+      ],
+      "mesh_count": 7
+    },
+    "HNP_Chedi_M05_Collision_v004.fbx": {
+      "status": "PASS",
+      "expected_triangles": 1324,
+      "observed_triangles": 1324,
+      "max_dimension_delta_m": 1.1e-05,
+      "observed_dimensions_m": [
+        74.099998,
+        74.099998,
+        42.660011
+      ],
+      "mesh_count": 1
+    },
+    "HNP_Chedi_Modular_ProductionStaging_v004.fbx": {
+      "status": "PASS",
+      "expected_triangles": 29095,
+      "observed_triangles": 29095,
+      "max_dimension_delta_m": 8e-06,
+      "observed_dimensions_m": [
+        74.0,
+        74.0,
+        46.580223
+      ],
+      "mesh_count": 20
+    }
+  }
+}

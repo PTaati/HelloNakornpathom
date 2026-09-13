@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "url": "http://127.0.0.1:61140/",
+  "buildId": "57ada83c057c-3103a75a5597",
+  "checkedUtc": "2026-09-13T03:35:55.6500315Z",
+  "checks": [
+    {
+      "file": "Build/web.loader.js",
+      "status": "PASS",
+      "bytes": 27914,
+      "sha256": "d0058a7c324252ac08508f2202496da54df1baeb0210a8b2d1964b6b3d00b3f4",
+      "contentType": "application/javascript"
+    },
+    {
+      "file": "Build/web.framework.js",
+      "status": "PASS",
+      "bytes": 331354,
+      "sha256": "903925ccba5746a10008805c6dfecfdd8414fbaf49346e2e825f18b265d1126a",
+      "contentType": "application/javascript"
+    },
+    {
+      "file": "Build/web.data",
+      "status": "PASS",
+      "bytes": 17906275,
+      "sha256": "57ada83c057ca662e7c316eaa659db1da5cedb90b6af1cdfb570f82120f4f5ba",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "file": "Build/web.wasm",
+      "status": "PASS",
+      "bytes": 35174960,
+      "sha256": "3103a75a5597ea50c00663b157736b0734b385c6badaec45d218ba31b9bb6aad",
+      "contentType": "application/wasm"
+    },
+    {
+      "file": "index.html",
+      "status": "PASS",
+      "bytes": 2992,
+      "sha256": "e930adcb1ea9714c19b08f5528b750f1ca1a70420c6f36bafef78feaaa26b36b",
+      "contentType": "text/html"
+    }
+  ],
+  "browserGameplay": "separate QA report",
+  "physicalMobile": "NOT RUN"
+}

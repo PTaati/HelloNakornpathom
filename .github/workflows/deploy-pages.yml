@@ -35,9 +35,24 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for file in index.html Build/web.loader.js Build/web.framework.js Build/web.data Build/web.wasm; do
+          for file in index.html release.json Build/web.loader.js Build/web.framework.js Build/web.data Build/web.wasm; do
             test -s "builds/web/$file" || { echo "::error::Missing builds/web/$file. Build Unity into builds/web and commit the output before pushing."; exit 1; }
           done
+
+      - name: Verify tested release files
+        shell: python
+        run: |
+          import hashlib, json
+          from pathlib import Path
+          root = Path('builds/web')
+          manifest = json.loads((root / 'release.json').read_text(encoding='utf-8'))
+          required = {'index.html', 'Build/web.loader.js', 'Build/web.framework.js', 'Build/web.data', 'Build/web.wasm'}
+          assert set(manifest['files']) == required, 'Incomplete release manifest'
+          for name, expected in manifest['files'].items():
+              payload = (root / name).read_bytes()
+              assert len(payload) == expected['bytes'], f'Size mismatch: {name}'
+              assert hashlib.sha256(payload).hexdigest() == expected['sha256'], f'Hash mismatch: {name}'
+          print('Verified release', manifest['buildId'])
 
       - name: Upload Unity WebGL
         uses: actions/upload-pages-artifact@v3

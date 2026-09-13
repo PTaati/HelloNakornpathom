@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "buildId": "74e3a5a4f7cd-e38217f5f90c",
+  "files": {
+    "Build/web.loader.js": {
+      "sha256": "00a8790dea42fc168b0dcf481ccd2073d664b27bd61d849d581bd2f3b1b7616d",
+      "bytes": 27914
+    },
+    "Build/web.framework.js": {
+      "sha256": "903925ccba5746a10008805c6dfecfdd8414fbaf49346e2e825f18b265d1126a",
+      "bytes": 331354
+    },
+    "Build/web.data": {
+      "sha256": "74e3a5a4f7cd3bfe49655da42594e550314acfc0bc44f71ab7f1f035af3b75b3",
+      "bytes": 27080281
+    },
+    "Build/web.wasm": {
+      "sha256": "e38217f5f90cee070b157e8c0c7189599bd160b26e8087267ffc033c15788a4a",
+      "bytes": 35182024
+    },
+    "index.html": {
+      "sha256": "71b7812dbdf386df62be33123fc5165dbd5260fa0dcdf604f62a5234e1056b8a",
+      "bytes": 4224
+    }
+  }
+}

@@ -1,3 +1,8 @@
-hnp-game/
+hnp-game/*
+!hnp-game/Assets/
+!hnp-game/Packages/
+!hnp-game/ProjectSettings/
+**/*.blend1
+**/*.blend2
 tools/.python/
 **/__pycache__/

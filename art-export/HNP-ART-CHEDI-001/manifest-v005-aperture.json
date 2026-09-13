@@ -1,0 +1,75 @@
+{
+  "revision": "v005-aperture",
+  "status": "PASS",
+  "scope": "M03 only; retain v004 M01 M02 M04. Unity integration NOT RUN.",
+  "reason": "v004 added full annular mouldings crossing previously authored interior corridor",
+  "source": "art-source\\HNP-ART-CHEDI-001\\HNP_Chedi_Modular_ProductionStaging_v005.blend",
+  "export": "art-export\\HNP-ART-CHEDI-001\\HNP_Chedi_M03_ReferenceFacade_v005.fbx",
+  "units": "meters",
+  "axis": {
+    "up": "Y",
+    "forward": "-Z"
+  },
+  "provisional": "Opening is adapted to the authored room, not a surveyed historical interior.",
+  "changes": [
+    {
+      "object": "HNP_Chedi_v004_M03_ReferenceFacade__HNP_Chedi_White",
+      "polygonsBefore": 2610,
+      "polygonsAfter": 2810
+    },
+    {
+      "object": "HNP_Chedi_v004_M03_ReferenceFacade__HNP_Chedi_Ivory",
+      "polygonsBefore": 3202,
+      "polygonsAfter": 3314
+    },
+    {
+      "object": "HNP_Chedi_v004_M03_ReferenceFacade__HNP_Chedi_Terracotta",
+      "polygonsBefore": 744,
+      "polygonsAfter": 833
+    },
+    {
+      "object": "HNP_Chedi_v004_M03_ReferenceFacade__HNP_Chedi_DarkInset",
+      "polygonsBefore": 1224,
+      "polygonsAfter": 1224
+    },
+    {
+      "object": "HNP_Chedi_v004_M03_ReferenceFacade__HNP_Chedi_GoldTrim",
+      "polygonsBefore": 90,
+      "polygonsAfter": 204
+    }
+  ],
+  "sourceMetrics": {
+    "triangles": 8385,
+    "degenerateFaces": 0,
+    "meshes": 5,
+    "uvMissing": [],
+    "boundsMin": [
+      -23.950000762939453,
+      -29.270000457763672,
+      0.0
+    ],
+    "boundsMax": [
+      23.950000762939453,
+      23.950000762939453,
+      16.395000457763672
+    ]
+  },
+  "roundtripMetrics": {
+    "triangles": 8385,
+    "degenerateFaces": 0,
+    "meshes": 5,
+    "uvMissing": [],
+    "boundsMin": [
+      -23.950000762939453,
+      -29.270000457763672,
+      -3.760209438041784e-06
+    ],
+    "boundsMax": [
+      23.950000762939453,
+      23.950000762939453,
+      16.395004272460938
+    ]
+  },
+  "centerlineObstructions": [],
+  "sha256": "a7314e802d190845d75f1fec4bec013d6a87c0b0ff8884f1cd22390396d7bd90"
+}

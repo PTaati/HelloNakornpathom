@@ -1,0 +1,31 @@
+{
+  "task": "HNP-RELEASE-20260913",
+  "status": "PASS",
+  "scope": "Unity physical-route and UI-event checks; browser/physical-device tests are separate.",
+  "buildReport": "reports/world/build-20260913-112851.txt",
+  "sourceBuild": "builds/web-release-final/web",
+  "buildId": "74e3a5a4f7cd-e38217f5f90c",
+  "gates": [
+    {
+      "source": "final-bridge-test",
+      "log": "[Log] REFRESHED_BRIDGE cross=(360.00, 0.19, 0.00) tripMinY=0.1849999 deckY=2.785276..3.361389 railAttempt=(130.00, 3.00, -3.71) status=PASS"
+    },
+    {
+      "source": "upper-ramp-join-route",
+      "log": "[Log] ROUTE_TO_PRAYER steps=5108 player=(459.81, 6.86, 0.00) point=(463.53, 6.96, 0.00) distance=3.724808 blocked=True"
+    },
+    {
+      "source": "final-upper-test",
+      "log": "[Log] UPPER_U arrival=462.87 first=(426.87, 1.46, 0.00) u1=True d1=12.51001 u2=True d2=19.34999 u3=True d3=9.360006 start=(449.32, 6.40, 19.96) end=(567.11, 6.39, 50.85) arc=144.0001 approachMinY=1.463597 arcMinY=6.390406 radius=70.00213 status=PASS"
+    },
+    {
+      "source": "return-ui-test",
+      "log": "[Log] RETURN_UI buttonActive=False player=(0.00, 0.30, 0.00) menuOpen=False status=PASS"
+    },
+    {
+      "source": "final-map007-map-capture",
+      "log": "[Log] FINAL_MAP_CAPTURE x=-45..640 z=-206.642..206.642 path=Assets/_HNP/Art/World/WorldMap_officialscale.png"
+    }
+  ],
+  "physicalMobile": "NOT RUN"
+}
